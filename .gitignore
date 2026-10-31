@@ -1,0 +1,10 @@
+node_modules/
+.output/
+.wxt/
+test-results/
+playwright-report/
+data/raw/*.bz2
+data/raw/*.zip
+data/raw/Lexique383.tsv
+*.log
+.DS_Store

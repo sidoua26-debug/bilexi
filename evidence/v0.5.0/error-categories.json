@@ -1,0 +1,852 @@
+{
+  "timestamp": "2026-10-18T12:50:49.838Z",
+  "en": {
+    "fp": {
+      "valid_word_flagged": {
+        "count": 14,
+        "percentage": 7.1,
+        "examples": [
+          {
+            "original": "traveller",
+            "evaluated": "traveller",
+            "replacement": "traveler",
+            "context": [
+              "am",
+              "not",
+              "much",
+              "of"
+            ]
+          },
+          {
+            "original": "favour",
+            "evaluated": "favour",
+            "replacement": "favor",
+            "context": [
+              "Could",
+              "you",
+              "do",
+              "me"
+            ]
+          },
+          {
+            "original": "judgement",
+            "evaluated": "judgement",
+            "replacement": "judgment",
+            "context": [
+              "what",
+              "you",
+              "will",
+              "will",
+              "act",
+              "on",
+              "my",
+              "own"
+            ]
+          },
+          {
+            "original": "behaviour",
+            "evaluated": "behaviour",
+            "replacement": "behavior",
+            "context": [
+              "am",
+              "confused",
+              "by",
+              "your",
+              "frenzied"
+            ]
+          },
+          {
+            "original": "e-mail",
+            "evaluated": "e-mail",
+            "replacement": "email",
+            "context": [
+              "please",
+              "send",
+              "me",
+              "details",
+              "of",
+              "your",
+              "products",
+              "via"
+            ]
+          }
+        ]
+      },
+      "wrong_candidate_on_typo": {
+        "count": 66,
+        "percentage": 33.5,
+        "examples": [
+          {
+            "original": "reproved",
+            "evaluated": "rperoved",
+            "replacement": "proved",
+            "context": [
+              "The",
+              "principal",
+              "severely"
+            ]
+          },
+          {
+            "original": "resorted",
+            "evaluated": "resofted",
+            "replacement": "reported",
+            "context": [
+              "keep",
+              "his",
+              "original",
+              "idea",
+              "from",
+              "being",
+              "copied",
+              "Henry"
+            ]
+          },
+          {
+            "original": "food",
+            "evaluated": "foood",
+            "replacement": "flood",
+            "context": [
+              "I'm",
+              "tired",
+              "eating",
+              "fast"
+            ]
+          },
+          {
+            "original": "colonize",
+            "evaluated": "colonze",
+            "replacement": "cologne",
+            "context": [
+              "you",
+              "thikn",
+              "mankind",
+              "will",
+              "soemday"
+            ]
+          },
+          {
+            "original": "insomniac",
+            "evaluated": "insmoniac",
+            "replacement": "insomnia",
+            "context": [
+              "and",
+              "realizes",
+              "has",
+              "been",
+              "all",
+              "night",
+              "but",
+              "the"
+            ]
+          }
+        ]
+      },
+      "accent_only_wrong": {
+        "count": 1,
+        "percentage": 0.5,
+        "examples": [
+          {
+            "original": "Mere",
+            "evaluated": "Mere",
+            "replacement": "Mère",
+            "context": []
+          }
+        ]
+      },
+      "wrong_language": {
+        "count": 5,
+        "percentage": 2.5,
+        "examples": [
+          {
+            "original": "Cows",
+            "evaluated": "Cws",
+            "replacement": "Ces",
+            "context": []
+          },
+          {
+            "original": "There",
+            "evaluated": "Tere",
+            "replacement": "Terre",
+            "context": []
+          },
+          {
+            "original": "There",
+            "evaluated": "Ther",
+            "replacement": "Tuer",
+            "context": []
+          },
+          {
+            "original": "There",
+            "evaluated": "Tere",
+            "replacement": "Terre",
+            "context": []
+          },
+          {
+            "original": "There",
+            "evaluated": "Ther",
+            "replacement": "Tuer",
+            "context": []
+          }
+        ]
+      },
+      "proper_noun_or_foreign": {
+        "count": 4,
+        "percentage": 2,
+        "examples": [
+          {
+            "original": "Rie",
+            "evaluated": "Rie",
+            "replacement": "Rid",
+            "context": [
+              "Do",
+              "you",
+              "know",
+              "who"
+            ]
+          },
+          {
+            "original": "Inoue",
+            "evaluated": "Inoue",
+            "replacement": "Inouïe",
+            "context": []
+          },
+          {
+            "original": "Aoi",
+            "evaluated": "Aoi",
+            "replacement": "Ali",
+            "context": [
+              "What",
+              "good",
+              "dancer"
+            ]
+          },
+          {
+            "original": "Aoi",
+            "evaluated": "Aoi",
+            "replacement": "Ali",
+            "context": [
+              "How",
+              "well"
+            ]
+          }
+        ]
+      },
+      "elision": {
+        "count": 1,
+        "percentage": 0.5,
+        "examples": [
+          {
+            "original": "Q's",
+            "evaluated": "Q's",
+            "replacement": "Qc's",
+            "context": [
+              "strict",
+              "the",
+              "students",
+              "must",
+              "mind",
+              "their",
+              "P's",
+              "and"
+            ]
+          }
+        ]
+      },
+      "short_word_le_4": {
+        "count": 106,
+        "percentage": 53.8,
+        "examples": [
+          {
+            "original": "ayu",
+            "evaluated": "ayu",
+            "replacement": "au",
+            "context": [
+              "The"
+            ]
+          },
+          {
+            "original": "very",
+            "evaluated": "very",
+            "replacement": "vert",
+            "context": [
+              "Aoi",
+              "dances"
+            ]
+          },
+          {
+            "original": "well",
+            "evaluated": "well",
+            "replacement": "wells",
+            "context": [
+              "Aoi",
+              "dances"
+            ]
+          },
+          {
+            "original": "them",
+            "evaluated": "tem",
+            "replacement": "ten",
+            "context": [
+              "told"
+            ]
+          },
+          {
+            "original": "food",
+            "evaluated": "fod",
+            "replacement": "for",
+            "context": [
+              "How",
+              "you",
+              "find"
+            ]
+          }
+        ]
+      }
+    },
+    "fn": {
+      "dictionary_hit": {
+        "count": 0,
+        "percentage": 0,
+        "examples": []
+      },
+      "below_threshold": {
+        "count": 0,
+        "percentage": 0,
+        "examples": []
+      },
+      "not_in_top_k": {
+        "count": 175,
+        "percentage": 35.2,
+        "examples": [
+          {
+            "original": "Muiriel",
+            "evaluated": "Muitiel",
+            "context": []
+          },
+          {
+            "original": "it'd",
+            "evaluated": "it'c",
+            "context": [
+              "I've",
+              "always",
+              "wondered",
+              "whta"
+            ]
+          },
+          {
+            "original": "could",
+            "evaluated": "cuold",
+            "context": [
+              "Let's",
+              "consider",
+              "the",
+              "worst",
+              "that"
+            ]
+          },
+          {
+            "original": "it's",
+            "evaluated": "its'",
+            "context": [
+              "don't",
+              "know",
+              "how",
+              "demonstrate",
+              "since"
+            ]
+          },
+          {
+            "original": "What",
+            "evaluated": "Whatt",
+            "context": []
+          }
+        ]
+      },
+      "real_word_collision": {
+        "count": 322,
+        "percentage": 64.8,
+        "examples": [
+          {
+            "original": "much",
+            "evaluated": "mich",
+            "context": [
+              "you",
+              "look",
+              "the",
+              "lyrics",
+              "they",
+              "don't",
+              "really",
+              "mean"
+            ]
+          },
+          {
+            "original": "may",
+            "evaluated": "mag",
+            "context": []
+          },
+          {
+            "original": "week",
+            "evaluated": "wee",
+            "context": [
+              "mag",
+              "freeze",
+              "next"
+            ]
+          },
+          {
+            "original": "meet",
+            "evaluated": "met",
+            "context": [
+              "Everyone",
+              "wants"
+            ]
+          },
+          {
+            "original": "It's",
+            "evaluated": "I's",
+            "context": []
+          }
+        ]
+      }
+    },
+    "totalFp": 197,
+    "totalFn": 497
+  },
+  "fr": {
+    "fp": {
+      "valid_word_flagged": {
+        "count": 8,
+        "percentage": 2.7,
+        "examples": [
+          {
+            "original": "sans-abris",
+            "evaluated": "sans-abris",
+            "replacement": "sans-abri",
+            "context": [
+              "recherche",
+              "des",
+              "bénévoles",
+              "pour",
+              "distribuer",
+              "des",
+              "repas",
+              "aux"
+            ]
+          },
+          {
+            "original": "abimées",
+            "evaluated": "abimées",
+            "replacement": "abîmes",
+            "context": [
+              "Une",
+              "partie",
+              "de",
+              "ces",
+              "pommes",
+              "sont"
+            ]
+          },
+          {
+            "original": "ami-ami",
+            "evaluated": "ami-ami",
+            "replacement": "miami",
+            "context": [
+              "Jim",
+              "semble",
+              "connaître",
+              "l'art",
+              "de",
+              "faire"
+            ]
+          },
+          {
+            "original": "abimée",
+            "evaluated": "abimée",
+            "replacement": "animée",
+            "context": [
+              "Cette",
+              "pomme",
+              "est"
+            ]
+          },
+          {
+            "original": "Nikkō",
+            "evaluated": "Nikkō",
+            "replacement": "Nikki",
+            "context": [
+              "Es-tu",
+              "allé"
+            ]
+          }
+        ]
+      },
+      "wrong_candidate_on_typo": {
+        "count": 136,
+        "percentage": 46.1,
+        "examples": [
+          {
+            "original": "ai-je",
+            "evaluated": "ai-ej",
+            "replacement": "aiden",
+            "context": [
+              "Quelles",
+              "autres",
+              "options"
+            ]
+          },
+          {
+            "original": "bouche",
+            "evaluated": "buche",
+            "replacement": "bûche",
+            "context": [
+              "Ils",
+              "restèrent"
+            ]
+          },
+          {
+            "original": "c'est",
+            "evaluated": "ce'st",
+            "replacement": "cents",
+            "context": [
+              "vous",
+              "comprenez",
+              "pas",
+              "quelque",
+              "chose"
+            ]
+          },
+          {
+            "original": "perdre",
+            "evaluated": "prdre",
+            "replacement": "prendre",
+            "context": [
+              "m'as",
+              "fait"
+            ]
+          },
+          {
+            "original": "repassage",
+            "evaluated": "reoassage",
+            "replacement": "repassant",
+            "context": [
+              "peux",
+              "pas",
+              "couper",
+              "les",
+              "ongles",
+              "faire"
+            ]
+          }
+        ]
+      },
+      "accent_only_wrong": {
+        "count": 51,
+        "percentage": 17.3,
+        "examples": [
+          {
+            "original": "plait",
+            "evaluated": "plait",
+            "replacement": "plaît",
+            "context": [
+              "Oui",
+              "du",
+              "jus",
+              "d'orange",
+              "s'il",
+              "vous"
+            ]
+          },
+          {
+            "original": "rancoeur",
+            "evaluated": "rancoeur",
+            "replacement": "rancœur",
+            "context": [
+              "après",
+              "la",
+              "Guerre",
+              "Froide",
+              "il",
+              "encore",
+              "beaucoup",
+              "de"
+            ]
+          },
+          {
+            "original": "d’Eden",
+            "evaluated": "d’Eden",
+            "replacement": "d'Éden",
+            "context": [
+              "Un",
+              "fleuve",
+              "sortait"
+            ]
+          },
+          {
+            "original": "Tôkyô",
+            "evaluated": "Tôkyô",
+            "replacement": "Tokyo",
+            "context": [
+              "Je",
+              "vis"
+            ]
+          },
+          {
+            "original": "Romeo",
+            "evaluated": "Romeo",
+            "replacement": "Roméo",
+            "context": [
+              "Ma",
+              "nouvelle",
+              "décapotable",
+              "Alfa"
+            ]
+          }
+        ]
+      },
+      "wrong_language": {
+        "count": 3,
+        "percentage": 1,
+        "examples": [
+          {
+            "original": "John",
+            "evaluated": "Jhn",
+            "replacement": "Jun",
+            "context": []
+          },
+          {
+            "original": "assainit",
+            "evaluated": "assaniit",
+            "replacement": "assault",
+            "context": [
+              "sport"
+            ]
+          },
+          {
+            "original": "Comme",
+            "evaluated": "Cmme",
+            "replacement": "Come",
+            "context": []
+          }
+        ]
+      },
+      "proper_noun_or_foreign": {
+        "count": 10,
+        "percentage": 3.4,
+        "examples": [
+          {
+            "original": "Sanda",
+            "evaluated": "Sanda",
+            "replacement": "S'anda",
+            "context": [
+              "Je",
+              "n'ai",
+              "pas",
+              "vécu"
+            ]
+          },
+          {
+            "original": "Tama",
+            "evaluated": "Tama",
+            "replacement": "Tapa",
+            "context": [
+              "J'ai",
+              "appelé",
+              "le",
+              "chaton"
+            ]
+          },
+          {
+            "original": "Burns",
+            "evaluated": "Burns",
+            "replacement": "Bruns",
+            "context": [
+              "D'abord",
+              "nous",
+              "parlerons",
+              "au",
+              "docteur",
+              "Benjamin"
+            ]
+          },
+          {
+            "original": "Nikko",
+            "evaluated": "Nikko",
+            "replacement": "Nikki",
+            "context": [
+              "Êtes-vous",
+              "déjà",
+              "allé"
+            ]
+          },
+          {
+            "original": "Emi",
+            "evaluated": "Emi",
+            "replacement": "Eli",
+            "context": []
+          }
+        ]
+      },
+      "elision": {
+        "count": 1,
+        "percentage": 0.3,
+        "examples": [
+          {
+            "original": "j'm'ennuie",
+            "evaluated": "j'm'ennuie",
+            "replacement": "j'ennuie",
+            "context": [
+              "Allez",
+              "joue",
+              "avec",
+              "moi"
+            ]
+          }
+        ]
+      },
+      "short_word_le_4": {
+        "count": 86,
+        "percentage": 29.2,
+        "examples": [
+          {
+            "original": "grey",
+            "evaluated": "grey",
+            "replacement": "greg",
+            "context": [
+              "Certains",
+              "mots",
+              "anglais",
+              "comme",
+              "gray",
+              "ou"
+            ]
+          },
+          {
+            "original": "lapin",
+            "evaluated": "lain",
+            "replacement": "l'ain",
+            "context": [
+              "C’était",
+              "méchant"
+            ]
+          },
+          {
+            "original": "J'ai",
+            "evaluated": "J'i",
+            "replacement": "J'I",
+            "context": []
+          },
+          {
+            "original": "elle",
+            "evaluated": "ell",
+            "replacement": "el",
+            "context": [
+              "Jai",
+              "appris",
+              "vivre",
+              "sans"
+            ]
+          },
+          {
+            "original": "même",
+            "evaluated": "mêe",
+            "replacement": "mes",
+            "context": [
+              "Trop",
+              "énervant",
+              "J'peux"
+            ]
+          }
+        ]
+      }
+    },
+    "fn": {
+      "dictionary_hit": {
+        "count": 0,
+        "percentage": 0,
+        "examples": []
+      },
+      "below_threshold": {
+        "count": 0,
+        "percentage": 0,
+        "examples": []
+      },
+      "not_in_top_k": {
+        "count": 348,
+        "percentage": 51.5,
+        "examples": [
+          {
+            "original": "n'est",
+            "evaluated": "n'st",
+            "context": []
+          },
+          {
+            "original": "Personne",
+            "evaluated": "Perssonne",
+            "context": []
+          },
+          {
+            "original": "Qu'est-ce",
+            "evaluated": "Qu'est-cz",
+            "context": []
+          },
+          {
+            "original": "épelles-tu",
+            "evaluated": "épellse-tu",
+            "context": [
+              "Comment"
+            ]
+          },
+          {
+            "original": "blanc",
+            "evaluated": "blan",
+            "context": [
+              "mon",
+              "pantalon"
+            ]
+          }
+        ]
+      },
+      "real_word_collision": {
+        "count": 328,
+        "percentage": 48.5,
+        "examples": [
+          {
+            "original": "peux",
+            "evaluated": "peu",
+            "context": [
+              "Parfois"
+            ]
+          },
+          {
+            "original": "gens",
+            "evaluated": "gene",
+            "context": [
+              "plupart",
+              "des"
+            ]
+          },
+          {
+            "original": "demande",
+            "evaluated": "demand",
+            "context": [
+              "Elle"
+            ]
+          },
+          {
+            "original": "peux",
+            "evaluated": "peu",
+            "context": []
+          },
+          {
+            "original": "veux",
+            "evaluated": "vex",
+            "context": []
+          }
+        ]
+      }
+    },
+    "totalFp": 295,
+    "totalFn": 676
+  }
+}

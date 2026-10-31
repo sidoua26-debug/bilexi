@@ -1,0 +1,37 @@
+{
+  "substitution": {
+    "injected": 3078,
+    "replaced": 2654,
+    "correct": 2591,
+    "precision": 97.63,
+    "recall": 84.18
+  },
+  "transposition": {
+    "injected": 2000,
+    "replaced": 1814,
+    "correct": 1709,
+    "precision": 94.21,
+    "recall": 85.45
+  },
+  "omission": {
+    "injected": 1337,
+    "replaced": 857,
+    "correct": 653,
+    "precision": 76.2,
+    "recall": 48.84
+  },
+  "duplication": {
+    "injected": 646,
+    "replaced": 571,
+    "correct": 541,
+    "precision": 94.75,
+    "recall": 83.75
+  },
+  "accent-drop": {
+    "injected": 65,
+    "replaced": 56,
+    "correct": 52,
+    "precision": 92.86,
+    "recall": 80
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "buildTime": "2026-10-18T13:26:58.298Z",
+  "candidateLimit": 26500,
+  "languages": {
+    "en": {
+      "file": "en.bin",
+      "words": 26500,
+      "deletes": 478366,
+      "bloomBits": 2500000,
+      "bloomK": 8,
+      "bloomTargetFpr": 0.005,
+      "sizeBytes": 3501380,
+      "sha256": "4b66c1c41fa4d5695cb8427e8dae7f79ddfb25a49eb35ea3a442a0fff6d0308f",
+      "license": "MIT and BSD",
+      "breakdown": {
+        "header": 64,
+        "bloomFilter": 312500,
+        "stringOffsets": 106000,
+        "frequencies": 26500,
+        "stringPool": 186120,
+        "deleteHashes": 1913464,
+        "deleteWordIndices": 956732,
+        "total": 3501380
+      }
+    },
+    "fr": {
+      "file": "fr.bin",
+      "words": 26500,
+      "deletes": 507997,
+      "bloomBits": 5500000,
+      "bloomK": 8,
+      "bloomTargetFpr": 0.005,
+      "sizeBytes": 4083684,
+      "sha256": "c76f48907b11a53b8fa075172c0884760cece2f4a7b4920156eede1b1bf190e3",
+      "license": "MPL-2.0 and CC-BY-SA-4.0",
+      "breakdown": {
+        "header": 64,
+        "bloomFilter": 687500,
+        "stringOffsets": 106000,
+        "frequencies": 26500,
+        "stringPool": 215635,
+        "deleteHashes": 2031988,
+        "deleteWordIndices": 1015994,
+        "total": 4083684
+      }
+    }
+  },
+  "totalSizeBytes": 7585064,
+  "totalSizeMb": 7.23
+}

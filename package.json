@@ -1,0 +1,48 @@
+{
+  "name": "bilexi",
+  "version": "0.5.0",
+  "description": "100% offline bilingual autocorrect for English and French text fields.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "release": "tsx scripts/package-release.ts",
+    "gen:notices": "tsx scripts/gen-notices.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "bench:engine": "node --expose-gc --import tsx scripts/bench-engine.ts",
+    "bench:blackbox": "tsx scripts/bench-blackbox.ts",
+    "verify:golden": "tsx scripts/verify-golden.ts",
+    "fetch:data": "tsx scripts/fetch-data.ts",
+    "build:data": "tsx scripts/build-data.ts"
+  },
+  "dependencies": {
+    "@floating-ui/dom": "1.6.12",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/chrome": "0.0.268",
+    "@types/node": "22.8.4",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@typescript-eslint/eslint-plugin": "8.11.0",
+    "@typescript-eslint/parser": "8.11.0",
+    "@wxt-dev/module-react": "1.2.2",
+    "dictionary-en": "4.0.0",
+    "dictionary-fr": "3.0.0",
+    "eslint": "8.57.1",
+    "nspell": "2.1.5",
+    "playwright": "1.63.0",
+    "tsx": "4.19.1",
+    "typescript": "5.6.3",
+    "vitest": "2.1.3",
+    "wxt": "0.20.27"
+  }
+}

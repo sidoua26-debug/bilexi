@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bilingual Autocorrect DOM Fixtures</title>
+  <!-- Load React 18 locally for fixture 5 (100% offline) -->
+  <script src="./vendor/react.min.js"></script>
+  <script src="./vendor/react-dom.min.js"></script>
+  <style>
+    body { font-family: system-ui, sans-serif; padding: 20px; }
+    .fixture-section { margin-bottom: 24px; }
+    [contenteditable] { border: 1px solid #ccc; padding: 8px; min-height: 40px; }
+  </style>
+</head>
+<body>
+  <h1>DOM Editing Fixtures</h1>
+
+  <!-- Fixture 1: Standard Input -->
+  <div class="fixture-section">
+    <h3>1. Input (text)</h3>
+    <input type="text" id="fixture-input" placeholder="Type here..." />
+  </div>
+
+  <!-- Fixture 2: Standard Textarea -->
+  <div class="fixture-section">
+    <h3>2. Textarea</h3>
+    <textarea id="fixture-textarea" rows="3" cols="40" placeholder="Type here..."></textarea>
+  </div>
+
+  <!-- Fixture 3: Standard Contenteditable -->
+  <div class="fixture-section">
+    <h3>3. Contenteditable</h3>
+    <div contenteditable="true" id="fixture-contenteditable"></div>
+  </div>
+
+  <!-- Fixture 4: Plaintext-only Contenteditable -->
+  <div class="fixture-section">
+    <h3>4. Contenteditable Plaintext-Only</h3>
+    <div contenteditable="plaintext-only" id="fixture-plaintext"></div>
+  </div>
+
+  <!-- Fixture 5: React Controlled Input -->
+  <div class="fixture-section">
+    <h3>5. React Controlled Input</h3>
+    <div id="fixture-react-root"></div>
+  </div>
+
+  <!-- Fixture 6: Iframe -->
+  <div class="fixture-section">
+    <h3>6. Iframe</h3>
+    <iframe id="fixture-iframe" src="./iframe-content.html"></iframe>
+  </div>
+
+  <!-- Fixture 7: Open Shadow DOM -->
+  <div class="fixture-section">
+    <h3>7. Open Shadow DOM</h3>
+    <div id="fixture-shadow-host"></div>
+  </div>
+
+  <!-- Fixture 8: Policy Guard autocorrect="off" -->
+  <div class="fixture-section">
+    <h3>8. Autocorrect Off</h3>
+    <input type="text" id="fixture-autocorrect-off" autocorrect="off" placeholder="autocorrect off" />
+  </div>
+
+  <!-- Fixture 9: Policy Guard data-gramm="false" -->
+  <div class="fixture-section">
+    <h3>9. Data Gramm False</h3>
+    <textarea id="fixture-data-gramm" data-gramm="false" placeholder="data-gramm false"></textarea>
+  </div>
+
+  <!-- Fixture 10: Sensitive Autocomplete -->
+  <div class="fixture-section">
+    <h3>10. Sensitive Autocomplete</h3>
+    <input type="text" id="fixture-autocomplete-user" autocomplete="username" placeholder="username" />
+    <input type="text" id="fixture-autocomplete-email" autocomplete="email" placeholder="email" />
+    <input type="text" id="fixture-autocomplete-multi-section" autocomplete="section-billing shipping street-address" placeholder="shipping address" />
+    <input type="text" id="fixture-autocomplete-multi-cc" autocomplete="section-checkout cc-number" placeholder="credit card" />
+  </div>
+
+  <!-- Fixture 11: Large Contenteditable Document (10,000 words across 500 paragraphs) -->
+  <div class="fixture-section">
+    <h3>11. Large Contenteditable Document</h3>
+    <div contenteditable="true" id="fixture-large-contenteditable" style="max-height: 200px; overflow-y: auto;"></div>
+  </div>
+
+  <script>
+    // 5. Mount React Controlled Input
+    const e = React.createElement;
+    function ControlledInput() {
+      const [val, setVal] = React.useState('');
+      return e('div', null,
+        e('input', {
+          id: 'fixture-react-input',
+          value: val,
+          onChange: (evt) => setVal(evt.target.value)
+        }),
+        e('span', { id: 'fixture-react-value', style: { marginLeft: '8px' } }, val)
+      );
+    }
+    ReactDOM.createRoot(document.getElementById('fixture-react-root')).render(e(ControlledInput));
+
+    // 7. Mount Open Shadow DOM
+    const shadowHost = document.getElementById('fixture-shadow-host');
+    const shadowRoot = shadowHost.attachShadow({ mode: 'open' });
+    const shadowInput = document.createElement('input');
+    shadowInput.type = 'text';
+    shadowInput.id = 'shadow-input';
+    shadowInput.placeholder = 'Inside open shadow root...';
+    shadowRoot.appendChild(shadowInput);
+  </script>
+</body>
+</html>

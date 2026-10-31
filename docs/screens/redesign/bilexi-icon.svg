@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Canvas -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#090D1A" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <!-- Border Ring -->
+    <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#1E3A8A" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Top Loop (English - Vibrant Royal Blue) -->
+    <linearGradient id="topLoop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+
+    <!-- Bottom Loop (French - Cyan Flow) -->
+    <linearGradient id="bottomLoop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <!-- Spine Gradient -->
+    <linearGradient id="spineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#93C5FD" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accent" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#67E8F9" />
+    </linearGradient>
+
+    <!-- Glow Filter with large bounding box to prevent clipping -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#0284C7" flood-opacity="0.35" />
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+
+    <filter id="accentGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="6" flood-color="#38BDF8" flood-opacity="0.8" />
+    </filter>
+  </defs>
+
+  <!-- Clean Squircle -->
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="url(#bg)" stroke="url(#border)" stroke-width="3.5" />
+
+  <!-- Internal Ambient Glows -->
+  <circle cx="170" cy="160" r="140" fill="#2563EB" opacity="0.14" filter="blur(40px)" />
+  <circle cx="340" cy="350" r="130" fill="#06B6D4" opacity="0.12" filter="blur(40px)" />
+
+  <!-- Unified B Monogram Group -->
+  <g filter="url(#softGlow)" transform="translate(-10, 0)">
+    <!-- Vertical Spine with subtle rounded pill terminals -->
+    <rect x="136" y="120" width="58" height="272" rx="29" fill="url(#spineGrad)" />
+
+    <!-- Top Loop: Outer path minus inner counter -->
+    <path d="M 165 120 
+             L 280 120 
+             C 342 120 378 148 378 198 
+             C 378 244 344 270 286 270 
+             L 165 270 Z" 
+          fill="url(#topLoop)" />
+    <!-- Top Inner Counter (Negative Space) -->
+    <path d="M 194 168 
+             L 272 168 
+             C 305 168 324 180 324 198 
+             C 324 216 305 228 272 228 
+             L 194 228 Z" 
+          fill="#090D1A" />
+
+    <!-- Bottom Loop: Outer path minus inner counter -->
+    <path d="M 165 248 
+             L 294 248 
+             C 362 248 404 280 404 338 
+             C 404 394 360 422 288 422 
+             L 165 422 Z" 
+          fill="url(#bottomLoop)" />
+    <!-- Bottom Inner Counter (Negative Space) -->
+    <path d="M 194 294 
+             L 282 294 
+             C 318 294 348 308 348 338 
+             C 348 368 318 382 282 382 
+             L 194 382 Z" 
+          fill="#090D1A" />
+  </g>
+
+  <!-- French Diacritic Accent Aigu (Dynamic Ascending Stroke) -->
+  <g filter="url(#accentGlow)" transform="translate(-10, 0)">
+    <path d="M 334 62 
+             L 278 108 
+             C 275 111 277 116 281 116 
+             L 298 116 
+             C 302 116 306 114 309 111 
+             L 360 70 
+             C 363 67 360 62 355 62 
+             Z" 
+          fill="url(#accent)" />
+  </g>
+</svg>

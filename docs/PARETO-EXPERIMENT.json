@@ -1,0 +1,258 @@
+[
+  {
+    "config": "Config 1 (High-Recall / Bold-ish)",
+    "tauMargin": 0.7,
+    "minFrequency": 10,
+    "datasetSize": {
+      "sentences": 16720,
+      "cleanTokens": 127035,
+      "totalEvaluated": 99302
+    },
+    "precisionOverall": 91.06244931062449,
+    "precisionEn": 92.9685014317531,
+    "precisionFr": 89.08007941760424,
+    "recallD1Overall": 78.23254496530237,
+    "recallD1En": 82.44558991981673,
+    "recallD1Fr": 74.11039506864668,
+    "cleanFprOverall": 0.07478254024481441,
+    "cleanFprEn": 0.044402860812889515,
+    "cleanFprFr": 0.10472677253970239,
+    "replacementRate": 6.20833417252422,
+    "counts": {
+      "cleanFp": 95,
+      "replacements": 6165,
+      "truePositives": 5614,
+      "d1Injected": 7061,
+      "d1Recovered": 5524
+    },
+    "directGoldenPass": 169,
+    "directGoldenTotal": 172,
+    "mustStayPass": 52,
+    "mustStayTotal": 53,
+    "avgLatencyMs": 0.12352519145636397
+  },
+  {
+    "config": "Config 2 (Current Baseline)",
+    "tauMargin": 0.9,
+    "minFrequency": 15,
+    "datasetSize": {
+      "sentences": 16720,
+      "cleanTokens": 127035,
+      "totalEvaluated": 99302
+    },
+    "precisionOverall": 91.43370933464116,
+    "precisionEn": 93.5971685971686,
+    "precisionFr": 89.19906945829179,
+    "recallD1Overall": 77.9351366661946,
+    "recallD1En": 82.07331042382589,
+    "recallD1Fr": 73.8862426449986,
+    "cleanFprOverall": 0.07005943243987876,
+    "cleanFprEn": 0.03488796206727034,
+    "cleanFprFr": 0.10472677253970239,
+    "replacementRate": 6.159996777506999,
+    "counts": {
+      "cleanFp": 89,
+      "replacements": 6117,
+      "truePositives": 5593,
+      "d1Injected": 7061,
+      "d1Recovered": 5503
+    },
+    "directGoldenPass": 169,
+    "directGoldenTotal": 172,
+    "mustStayPass": 52,
+    "mustStayTotal": 53,
+    "avgLatencyMs": 0.11577264022879313
+  },
+  {
+    "config": "Config 3 (Moderate Margin)",
+    "tauMargin": 1.1,
+    "minFrequency": 15,
+    "datasetSize": {
+      "sentences": 16720,
+      "cleanTokens": 127035,
+      "totalEvaluated": 99302
+    },
+    "precisionOverall": 91.6200197563385,
+    "precisionEn": 93.83717158611742,
+    "precisionFr": 89.33467067870278,
+    "recallD1Overall": 77.53859226738422,
+    "recallD1En": 81.61512027491409,
+    "recallD1Fr": 73.55001400952648,
+    "cleanFprOverall": 0.06927224780572283,
+    "cleanFprEn": 0.033302145609667134,
+    "cleanFprFr": 0.10472677253970239,
+    "replacementRate": 6.116694527804072,
+    "counts": {
+      "cleanFp": 88,
+      "replacements": 6074,
+      "truePositives": 5565,
+      "d1Injected": 7061,
+      "d1Recovered": 5475
+    },
+    "directGoldenPass": 169,
+    "directGoldenTotal": 172,
+    "mustStayPass": 52,
+    "mustStayTotal": 53,
+    "avgLatencyMs": 0.11753786659886374
+  },
+  {
+    "config": "Config 4 (Moderate Freq)",
+    "tauMargin": 1.1,
+    "minFrequency": 20,
+    "datasetSize": {
+      "sentences": 16720,
+      "cleanTokens": 127035,
+      "totalEvaluated": 99302
+    },
+    "precisionOverall": 91.67353668590272,
+    "precisionEn": 93.94925178919974,
+    "precisionFr": 89.33467067870278,
+    "recallD1Overall": 77.49610536751167,
+    "recallD1En": 81.52920962199313,
+    "recallD1Fr": 73.55001400952648,
+    "cleanFprOverall": 0.06927224780572283,
+    "cleanFprEn": 0.033302145609667134,
+    "cleanFprFr": 0.10472677253970239,
+    "replacementRate": 6.107631266238343,
+    "counts": {
+      "cleanFp": 88,
+      "replacements": 6065,
+      "truePositives": 5560,
+      "d1Injected": 7061,
+      "d1Recovered": 5472
+    },
+    "directGoldenPass": 168,
+    "directGoldenTotal": 172,
+    "mustStayPass": 52,
+    "mustStayTotal": 53,
+    "avgLatencyMs": 0.11621183566294029
+  },
+  {
+    "config": "Config 5 (Intermediate)",
+    "tauMargin": 1.3,
+    "minFrequency": 20,
+    "datasetSize": {
+      "sentences": 16720,
+      "cleanTokens": 127035,
+      "totalEvaluated": 99302
+    },
+    "precisionOverall": 91.90088142358223,
+    "precisionEn": 94.15243101182654,
+    "precisionFr": 89.59245537217917,
+    "recallD1Overall": 77.02874946891374,
+    "recallD1En": 80.9278350515464,
+    "recallD1Fr": 73.21378537405435,
+    "cleanFprOverall": 0.06927224780572283,
+    "cleanFprEn": 0.033302145609667134,
+    "cleanFprFr": 0.10472677253970239,
+    "replacementRate": 6.055265754969688,
+    "counts": {
+      "cleanFp": 88,
+      "replacements": 6013,
+      "truePositives": 5526,
+      "d1Injected": 7061,
+      "d1Recovered": 5439
+    },
+    "directGoldenPass": 168,
+    "directGoldenTotal": 172,
+    "mustStayPass": 52,
+    "mustStayTotal": 53,
+    "avgLatencyMs": 0.14913103291977622
+  },
+  {
+    "config": "Config 6 (Strict Precision)",
+    "tauMargin": 1.5,
+    "minFrequency": 25,
+    "datasetSize": {
+      "sentences": 16720,
+      "cleanTokens": 127035,
+      "totalEvaluated": 99302
+    },
+    "precisionOverall": 92.17362158538629,
+    "precisionEn": 94.43708609271523,
+    "precisionFr": 89.85408890397014,
+    "recallD1Overall": 76.70301656989095,
+    "recallD1En": 80.58419243986255,
+    "recallD1Fr": 72.90557579153824,
+    "cleanFprOverall": 0.06848506317156688,
+    "cleanFprEn": 0.03171632915206394,
+    "cleanFprFr": 0.10472677253970239,
+    "replacementRate": 6.008942418078186,
+    "counts": {
+      "cleanFp": 87,
+      "replacements": 5967,
+      "truePositives": 5500,
+      "d1Injected": 7061,
+      "d1Recovered": 5416
+    },
+    "directGoldenPass": 168,
+    "directGoldenTotal": 172,
+    "mustStayPass": 52,
+    "mustStayTotal": 53,
+    "avgLatencyMs": 0.11423886749513665
+  },
+  {
+    "config": "Config 7 (Cautious)",
+    "tauMargin": 1.8,
+    "minFrequency": 40,
+    "datasetSize": {
+      "sentences": 16720,
+      "cleanTokens": 127035,
+      "totalEvaluated": 99302
+    },
+    "precisionOverall": 93.17476732161325,
+    "precisionEn": 95.33378746594006,
+    "precisionFr": 90.96301465457083,
+    "recallD1Overall": 75.42840957371477,
+    "recallD1En": 79.0950744558992,
+    "recallD1Fr": 71.84085177920986,
+    "cleanFprOverall": 0.06454914000078718,
+    "cleanFprEn": 0.03171632915206394,
+    "cleanFprFr": 0.09691134175315744,
+    "replacementRate": 5.842782622706491,
+    "counts": {
+      "cleanFp": 82,
+      "replacements": 5802,
+      "truePositives": 5406,
+      "d1Injected": 7061,
+      "d1Recovered": 5326
+    },
+    "directGoldenPass": 162,
+    "directGoldenTotal": 172,
+    "mustStayPass": 52,
+    "mustStayTotal": 53,
+    "avgLatencyMs": 0.12412951730077215
+  },
+  {
+    "config": "Config 8 (High-Threshold Strict)",
+    "tauMargin": 2.5,
+    "minFrequency": 60,
+    "datasetSize": {
+      "sentences": 16720,
+      "cleanTokens": 127035,
+      "totalEvaluated": 99302
+    },
+    "precisionOverall": 94.03937294932557,
+    "precisionEn": 96.17604617604619,
+    "precisionFr": 91.85703758290347,
+    "recallD1Overall": 72.18524288344426,
+    "recallD1En": 75.60137457044674,
+    "recallD1Fr": 68.84281311291677,
+    "cleanFprOverall": 0.050379816585980244,
+    "cleanFprEn": 0.01744398103363517,
+    "cleanFprFr": 0.08284356633737652,
+    "replacementRate": 5.524561438843125,
+    "counts": {
+      "cleanFp": 64,
+      "replacements": 5486,
+      "truePositives": 5159,
+      "d1Injected": 7061,
+      "d1Recovered": 5097
+    },
+    "directGoldenPass": 156,
+    "directGoldenTotal": 172,
+    "mustStayPass": 52,
+    "mustStayTotal": 53,
+    "avgLatencyMs": 0.12007501398763476
+  }
+]

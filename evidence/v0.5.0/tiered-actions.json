@@ -1,0 +1,36 @@
+{
+  "totalD1Typos": 7126,
+  "autoReplaced": 4458,
+  "autoCorrect": 4357,
+  "combinedVisibleCorrect": 5551,
+  "combinedCandidateCorrect": 5603,
+  "autoPrecision": 97.73,
+  "autoRecall": 61.14,
+  "combinedVisibleRecall": 77.9,
+  "combinedCandidateRecall": 78.63,
+  "categories": {
+    "targetWord": {
+      "injected": 598,
+      "autoRecovered": 2,
+      "combinedRecovered": 36,
+      "autoRecall": 0.33,
+      "combinedRecall": 6.02
+    },
+    "otherWord": {
+      "injected": 233,
+      "autoRecovered": 55,
+      "combinedRecovered": 63,
+      "autoRecall": 23.61,
+      "combinedRecall": 27.04
+    },
+    "genuineNonWord": {
+      "injected": 6295,
+      "autoRecovered": 4300,
+      "combinedRecovered": 5452,
+      "autoRecall": 68.31,
+      "combinedRecall": 86.61
+    }
+  },
+  "autoOrSuggestCorrect": 5551,
+  "combinedRecall": 77.9
+}

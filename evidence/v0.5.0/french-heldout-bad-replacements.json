@@ -1,0 +1,742 @@
+[
+  {
+    "sentenceId": "3335",
+    "original": "courrai",
+    "noisy": "courrrai",
+    "replacement": "couterai",
+    "lang": "fr",
+    "type": "duplication",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "3591",
+    "original": "calmé",
+    "noisy": "calm",
+    "replacement": "c'alm",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "3732",
+    "original": "Spenser",
+    "noisy": "Spenser",
+    "replacement": "Spencer",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "3754",
+    "original": "Spenser",
+    "noisy": "Spenser",
+    "replacement": "Spencer",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "3764",
+    "original": "Spenser",
+    "noisy": "Spenser",
+    "replacement": "Spencer",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "3775",
+    "original": "amené",
+    "noisy": "amenéé",
+    "replacement": "amenée",
+    "lang": "fr",
+    "type": "duplication",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "3885",
+    "original": "prononces",
+    "noisy": "pononces",
+    "replacement": "prononcés",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "3923",
+    "original": "l’après-midi",
+    "noisy": "l'apres-midi",
+    "replacement": "l'après-midi",
+    "lang": "fr",
+    "type": "accent-drop",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "4136",
+    "original": "décrite",
+    "noisy": "dérite",
+    "replacement": "déroute",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "4145",
+    "original": "Nara",
+    "noisy": "Nara",
+    "replacement": "Nada",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "4201",
+    "original": "l’intelligence",
+    "noisy": "l’intleligence",
+    "replacement": "l'intelligence",
+    "lang": "fr",
+    "type": "transposition",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "4221",
+    "original": "moeurs",
+    "noisy": "moeurs",
+    "replacement": "mœurs",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "4283",
+    "original": "efforcés",
+    "noisy": "efforfés",
+    "replacement": "efforts",
+    "lang": "fr",
+    "type": "substitution",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "6007",
+    "original": "Nara",
+    "noisy": "Nara",
+    "replacement": "Nada",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "6396",
+    "original": "monter",
+    "noisy": "montter",
+    "replacement": "montrer",
+    "lang": "fr",
+    "type": "duplication",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "7303",
+    "original": "étranger",
+    "noisy": "étrangr",
+    "replacement": "étrange",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "7534",
+    "original": "règle",
+    "noisy": "règlee",
+    "replacement": "réglée",
+    "lang": "fr",
+    "type": "duplication",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "7579",
+    "original": "montre",
+    "noisy": "montree",
+    "replacement": "montrée",
+    "lang": "fr",
+    "type": "duplication",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "7842",
+    "original": "l'image",
+    "noisy": "l'jmage",
+    "replacement": "l'jambe",
+    "lang": "fr",
+    "type": "substitution",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "7890",
+    "original": "mens",
+    "noisy": "mene",
+    "replacement": "mène",
+    "lang": "fr",
+    "type": "substitution",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "7981",
+    "original": "avancions",
+    "noisy": "avancons",
+    "replacement": "avançons",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "8356",
+    "original": "note",
+    "noisy": "notee",
+    "replacement": "notre",
+    "lang": "fr",
+    "type": "duplication",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "8369",
+    "original": "ligne",
+    "noisy": "lignee",
+    "replacement": "lignée",
+    "lang": "fr",
+    "type": "duplication",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "8542",
+    "original": "suite",
+    "noisy": "suiet",
+    "replacement": "sujet",
+    "lang": "fr",
+    "type": "transposition",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "9064",
+    "original": "prendre",
+    "noisy": "predre",
+    "replacement": "perdre",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "9924",
+    "original": "j’aime",
+    "noisy": "j’aiem",
+    "replacement": "j'aime",
+    "lang": "fr",
+    "type": "transposition",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "9985",
+    "original": "vingt",
+    "noisy": "ving",
+    "replacement": "vint",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "10331",
+    "original": "Sanda",
+    "noisy": "Sanda",
+    "replacement": "Sandra",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "10554",
+    "original": "quelques",
+    "noisy": "quelqus",
+    "replacement": "quelque",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "10725",
+    "original": "écouteurs",
+    "noisy": "écoteurs",
+    "replacement": "éditeurs",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "10839",
+    "original": "symbolise",
+    "noisy": "syymbolise",
+    "replacement": "symbolique",
+    "lang": "fr",
+    "type": "duplication",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "11058",
+    "original": "emploi",
+    "noisy": "emploi",
+    "replacement": "employ",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "11340",
+    "original": "lac",
+    "noisy": "laf",
+    "replacement": "la",
+    "lang": "fr",
+    "type": "substitution",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "11612",
+    "original": "Arrêtez",
+    "noisy": "Arrêtee",
+    "replacement": "Arrêtée",
+    "lang": "fr",
+    "type": "substitution",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "12012",
+    "original": "après",
+    "noisy": "aprè",
+    "replacement": "âpre",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "12108",
+    "original": "sujet",
+    "noisy": "sujte",
+    "replacement": "suite",
+    "lang": "fr",
+    "type": "transposition",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "12495",
+    "original": "Time",
+    "noisy": "Time",
+    "replacement": "Tome",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "12561",
+    "original": "cela",
+    "noisy": "cla",
+    "replacement": "la",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "12725",
+    "original": "Tate",
+    "noisy": "Tate",
+    "replacement": "Tâte",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "12861",
+    "original": "prendre",
+    "noisy": "predre",
+    "replacement": "perdre",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "12964",
+    "original": "quelles",
+    "noisy": "quelles",
+    "replacement": "qu'elles",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Curated French compound rule"
+  },
+  {
+    "sentenceId": "13000",
+    "original": "Hara",
+    "noisy": "Hara",
+    "replacement": "Hâta",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "13054",
+    "original": "six",
+    "noisy": "sid",
+    "replacement": "si",
+    "lang": "fr",
+    "type": "substitution",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "13063",
+    "original": "Burns",
+    "noisy": "Burns",
+    "replacement": "Bruns",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "13359",
+    "original": "sœur",
+    "noisy": "sœurr",
+    "replacement": "sœurs",
+    "lang": "fr",
+    "type": "duplication",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "13666",
+    "original": "ferais",
+    "noisy": "feais",
+    "replacement": "frais",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "13732",
+    "original": "quel",
+    "noisy": "qul",
+    "replacement": "qui",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "13785",
+    "original": "des",
+    "noisy": "dee",
+    "replacement": "de",
+    "lang": "fr",
+    "type": "substitution",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "14551",
+    "original": "Elisabeth",
+    "noisy": "Elisabeth",
+    "replacement": "Elizabeth",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "14619",
+    "original": "éclairci",
+    "noisy": "éclqirci",
+    "replacement": "éclaircir",
+    "lang": "fr",
+    "type": "substitution",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "14903",
+    "original": "J'avais",
+    "noisy": "J'zvais",
+    "replacement": "J'vais",
+    "lang": "fr",
+    "type": "substitution",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "15319",
+    "original": "décliné",
+    "noisy": "dcéliné",
+    "replacement": "décline",
+    "lang": "fr",
+    "type": "transposition",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "15413",
+    "original": "changé",
+    "noisy": "cangé",
+    "replacement": "c'ange",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "15484",
+    "original": "Tôkyô",
+    "noisy": "Tôkyô",
+    "replacement": "Tokyo",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "15499",
+    "original": "suite",
+    "noisy": "suiet",
+    "replacement": "sujet",
+    "lang": "fr",
+    "type": "transposition",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "15513",
+    "original": "avide",
+    "noisy": "avied",
+    "replacement": "aviez",
+    "lang": "fr",
+    "type": "transposition",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "119821",
+    "original": "concouru",
+    "noisy": "concourh",
+    "replacement": "concours",
+    "lang": "fr",
+    "type": "substitution",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "120091",
+    "original": "régler",
+    "noisy": "régle",
+    "replacement": "règle",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "127544",
+    "original": "Nara",
+    "noisy": "Nara",
+    "replacement": "Nada",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "127987",
+    "original": "J’ai",
+    "noisy": "J’aai",
+    "replacement": "J'ai",
+    "lang": "fr",
+    "type": "duplication",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "128301",
+    "original": "prendre",
+    "noisy": "predre",
+    "replacement": "perdre",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "128348",
+    "original": "saison",
+    "noisy": "saion",
+    "replacement": "salon",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "128784",
+    "original": "civile",
+    "noisy": "civle",
+    "replacement": "cible",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "128922",
+    "original": "t'avoir",
+    "noisy": "t'zvoir",
+    "replacement": "t'voir",
+    "lang": "fr",
+    "type": "substitution",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "129247",
+    "original": "Saly",
+    "noisy": "Sayl",
+    "replacement": "Saul",
+    "lang": "fr",
+    "type": "transposition",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "129279",
+    "original": "entrer",
+    "noisy": "enrer",
+    "replacement": "enfer",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "129561",
+    "original": "montrer",
+    "noisy": "monrer",
+    "replacement": "monter",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "129640",
+    "original": "enflammée",
+    "noisy": "enflammee",
+    "replacement": "enflamme",
+    "lang": "fr",
+    "type": "accent-drop",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "129653",
+    "original": "Nara",
+    "noisy": "Nara",
+    "replacement": "Nada",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "129654",
+    "original": "Nara",
+    "noisy": "Nara",
+    "replacement": "Nada",
+    "lang": "fr",
+    "type": "false_trigger_on_clean",
+    "distance": 0,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "129919",
+    "original": "pense",
+    "noisy": "pensee",
+    "replacement": "pensée",
+    "lang": "fr",
+    "type": "duplication",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "130773",
+    "original": "d'être",
+    "noisy": "d'tre",
+    "replacement": "d'te",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "130773",
+    "original": "proposent",
+    "noisy": "porposent",
+    "replacement": "proposant",
+    "lang": "fr",
+    "type": "transposition",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  },
+  {
+    "sentenceId": "131336",
+    "original": "Flou",
+    "noisy": "Flu",
+    "replacement": "Fou",
+    "lang": "fr",
+    "type": "omission",
+    "distance": 1,
+    "reason": "Passed distance, frequency and confidence thresholds"
+  }
+]

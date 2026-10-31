@@ -1,0 +1,132 @@
+{
+  "evaluatedAt": "2026-10-17T09:18:20.477Z",
+  "gitCommit": "b04a59bfc1aec8e3b131c161ee9fa2e449d5e8dd",
+  "corpora": {
+    "dev": {
+      "corpusName": "Development Corpus (Tatoeba dev split)",
+      "sentenceCount": 16720,
+      "overall": {
+        "cleanTokens": 127035,
+        "cleanFp": 57,
+        "cleanFpr": 0.044869524146888655,
+        "injectedD1": 7084,
+        "recoveredD1": 5569,
+        "recallD1": 78.61377752682101,
+        "replacements": 6002,
+        "truePositives": 5569,
+        "appliedPrecision": 92.78573808730424
+      },
+      "en": {
+        "cleanTokens": 63059,
+        "cleanFp": 15,
+        "cleanFpr": 0.023787246864047956,
+        "injectedD1": 3505,
+        "recoveredD1": 2888,
+        "recallD1": 82.39657631954351,
+        "replacements": 3049,
+        "truePositives": 2888,
+        "appliedPrecision": 94.71958019022631
+      },
+      "fr": {
+        "cleanTokens": 63976,
+        "cleanFp": 42,
+        "cleanFpr": 0.06564961860697761,
+        "injectedD1": 3579,
+        "recoveredD1": 2681,
+        "recallD1": 74.90919251187482,
+        "replacements": 2953,
+        "truePositives": 2681,
+        "appliedPrecision": 90.78902810700981
+      },
+      "latencies": {
+        "samples": 127035,
+        "p50Ms": 0.005650999999488704,
+        "p95Ms": 0.011271000000022013
+      }
+    },
+    "pristineTest": {
+      "corpusName": "Pristine Test Corpus (Previously Inspected)",
+      "sentenceCount": 10000,
+      "overall": {
+        "cleanTokens": 72962,
+        "cleanFp": 53,
+        "cleanFpr": 0.07264055261643047,
+        "injectedD1": 4098,
+        "recoveredD1": 3162,
+        "recallD1": 77.15959004392387,
+        "replacements": 3459,
+        "truePositives": 3162,
+        "appliedPrecision": 91.41370338248048
+      },
+      "en": {
+        "cleanTokens": 37948,
+        "cleanFp": 15,
+        "cleanFpr": 0.03952777484979445,
+        "injectedD1": 2162,
+        "recoveredD1": 1718,
+        "recallD1": 79.46345975948196,
+        "replacements": 1835,
+        "truePositives": 1718,
+        "appliedPrecision": 93.62397820163487
+      },
+      "fr": {
+        "cleanTokens": 35014,
+        "cleanFp": 38,
+        "cleanFpr": 0.10852801736448278,
+        "injectedD1": 1936,
+        "recoveredD1": 1444,
+        "recallD1": 74.58677685950413,
+        "replacements": 1624,
+        "truePositives": 1444,
+        "appliedPrecision": 88.91625615763546
+      },
+      "latencies": {
+        "samples": 72962,
+        "p50Ms": 0.004578000007313676,
+        "p95Ms": 0.012081999986548908
+      }
+    },
+    "heldoutVal": {
+      "corpusName": "Held-Out Validation Corpus (Previously Inspected)",
+      "sentenceCount": 10000,
+      "overall": {
+        "cleanTokens": 67496,
+        "cleanFp": 57,
+        "cleanFpr": 0.08444944885622852,
+        "injectedD1": 3782,
+        "recoveredD1": 2881,
+        "recallD1": 76.17662612374406,
+        "replacements": 3181,
+        "truePositives": 2881,
+        "appliedPrecision": 90.56900345803206
+      },
+      "en": {
+        "cleanTokens": 34975,
+        "cleanFp": 52,
+        "cleanFpr": 0.14867762687634023,
+        "injectedD1": 1999,
+        "recoveredD1": 1561,
+        "recallD1": 78.08904452226113,
+        "replacements": 1717,
+        "truePositives": 1561,
+        "appliedPrecision": 90.91438555620269
+      },
+      "fr": {
+        "cleanTokens": 32521,
+        "cleanFp": 5,
+        "cleanFpr": 0.015374680975369762,
+        "injectedD1": 1783,
+        "recoveredD1": 1320,
+        "recallD1": 74.03252944475604,
+        "replacements": 1464,
+        "truePositives": 1320,
+        "appliedPrecision": 90.1639344262295
+      },
+      "latencies": {
+        "samples": 67496,
+        "p50Ms": 0.003807999979471788,
+        "p95Ms": 0.007523999986005947
+      }
+    }
+  }
+}

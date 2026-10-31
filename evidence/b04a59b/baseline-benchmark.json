@@ -1,0 +1,5808 @@
+{
+  "commit": "b04a59b",
+  "timestamp": "2026-10-18T12:37:39.142Z",
+  "devOracle": {
+    "appliedPrecision": 62.509682416731216,
+    "recallD1": 44.16222284591636,
+    "cleanFp": 414,
+    "cleanTokens": 127035,
+    "cleanFpr": 0.3258944385405597,
+    "p95Latency": 0.03594700000030571,
+    "en": {
+      "precision": 76.47512533744697,
+      "recallD1": 54.815864022662886,
+      "cleanFp": 96,
+      "cleanTokens": 63059,
+      "cleanFpr": 0.1522383799299069
+    },
+    "fr": {
+      "precision": 48.4247374562427,
+      "recallD1": 33.70411568409344,
+      "cleanFp": 318,
+      "cleanTokens": 63976,
+      "cleanFpr": 0.4970613980242591
+    },
+    "cleanFpTokens": [
+      {
+        "token": "people:",
+        "replacement": "people",
+        "lang": "en",
+        "id": "1794",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Katja",
+        "replacement": "Karma",
+        "lang": "en",
+        "id": "1903",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Trang's",
+        "replacement": "Range's",
+        "lang": "en",
+        "id": "1908",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Eichler",
+        "replacement": "Enculer",
+        "lang": "en",
+        "id": "1928",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "heirless",
+        "replacement": "heiress",
+        "lang": "en",
+        "id": "1942",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Maury",
+        "replacement": "Marry",
+        "lang": "en",
+        "id": "1957",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "neighbors'",
+        "replacement": "neighbor",
+        "lang": "en",
+        "id": "1998",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "are:",
+        "replacement": "are",
+        "lang": "en",
+        "id": "2209",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Trang",
+        "replacement": "Rang",
+        "lang": "en",
+        "id": "2257",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "pre-conceived",
+        "replacement": "preconceive",
+        "lang": "en",
+        "id": "2288",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Nara",
+        "replacement": "Ara",
+        "lang": "en",
+        "id": "2299",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "favour",
+        "replacement": "favor",
+        "lang": "en",
+        "id": "6124",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "others'",
+        "replacement": "other",
+        "lang": "en",
+        "id": "15925",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "'guy'",
+        "replacement": "Guy",
+        "lang": "en",
+        "id": "17097",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "T-shirt",
+        "replacement": "Shirt",
+        "lang": "en",
+        "id": "17427",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "judgement",
+        "replacement": "judgment",
+        "lang": "en",
+        "id": "17917",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "parents'",
+        "replacement": "parental",
+        "lang": "en",
+        "id": "18361",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Tokyu",
+        "replacement": "Tout",
+        "lang": "en",
+        "id": "18407",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kondo",
+        "replacement": "Kind",
+        "lang": "en",
+        "id": "18653",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Travelling",
+        "replacement": "Raveling",
+        "lang": "en",
+        "id": "18688",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "no-smoking",
+        "replacement": "nonsmoking",
+        "lang": "en",
+        "id": "18810",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "non-smoking",
+        "replacement": "nonsmoking",
+        "lang": "en",
+        "id": "18811",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "non-smoking",
+        "replacement": "nonsmoking",
+        "lang": "en",
+        "id": "18812",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "non-smoking",
+        "replacement": "nonsmoking",
+        "lang": "en",
+        "id": "18822",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "X-ray",
+        "replacement": "Ray",
+        "lang": "en",
+        "id": "18945",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "behaviour",
+        "replacement": "behavior",
+        "lang": "en",
+        "id": "18961",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Keiyo",
+        "replacement": "Keto",
+        "lang": "en",
+        "id": "19284",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Sky-Liner",
+        "replacement": "skyline",
+        "lang": "en",
+        "id": "19331",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kyoko",
+        "replacement": "Kook",
+        "lang": "en",
+        "id": "19334",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "cold-blooded",
+        "replacement": "coldblooded",
+        "lang": "en",
+        "id": "19344",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Chunichi",
+        "replacement": "Chichi",
+        "lang": "en",
+        "id": "19397",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Nagano",
+        "replacement": "Naan",
+        "lang": "en",
+        "id": "19440",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "light-headed",
+        "replacement": "lightheaded",
+        "lang": "en",
+        "id": "19616",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "café",
+        "replacement": "cafe",
+        "lang": "en",
+        "id": "19916",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "non-smokers",
+        "replacement": "nonsmoker",
+        "lang": "en",
+        "id": "19926",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "e-mail",
+        "replacement": "email",
+        "lang": "en",
+        "id": "20158",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Koko",
+        "replacement": "Kook",
+        "lang": "en",
+        "id": "20200",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Reporter:",
+        "replacement": "Reported",
+        "lang": "en",
+        "id": "20201",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "good-bye",
+        "replacement": "goodbye",
+        "lang": "en",
+        "id": "20269",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Chama's",
+        "replacement": "Chamade",
+        "lang": "en",
+        "id": "20542",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Shougo",
+        "replacement": "Shout",
+        "lang": "en",
+        "id": "20775",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "close-up",
+        "replacement": "closeup",
+        "lang": "en",
+        "id": "20835",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "else's",
+        "replacement": "else",
+        "lang": "en",
+        "id": "20851",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Genji",
+        "replacement": "Genii",
+        "lang": "en",
+        "id": "21191",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "PTAs",
+        "replacement": "pas",
+        "lang": "en",
+        "id": "21740",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "travelling",
+        "replacement": "raveling",
+        "lang": "en",
+        "id": "21869",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "half-way",
+        "replacement": "halfway",
+        "lang": "en",
+        "id": "22290",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "rumour",
+        "replacement": "rumor",
+        "lang": "en",
+        "id": "22461",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "catalogues",
+        "replacement": "catalogue",
+        "lang": "en",
+        "id": "22599",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "'flu",
+        "replacement": "Flu",
+        "lang": "en",
+        "id": "22634",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "citizens'",
+        "replacement": "citizen",
+        "lang": "en",
+        "id": "22991",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "hours'",
+        "replacement": "hour",
+        "lang": "en",
+        "id": "23298",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "judgement",
+        "replacement": "judgment",
+        "lang": "en",
+        "id": "23346",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "spilt",
+        "replacement": "silt",
+        "lang": "en",
+        "id": "23651",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Shinji",
+        "replacement": "Shiny",
+        "lang": "en",
+        "id": "23861",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "goin'",
+        "replacement": "going",
+        "lang": "en",
+        "id": "24224",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "en",
+        "id": "24405",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "en",
+        "id": "24406",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "en",
+        "id": "24407",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "en",
+        "id": "24409",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "en",
+        "id": "24411",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hakata",
+        "replacement": "Hakama",
+        "lang": "en",
+        "id": "24576",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "check-in",
+        "replacement": "check-up",
+        "lang": "en",
+        "id": "24601",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hirayama",
+        "replacement": "Hiragana",
+        "lang": "en",
+        "id": "24874",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hirayama",
+        "replacement": "Hiragana",
+        "lang": "en",
+        "id": "24875",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "movin'",
+        "replacement": "moving",
+        "lang": "en",
+        "id": "25497",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "shorn",
+        "replacement": "horn",
+        "lang": "en",
+        "id": "25642",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "minutes'",
+        "replacement": "minute",
+        "lang": "en",
+        "id": "25978",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "minutes'",
+        "replacement": "minute",
+        "lang": "en",
+        "id": "25982",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "'lie'",
+        "replacement": "Lie",
+        "lang": "en",
+        "id": "26227",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "'lay'",
+        "replacement": "Lay",
+        "lang": "en",
+        "id": "26227",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Ghoti",
+        "replacement": "Ghoul",
+        "lang": "en",
+        "id": "26312",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "lying-",
+        "replacement": "lying",
+        "lang": "en",
+        "id": "26659",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "cancelled",
+        "replacement": "canceler",
+        "lang": "en",
+        "id": "26777",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Fujita",
+        "replacement": "Fajita",
+        "lang": "en",
+        "id": "26845",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "cancelled",
+        "replacement": "canceler",
+        "lang": "en",
+        "id": "26933",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Ichiro",
+        "replacement": "Chirp",
+        "lang": "en",
+        "id": "27173",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "hours'",
+        "replacement": "hour",
+        "lang": "en",
+        "id": "27299",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "electro-magnetic",
+        "replacement": "electromagnetic",
+        "lang": "en",
+        "id": "27412",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "all-day",
+        "replacement": "allay",
+        "lang": "en",
+        "id": "27430",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "travelling",
+        "replacement": "raveling",
+        "lang": "en",
+        "id": "27644",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Isoda",
+        "replacement": "Coda",
+        "lang": "en",
+        "id": "27878",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "What'd",
+        "replacement": "What's",
+        "lang": "en",
+        "id": "28001",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "this:",
+        "replacement": "this",
+        "lang": "en",
+        "id": "28133",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "settlers'",
+        "replacement": "settle's",
+        "lang": "en",
+        "id": "28169",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Aoki",
+        "replacement": "Aloi",
+        "lang": "en",
+        "id": "28182",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Ando",
+        "replacement": "And",
+        "lang": "en",
+        "id": "28475",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "ayu",
+        "replacement": "auk",
+        "lang": "en",
+        "id": "28506",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "handshakes:",
+        "replacement": "handshake",
+        "lang": "en",
+        "id": "28512",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Aoi",
+        "replacement": "Api",
+        "lang": "en",
+        "id": "28668",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Aoi",
+        "replacement": "Api",
+        "lang": "en",
+        "id": "28670",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Aoi",
+        "replacement": "Api",
+        "lang": "en",
+        "id": "28671",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Aoi",
+        "replacement": "Api",
+        "lang": "en",
+        "id": "28672",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Aoi",
+        "replacement": "Api",
+        "lang": "en",
+        "id": "28673",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "recognise",
+        "replacement": "recognize",
+        "lang": "en",
+        "id": "28755",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "wont",
+        "replacement": "won't",
+        "lang": "en",
+        "id": "28859",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3094",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3106",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3142",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3150",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3170",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Trang",
+        "replacement": "Gang",
+        "lang": "fr",
+        "id": "3181",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3221",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3242",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "ai-je",
+        "replacement": "aine",
+        "lang": "fr",
+        "id": "3265",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3276",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "3285",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3289",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "emails",
+        "replacement": "email",
+        "lang": "fr",
+        "id": "3303",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3320",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "3376",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "3403",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3410",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3430",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "3437",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3467",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3481",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "qu'est-ce",
+        "replacement": "qu'este",
+        "lang": "fr",
+        "id": "3531",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3549",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3570",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3575",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Antigua",
+        "replacement": "Antifa",
+        "lang": "fr",
+        "id": "3575",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3583",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3584",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "lis-le",
+        "replacement": "lisle",
+        "lang": "fr",
+        "id": "3625",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "3688",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Aaah",
+        "replacement": "Aah",
+        "lang": "fr",
+        "id": "3734",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "3735",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Warcraft",
+        "replacement": "Aircraft",
+        "lang": "fr",
+        "id": "3736",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Eichler",
+        "replacement": "Enculer",
+        "lang": "fr",
+        "id": "3751",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "3758",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Spenser",
+        "replacement": "Slender",
+        "lang": "fr",
+        "id": "3767",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Maury",
+        "replacement": "Marry",
+        "lang": "fr",
+        "id": "3773",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "3774",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "rancoeur",
+        "replacement": "rancor",
+        "lang": "fr",
+        "id": "3782",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Spenser",
+        "replacement": "Dispenser",
+        "lang": "fr",
+        "id": "3796",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3855",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3880",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "3912",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "qu’est-ce",
+        "replacement": "qu’este",
+        "lang": "fr",
+        "id": "3916",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3916",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Dis-leur",
+        "replacement": "Diseur",
+        "lang": "fr",
+        "id": "3933",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "d’Eden",
+        "replacement": "d’Éden",
+        "lang": "fr",
+        "id": "4014",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Cavalieri",
+        "replacement": "Cavalier",
+        "lang": "fr",
+        "id": "4018",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "4080",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "4099",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "4151",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "4279",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "4361",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "6256",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "6428",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Kenji",
+        "replacement": "Kanji",
+        "lang": "fr",
+        "id": "6585",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Sanda",
+        "replacement": "Sans",
+        "lang": "fr",
+        "id": "6659",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "m'a-t-il",
+        "replacement": "m'va-t-il",
+        "lang": "fr",
+        "id": "6688",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "7395",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Wars",
+        "replacement": "Ars",
+        "lang": "fr",
+        "id": "7531",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "7539",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "7587",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "7591",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Ichiro",
+        "replacement": "Chirp",
+        "lang": "fr",
+        "id": "7705",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "7906",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "7926",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "7939",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "8040",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "8101",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Yamada",
+        "replacement": "Hamada",
+        "lang": "fr",
+        "id": "8229",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Yamada",
+        "replacement": "Hamada",
+        "lang": "fr",
+        "id": "8230",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "8300",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Burns",
+        "replacement": "Burne",
+        "lang": "fr",
+        "id": "8335",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "c'est-à-dire",
+        "replacement": "c'c'est-à-dire",
+        "lang": "fr",
+        "id": "8362",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "8460",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "8493",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Narita",
+        "replacement": "Aria",
+        "lang": "fr",
+        "id": "8504",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "8570",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Donne-le",
+        "replacement": "Donnerie",
+        "lang": "fr",
+        "id": "8634",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "8663",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "8699",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kenji",
+        "replacement": "Kanji",
+        "lang": "fr",
+        "id": "8749",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kenzi",
+        "replacement": "Keno",
+        "lang": "fr",
+        "id": "8799",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kenji",
+        "replacement": "Kanji",
+        "lang": "fr",
+        "id": "8800",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Keiko",
+        "replacement": "Kilo",
+        "lang": "fr",
+        "id": "8893",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "N'es-tu",
+        "replacement": "N'est",
+        "lang": "fr",
+        "id": "8928",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "8953",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "8964",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "8977",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "9027",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "9114",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "faut-il",
+        "replacement": "faufil",
+        "lang": "fr",
+        "id": "9211",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "9283",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "1er",
+        "replacement": "Er",
+        "lang": "fr",
+        "id": "9317",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Edo",
+        "replacement": "Do",
+        "lang": "fr",
+        "id": "9464",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "9511",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "9528",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "9541",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "fr",
+        "id": "9625",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "fr",
+        "id": "9627",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "9691",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "faut-il",
+        "replacement": "faufil",
+        "lang": "fr",
+        "id": "9735",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "9748",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "9750",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "9759",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "9788",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "9827",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "entrainant",
+        "replacement": "entraînant",
+        "lang": "fr",
+        "id": "9867",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "ainé",
+        "replacement": "aîné",
+        "lang": "fr",
+        "id": "9928",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "9931",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "9940",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "9961",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "9986",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "9990",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Nanyo",
+        "replacement": "Banjo",
+        "lang": "fr",
+        "id": "10081",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "foods",
+        "replacement": "fors",
+        "lang": "fr",
+        "id": "10081",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Nanyo",
+        "replacement": "Banjo",
+        "lang": "fr",
+        "id": "10081",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Airlines",
+        "replacement": "Airline",
+        "lang": "fr",
+        "id": "10126",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "General",
+        "replacement": "Général",
+        "lang": "fr",
+        "id": "10130",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Motors",
+        "replacement": "Motor",
+        "lang": "fr",
+        "id": "10130",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Aha",
+        "replacement": "Ana",
+        "lang": "fr",
+        "id": "10141",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "10141",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "10171",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "10222",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "10268",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "10271",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "10311",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "10379",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "10383",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "10406",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "10414",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "10416",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "10436",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "10438",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "10478",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "10559",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "10688",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "10773",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Eliot",
+        "replacement": "Elbot",
+        "lang": "fr",
+        "id": "10791",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "N'ai-je",
+        "replacement": "N'aine",
+        "lang": "fr",
+        "id": "10841",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "10940",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "11047",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hotel",
+        "replacement": "Hôtel",
+        "lang": "fr",
+        "id": "11068",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "prenez-vous",
+        "replacement": "rendez-vous",
+        "lang": "fr",
+        "id": "11137",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "11156",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "faut-il",
+        "replacement": "faufil",
+        "lang": "fr",
+        "id": "11157",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hilton",
+        "replacement": "Hilote",
+        "lang": "fr",
+        "id": "11157",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "11158",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "11160",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "faut-il",
+        "replacement": "faufil",
+        "lang": "fr",
+        "id": "11161",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11178",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Vendez-vous",
+        "replacement": "Rendez-vous",
+        "lang": "fr",
+        "id": "11197",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Koko",
+        "replacement": "Kook",
+        "lang": "fr",
+        "id": "11265",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11273",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11274",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "11347",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "11380",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11464",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11467",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "11478",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "11492",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11500",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11508",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "11513",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "11535",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11547",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Sazae",
+        "replacement": "Salad",
+        "lang": "fr",
+        "id": "11624",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "11674",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Baker",
+        "replacement": "Baller",
+        "lang": "fr",
+        "id": "11692",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "11711",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "11734",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "11763",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "ainé",
+        "replacement": "aîné",
+        "lang": "fr",
+        "id": "11778",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11915",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "abimée",
+        "replacement": "abîmer",
+        "lang": "fr",
+        "id": "12070",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "12125",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12179",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-elle",
+        "replacement": "va-t-elle",
+        "lang": "fr",
+        "id": "12216",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kenji",
+        "replacement": "Kanji",
+        "lang": "fr",
+        "id": "12227",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12266",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12276",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Réglez-vous",
+        "replacement": "Rendez-vous",
+        "lang": "fr",
+        "id": "12317",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12430",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Coupe-le",
+        "replacement": "Coupelle",
+        "lang": "fr",
+        "id": "12431",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "12435",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12551",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12552",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "12752",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "12838",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12902",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-elle",
+        "replacement": "va-t-elle",
+        "lang": "fr",
+        "id": "12961",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "13005",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "13022",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "c'est-à-dire",
+        "replacement": "c'c'est-à-dire",
+        "lang": "fr",
+        "id": "13049",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "13058",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "13062",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "13106",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hawai",
+        "replacement": "Hadal",
+        "lang": "fr",
+        "id": "13130",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Beatles",
+        "replacement": "Beagle",
+        "lang": "fr",
+        "id": "13146",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Beatles",
+        "replacement": "Beagle",
+        "lang": "fr",
+        "id": "13147",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hillside",
+        "replacement": "Holoside",
+        "lang": "fr",
+        "id": "13178",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hilton",
+        "replacement": "Hilote",
+        "lang": "fr",
+        "id": "13179",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "13203",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Freddie",
+        "replacement": "Freebie",
+        "lang": "fr",
+        "id": "13265",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Bakers",
+        "replacement": "Baker",
+        "lang": "fr",
+        "id": "13271",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "White",
+        "replacement": "Bite",
+        "lang": "fr",
+        "id": "13390",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "White",
+        "replacement": "Bite",
+        "lang": "fr",
+        "id": "13391",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "White",
+        "replacement": "Bite",
+        "lang": "fr",
+        "id": "13392",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "White",
+        "replacement": "Bite",
+        "lang": "fr",
+        "id": "13393",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13470",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13471",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13472",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13475",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13476",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13477",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13478",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "13537",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "13562",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Fais-le",
+        "replacement": "Aisle",
+        "lang": "fr",
+        "id": "13583",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Fais-le",
+        "replacement": "Aisle",
+        "lang": "fr",
+        "id": "13584",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "13728",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "faut-il",
+        "replacement": "faufil",
+        "lang": "fr",
+        "id": "13754",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Russel",
+        "replacement": "Russet",
+        "lang": "fr",
+        "id": "13761",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "13769",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "13782",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "grand-parents",
+        "replacement": "grands-parents",
+        "lang": "fr",
+        "id": "13783",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "13786",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "13812",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Aso",
+        "replacement": "Ado",
+        "lang": "fr",
+        "id": "13876",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "13991",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "14032",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Étendez-vous",
+        "replacement": "Rendez-vous",
+        "lang": "fr",
+        "id": "14037",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "14095",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Yamada",
+        "replacement": "Hamada",
+        "lang": "fr",
+        "id": "14284",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "14535",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "14629",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "14691",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "14826",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hisashi",
+        "replacement": "Hibachi",
+        "lang": "fr",
+        "id": "14871",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "14989",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "15081",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "15082",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "15121",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "15218",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "15290",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Whoua",
+        "replacement": "Houx",
+        "lang": "fr",
+        "id": "15781",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "119784",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "119851",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "119926",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "119927",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Fais-le",
+        "replacement": "Aisle",
+        "lang": "fr",
+        "id": "119945",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "120011",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "120098",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "120116",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "120117",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "126529",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "126539",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "126583",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "126645",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "127395",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "127396",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dégoute",
+        "replacement": "déroute",
+        "lang": "fr",
+        "id": "127657",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "127821",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "127827",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "128113",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "128126",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "préférent",
+        "replacement": "déférent",
+        "lang": "fr",
+        "id": "128300",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "128388",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "128414",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "brulé",
+        "replacement": "brûlé",
+        "lang": "fr",
+        "id": "128504",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "128518",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Patterson",
+        "replacement": "Pattern",
+        "lang": "fr",
+        "id": "128587",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Koko",
+        "replacement": "Kook",
+        "lang": "fr",
+        "id": "128587",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kanda",
+        "replacement": "Kana",
+        "lang": "fr",
+        "id": "128648",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "128769",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Seto",
+        "replacement": "Set",
+        "lang": "fr",
+        "id": "128802",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "128867",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "128965",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "129042",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "129095",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "129117",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "129137",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "129162",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "129164",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "129187",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "S'est-on",
+        "replacement": "S'feston",
+        "lang": "fr",
+        "id": "129202",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "129300",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Ikeda",
+        "replacement": "Ilea",
+        "lang": "fr",
+        "id": "129319",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kazuko",
+        "replacement": "Kazoo",
+        "lang": "fr",
+        "id": "129319",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "129359",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "ai-je",
+        "replacement": "aine",
+        "lang": "fr",
+        "id": "129383",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Naoko",
+        "replacement": "Nook",
+        "lang": "fr",
+        "id": "129419",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Naoko",
+        "replacement": "Nook",
+        "lang": "fr",
+        "id": "129420",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Tanabe",
+        "replacement": "Fanage",
+        "lang": "fr",
+        "id": "129505",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Tomei",
+        "replacement": "Atome",
+        "lang": "fr",
+        "id": "129569",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "129600",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "129614",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Nara",
+        "replacement": "Ara",
+        "lang": "fr",
+        "id": "129694",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "129710",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "129775",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Emi",
+        "replacement": "Demi",
+        "lang": "fr",
+        "id": "129787",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "natto",
+        "replacement": "natl",
+        "lang": "fr",
+        "id": "129847",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "natto",
+        "replacement": "natl",
+        "lang": "fr",
+        "id": "129848",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "129904",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "130138",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "130431",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Ogura",
+        "replacement": "Guar",
+        "lang": "fr",
+        "id": "130446",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "130500",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "130501",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Sandayu",
+        "replacement": "Sandy",
+        "lang": "fr",
+        "id": "130560",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Momochi",
+        "replacement": "Mooch",
+        "lang": "fr",
+        "id": "130560",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "c'est-à-dire",
+        "replacement": "c'c'est-à-dire",
+        "lang": "fr",
+        "id": "130643",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "T'a-t-il",
+        "replacement": "T'va-t-il",
+        "lang": "fr",
+        "id": "130670",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "T'a-t-il",
+        "replacement": "T'va-t-il",
+        "lang": "fr",
+        "id": "130672",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "130692",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "West",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "130781",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "court-il",
+        "replacement": "courtil",
+        "lang": "fr",
+        "id": "131274",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "131297",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      }
+    ]
+  },
+  "devProd": {
+    "appliedPrecision": 61.06469788226151,
+    "recallD1": 42.997474038731404,
+    "cleanFp": 402,
+    "cleanTokens": 127035,
+    "cleanFpr": 0.3164482229306884,
+    "p95Latency": 0.18474699999933364,
+    "en": {
+      "precision": 72.473604826546,
+      "recallD1": 53.14447592067989,
+      "cleanFp": 99,
+      "cleanTokens": 63059,
+      "cleanFpr": 0.1569958293027165
+    },
+    "fr": {
+      "precision": 48.93787575150301,
+      "recallD1": 33.03670745272525,
+      "cleanFp": 303,
+      "cleanTokens": 63976,
+      "cleanFpr": 0.4736151056646242
+    },
+    "cleanFpTokens": [
+      {
+        "token": "people:",
+        "replacement": "people",
+        "lang": "en",
+        "id": "1794",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Katja",
+        "replacement": "Karma",
+        "lang": "en",
+        "id": "1903",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Trang's",
+        "replacement": "Range's",
+        "lang": "en",
+        "id": "1908",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Eichler",
+        "replacement": "Enculer",
+        "lang": "en",
+        "id": "1928",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "heirless",
+        "replacement": "heiress",
+        "lang": "en",
+        "id": "1942",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Maury",
+        "replacement": "Marry",
+        "lang": "en",
+        "id": "1957",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "neighbors'",
+        "replacement": "neighbor",
+        "lang": "en",
+        "id": "1998",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "are:",
+        "replacement": "are",
+        "lang": "en",
+        "id": "2209",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Trang",
+        "replacement": "Rang",
+        "lang": "en",
+        "id": "2257",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "pre-conceived",
+        "replacement": "preconceive",
+        "lang": "en",
+        "id": "2288",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Nara",
+        "replacement": "Ara",
+        "lang": "en",
+        "id": "2299",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "favour",
+        "replacement": "favor",
+        "lang": "en",
+        "id": "6124",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "others'",
+        "replacement": "other",
+        "lang": "en",
+        "id": "15925",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "'guy'",
+        "replacement": "Guy",
+        "lang": "en",
+        "id": "17097",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "T-shirt",
+        "replacement": "Shirt",
+        "lang": "en",
+        "id": "17427",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "judgement",
+        "replacement": "judgment",
+        "lang": "en",
+        "id": "17917",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "parents'",
+        "replacement": "parental",
+        "lang": "en",
+        "id": "18361",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Tokyu",
+        "replacement": "Tout",
+        "lang": "en",
+        "id": "18407",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kondo",
+        "replacement": "Kind",
+        "lang": "en",
+        "id": "18653",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "no-smoking",
+        "replacement": "nonsmoking",
+        "lang": "en",
+        "id": "18810",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "non-smoking",
+        "replacement": "nonsmoking",
+        "lang": "en",
+        "id": "18811",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "non-smoking",
+        "replacement": "nonsmoking",
+        "lang": "en",
+        "id": "18812",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "non-smoking",
+        "replacement": "nonsmoking",
+        "lang": "en",
+        "id": "18822",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "recently",
+        "replacement": "recent",
+        "lang": "en",
+        "id": "18901",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "X-ray",
+        "replacement": "Ray",
+        "lang": "en",
+        "id": "18945",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "behaviour",
+        "replacement": "behavior",
+        "lang": "en",
+        "id": "18961",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Keiyo",
+        "replacement": "Keto",
+        "lang": "en",
+        "id": "19284",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Sky-Liner",
+        "replacement": "skyline",
+        "lang": "en",
+        "id": "19331",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kyoko",
+        "replacement": "Kook",
+        "lang": "en",
+        "id": "19334",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "cold-blooded",
+        "replacement": "coldblooded",
+        "lang": "en",
+        "id": "19344",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Chunichi",
+        "replacement": "Chichi",
+        "lang": "en",
+        "id": "19397",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Nagano",
+        "replacement": "Naan",
+        "lang": "en",
+        "id": "19440",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "light-headed",
+        "replacement": "lightheaded",
+        "lang": "en",
+        "id": "19616",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "non-smokers",
+        "replacement": "nonsmoker",
+        "lang": "en",
+        "id": "19926",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "e-mail",
+        "replacement": "email",
+        "lang": "en",
+        "id": "20158",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Koko",
+        "replacement": "Kook",
+        "lang": "en",
+        "id": "20200",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Reporter:",
+        "replacement": "Reported",
+        "lang": "en",
+        "id": "20201",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "good-bye",
+        "replacement": "goodbye",
+        "lang": "en",
+        "id": "20269",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Chama's",
+        "replacement": "Chamade",
+        "lang": "en",
+        "id": "20542",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Shougo",
+        "replacement": "Shout",
+        "lang": "en",
+        "id": "20775",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "close-up",
+        "replacement": "closeup",
+        "lang": "en",
+        "id": "20835",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "else's",
+        "replacement": "else",
+        "lang": "en",
+        "id": "20851",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Genji",
+        "replacement": "Genii",
+        "lang": "en",
+        "id": "21191",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "PTAs",
+        "replacement": "pas",
+        "lang": "en",
+        "id": "21740",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "travelling",
+        "replacement": "raveling",
+        "lang": "en",
+        "id": "21869",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "half-way",
+        "replacement": "halfway",
+        "lang": "en",
+        "id": "22290",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "rumour",
+        "replacement": "rumor",
+        "lang": "en",
+        "id": "22461",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "catalogues",
+        "replacement": "catalogue",
+        "lang": "en",
+        "id": "22599",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "'flu",
+        "replacement": "Flu",
+        "lang": "en",
+        "id": "22634",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "citizens'",
+        "replacement": "citizen",
+        "lang": "en",
+        "id": "22991",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "hours'",
+        "replacement": "hour",
+        "lang": "en",
+        "id": "23298",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "judgement",
+        "replacement": "judgment",
+        "lang": "en",
+        "id": "23346",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "spilt",
+        "replacement": "silt",
+        "lang": "en",
+        "id": "23651",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hanako",
+        "replacement": "Hanap",
+        "lang": "en",
+        "id": "23711",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hanako",
+        "replacement": "Hanap",
+        "lang": "en",
+        "id": "23713",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hanako",
+        "replacement": "Hanap",
+        "lang": "en",
+        "id": "23716",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hanako",
+        "replacement": "Hanap",
+        "lang": "en",
+        "id": "23718",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hanako",
+        "replacement": "Hanap",
+        "lang": "en",
+        "id": "23720",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hanako",
+        "replacement": "Hanap",
+        "lang": "en",
+        "id": "23721",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hanako",
+        "replacement": "Hanap",
+        "lang": "en",
+        "id": "23722",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Shinji",
+        "replacement": "Shiny",
+        "lang": "en",
+        "id": "23861",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "goin'",
+        "replacement": "going",
+        "lang": "en",
+        "id": "24224",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "en",
+        "id": "24405",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "en",
+        "id": "24406",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "en",
+        "id": "24407",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "en",
+        "id": "24409",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "en",
+        "id": "24411",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hakata",
+        "replacement": "Hakama",
+        "lang": "en",
+        "id": "24576",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "check-in",
+        "replacement": "check-up",
+        "lang": "en",
+        "id": "24601",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hirayama",
+        "replacement": "Hiragana",
+        "lang": "en",
+        "id": "24874",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hirayama",
+        "replacement": "Hiragana",
+        "lang": "en",
+        "id": "24875",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "movin'",
+        "replacement": "moving",
+        "lang": "en",
+        "id": "25497",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "shorn",
+        "replacement": "horn",
+        "lang": "en",
+        "id": "25642",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "minutes'",
+        "replacement": "minute",
+        "lang": "en",
+        "id": "25978",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "minutes'",
+        "replacement": "minute",
+        "lang": "en",
+        "id": "25982",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "'lie'",
+        "replacement": "Lie",
+        "lang": "en",
+        "id": "26227",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "'lay'",
+        "replacement": "Lay",
+        "lang": "en",
+        "id": "26227",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Ghoti",
+        "replacement": "Ghoul",
+        "lang": "en",
+        "id": "26312",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Yamada",
+        "replacement": "Hamada",
+        "lang": "en",
+        "id": "26375",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "lying-",
+        "replacement": "lying",
+        "lang": "en",
+        "id": "26659",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "cancelled",
+        "replacement": "canceler",
+        "lang": "en",
+        "id": "26777",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Fujita",
+        "replacement": "Fajita",
+        "lang": "en",
+        "id": "26845",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "cancelled",
+        "replacement": "canceler",
+        "lang": "en",
+        "id": "26933",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Ichiro",
+        "replacement": "Chirp",
+        "lang": "en",
+        "id": "27173",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "hours'",
+        "replacement": "hour",
+        "lang": "en",
+        "id": "27299",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "electro-magnetic",
+        "replacement": "electromagnetic",
+        "lang": "en",
+        "id": "27412",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "all-day",
+        "replacement": "allay",
+        "lang": "en",
+        "id": "27430",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "travelling",
+        "replacement": "raveling",
+        "lang": "en",
+        "id": "27644",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Isoda",
+        "replacement": "Coda",
+        "lang": "en",
+        "id": "27878",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Inoue",
+        "replacement": "Nous",
+        "lang": "en",
+        "id": "27882",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "What'd",
+        "replacement": "What's",
+        "lang": "en",
+        "id": "28001",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "this:",
+        "replacement": "this",
+        "lang": "en",
+        "id": "28133",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "settlers'",
+        "replacement": "settle's",
+        "lang": "en",
+        "id": "28169",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Aoki",
+        "replacement": "Aloi",
+        "lang": "en",
+        "id": "28182",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Ando",
+        "replacement": "And",
+        "lang": "en",
+        "id": "28475",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "handshakes:",
+        "replacement": "handshake",
+        "lang": "en",
+        "id": "28512",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Aoi",
+        "replacement": "Api",
+        "lang": "en",
+        "id": "28671",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "recognise",
+        "replacement": "recognize",
+        "lang": "en",
+        "id": "28755",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "wont",
+        "replacement": "won't",
+        "lang": "en",
+        "id": "28859",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3094",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3106",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3142",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3150",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3170",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Trang",
+        "replacement": "Gang",
+        "lang": "fr",
+        "id": "3181",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3221",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3242",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "ai-je",
+        "replacement": "aine",
+        "lang": "fr",
+        "id": "3265",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3276",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "3285",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3289",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "emails",
+        "replacement": "email",
+        "lang": "fr",
+        "id": "3303",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3320",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "3376",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "3403",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3410",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3430",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "3437",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3467",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3481",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "qu'est-ce",
+        "replacement": "qu'este",
+        "lang": "fr",
+        "id": "3531",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3549",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3570",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3575",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Antigua",
+        "replacement": "Antifa",
+        "lang": "fr",
+        "id": "3575",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3583",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3584",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "lis-le",
+        "replacement": "lisle",
+        "lang": "fr",
+        "id": "3625",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "raison",
+        "replacement": "raisin",
+        "lang": "fr",
+        "id": "3640",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "rien",
+        "replacement": "rein",
+        "lang": "fr",
+        "id": "3642",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "3688",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Aaah",
+        "replacement": "Aah",
+        "lang": "fr",
+        "id": "3734",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "3735",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Warcraft",
+        "replacement": "Aircraft",
+        "lang": "fr",
+        "id": "3736",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Eichler",
+        "replacement": "Enculer",
+        "lang": "fr",
+        "id": "3751",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "3758",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Maury",
+        "replacement": "Marry",
+        "lang": "fr",
+        "id": "3773",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "3774",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "rancoeur",
+        "replacement": "rancor",
+        "lang": "fr",
+        "id": "3782",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Spenser",
+        "replacement": "Dispenser",
+        "lang": "fr",
+        "id": "3796",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "3855",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "3880",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "3912",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "qu’est-ce",
+        "replacement": "qu’este",
+        "lang": "fr",
+        "id": "3916",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "3916",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Dis-leur",
+        "replacement": "Diseur",
+        "lang": "fr",
+        "id": "3933",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "d’Eden",
+        "replacement": "d’Éden",
+        "lang": "fr",
+        "id": "4014",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Cavalieri",
+        "replacement": "Cavalier",
+        "lang": "fr",
+        "id": "4018",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "4080",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "4099",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "4151",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "4279",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Trang",
+        "replacement": "Rang",
+        "lang": "fr",
+        "id": "4346",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "4361",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "6256",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "6428",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Kenji",
+        "replacement": "Kanji",
+        "lang": "fr",
+        "id": "6585",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Sanda",
+        "replacement": "Sans",
+        "lang": "fr",
+        "id": "6659",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "m'a-t-il",
+        "replacement": "m'va-t-il",
+        "lang": "fr",
+        "id": "6688",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "7395",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Wars",
+        "replacement": "Ars",
+        "lang": "fr",
+        "id": "7531",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "7539",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "7587",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "7591",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Ichiro",
+        "replacement": "Chirp",
+        "lang": "fr",
+        "id": "7705",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "7906",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "7926",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "7939",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "8040",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "8101",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Yamada",
+        "replacement": "Hamada",
+        "lang": "fr",
+        "id": "8229",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Yamada",
+        "replacement": "Hamada",
+        "lang": "fr",
+        "id": "8230",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "8300",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Burns",
+        "replacement": "Burne",
+        "lang": "fr",
+        "id": "8335",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "c'est-à-dire",
+        "replacement": "c'c'est-à-dire",
+        "lang": "fr",
+        "id": "8362",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "8460",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "8493",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Narita",
+        "replacement": "Aria",
+        "lang": "fr",
+        "id": "8504",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "8570",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Donne-le",
+        "replacement": "Donnerie",
+        "lang": "fr",
+        "id": "8634",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "8663",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kenji",
+        "replacement": "Kanji",
+        "lang": "fr",
+        "id": "8749",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kenzi",
+        "replacement": "Keno",
+        "lang": "fr",
+        "id": "8799",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kenji",
+        "replacement": "Kanji",
+        "lang": "fr",
+        "id": "8800",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Keiko",
+        "replacement": "Kilo",
+        "lang": "fr",
+        "id": "8893",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "N'es-tu",
+        "replacement": "N'est",
+        "lang": "fr",
+        "id": "8928",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "8953",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "8964",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "8977",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "9027",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "9114",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "faut-il",
+        "replacement": "faufil",
+        "lang": "fr",
+        "id": "9211",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "9283",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "1er",
+        "replacement": "Er",
+        "lang": "fr",
+        "id": "9317",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Edo",
+        "replacement": "Do",
+        "lang": "fr",
+        "id": "9464",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "9511",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "9528",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "9541",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "fr",
+        "id": "9625",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kato",
+        "replacement": "Kayo",
+        "lang": "fr",
+        "id": "9627",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "9691",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "faut-il",
+        "replacement": "faufil",
+        "lang": "fr",
+        "id": "9735",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "9748",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "9750",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "9788",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "9827",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "entrainant",
+        "replacement": "entraînant",
+        "lang": "fr",
+        "id": "9867",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "ainé",
+        "replacement": "aîné",
+        "lang": "fr",
+        "id": "9928",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "9931",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "9940",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "9961",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "9986",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "9990",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "foods",
+        "replacement": "fors",
+        "lang": "fr",
+        "id": "10081",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Nanyo",
+        "replacement": "Banjo",
+        "lang": "fr",
+        "id": "10081",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Airlines",
+        "replacement": "Airline",
+        "lang": "fr",
+        "id": "10126",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "10141",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "10171",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "10222",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "10268",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "10271",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "10311",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "10379",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "10383",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "10406",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "10414",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "10416",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "10436",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "10438",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "10478",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "10559",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "10688",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Eliot",
+        "replacement": "Elbot",
+        "lang": "fr",
+        "id": "10791",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "N'ai-je",
+        "replacement": "N'aine",
+        "lang": "fr",
+        "id": "10841",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "11047",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hotel",
+        "replacement": "Hôtel",
+        "lang": "fr",
+        "id": "11068",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "prenez-vous",
+        "replacement": "rendez-vous",
+        "lang": "fr",
+        "id": "11137",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "11156",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "faut-il",
+        "replacement": "faufil",
+        "lang": "fr",
+        "id": "11157",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hilton",
+        "replacement": "Hilote",
+        "lang": "fr",
+        "id": "11157",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "11158",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "11160",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "faut-il",
+        "replacement": "faufil",
+        "lang": "fr",
+        "id": "11161",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11178",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Vendez-vous",
+        "replacement": "Rendez-vous",
+        "lang": "fr",
+        "id": "11197",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Koko",
+        "replacement": "Kook",
+        "lang": "fr",
+        "id": "11265",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11273",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11274",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "11347",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11464",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11467",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "11478",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "11492",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11500",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11508",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "11513",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "11535",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11547",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Sazae",
+        "replacement": "Salad",
+        "lang": "fr",
+        "id": "11624",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "11674",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "11711",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "11734",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "11763",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "ainé",
+        "replacement": "aîné",
+        "lang": "fr",
+        "id": "11778",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "11915",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "abimée",
+        "replacement": "abîmer",
+        "lang": "fr",
+        "id": "12070",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "12125",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12179",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-elle",
+        "replacement": "va-t-elle",
+        "lang": "fr",
+        "id": "12216",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kenji",
+        "replacement": "Kanji",
+        "lang": "fr",
+        "id": "12227",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12266",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12276",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Réglez-vous",
+        "replacement": "Rendez-vous",
+        "lang": "fr",
+        "id": "12317",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12430",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Coupe-le",
+        "replacement": "Coupelle",
+        "lang": "fr",
+        "id": "12431",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "12435",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12551",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12552",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "12752",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "12838",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "12902",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-elle",
+        "replacement": "va-t-elle",
+        "lang": "fr",
+        "id": "12961",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "13005",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "13022",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "c'est-à-dire",
+        "replacement": "c'c'est-à-dire",
+        "lang": "fr",
+        "id": "13049",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "13058",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "13062",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hawai",
+        "replacement": "Hadal",
+        "lang": "fr",
+        "id": "13130",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Beatles",
+        "replacement": "Beagle",
+        "lang": "fr",
+        "id": "13146",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Beatles",
+        "replacement": "Beagle",
+        "lang": "fr",
+        "id": "13147",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hideo",
+        "replacement": "Hide",
+        "lang": "fr",
+        "id": "13161",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hillside",
+        "replacement": "Holoside",
+        "lang": "fr",
+        "id": "13178",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hilton",
+        "replacement": "Hilote",
+        "lang": "fr",
+        "id": "13179",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "13203",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Freddie",
+        "replacement": "Freebie",
+        "lang": "fr",
+        "id": "13265",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Bakers",
+        "replacement": "Baker",
+        "lang": "fr",
+        "id": "13271",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "White",
+        "replacement": "Bite",
+        "lang": "fr",
+        "id": "13390",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13470",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13471",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13472",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13475",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13476",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13477",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "13478",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "13537",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "13562",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Fais-le",
+        "replacement": "Aisle",
+        "lang": "fr",
+        "id": "13583",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Fais-le",
+        "replacement": "Aisle",
+        "lang": "fr",
+        "id": "13584",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "13728",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "faut-il",
+        "replacement": "faufil",
+        "lang": "fr",
+        "id": "13754",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "13769",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "13782",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "grand-parents",
+        "replacement": "grands-parents",
+        "lang": "fr",
+        "id": "13783",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "13786",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "13812",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Aso",
+        "replacement": "Ado",
+        "lang": "fr",
+        "id": "13876",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "13991",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "14032",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Étendez-vous",
+        "replacement": "Rendez-vous",
+        "lang": "fr",
+        "id": "14037",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "14095",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Yamada",
+        "replacement": "Hamada",
+        "lang": "fr",
+        "id": "14284",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "14535",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "14629",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "14691",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "14826",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Hisashi",
+        "replacement": "Hibachi",
+        "lang": "fr",
+        "id": "14871",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "14989",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "15081",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Mayuko",
+        "replacement": "Mayo",
+        "lang": "fr",
+        "id": "15082",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "15121",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "15218",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "15290",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "119784",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "119851",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "119926",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "119927",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Fais-le",
+        "replacement": "Aisle",
+        "lang": "fr",
+        "id": "119945",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "120011",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "120098",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "est-ce",
+        "replacement": "este",
+        "lang": "fr",
+        "id": "120116",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "120117",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "126529",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "126539",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "126583",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Qu'est-ce",
+        "replacement": "Qu'este",
+        "lang": "fr",
+        "id": "126645",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "127395",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "127396",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dégoute",
+        "replacement": "déroute",
+        "lang": "fr",
+        "id": "127657",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "127821",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "127827",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "es-tu",
+        "replacement": "est",
+        "lang": "fr",
+        "id": "128126",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "préférent",
+        "replacement": "déférent",
+        "lang": "fr",
+        "id": "128300",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Es-tu",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "128388",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "128414",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "brulé",
+        "replacement": "brûlé",
+        "lang": "fr",
+        "id": "128504",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "128518",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Patterson",
+        "replacement": "Pattern",
+        "lang": "fr",
+        "id": "128587",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Koko",
+        "replacement": "Kook",
+        "lang": "fr",
+        "id": "128587",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kanda",
+        "replacement": "Kana",
+        "lang": "fr",
+        "id": "128648",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "128769",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "Seto",
+        "replacement": "Set",
+        "lang": "fr",
+        "id": "128802",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "128965",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "129042",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "129095",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "129117",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "129137",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "grandi",
+        "replacement": "grand",
+        "lang": "fr",
+        "id": "129149",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "129162",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "dont",
+        "replacement": "don't",
+        "lang": "fr",
+        "id": "129164",
+        "reason": "Curated English rule"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "129187",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "S'est-on",
+        "replacement": "S'feston",
+        "lang": "fr",
+        "id": "129202",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "129300",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Ikeda",
+        "replacement": "Ilea",
+        "lang": "fr",
+        "id": "129319",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Kazuko",
+        "replacement": "Kazoo",
+        "lang": "fr",
+        "id": "129319",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "129359",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "ai-je",
+        "replacement": "aine",
+        "lang": "fr",
+        "id": "129383",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Naoko",
+        "replacement": "Nook",
+        "lang": "fr",
+        "id": "129419",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Naoko",
+        "replacement": "Nook",
+        "lang": "fr",
+        "id": "129420",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Tanabe",
+        "replacement": "Fanage",
+        "lang": "fr",
+        "id": "129505",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Tomei",
+        "replacement": "Time",
+        "lang": "fr",
+        "id": "129569",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "plait",
+        "replacement": "aplat",
+        "lang": "fr",
+        "id": "129600",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "a-t-il",
+        "replacement": "va-t-il",
+        "lang": "fr",
+        "id": "129614",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Nara",
+        "replacement": "Ara",
+        "lang": "fr",
+        "id": "129694",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "129710",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "129775",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Emi",
+        "replacement": "Demi",
+        "lang": "fr",
+        "id": "129787",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "natto",
+        "replacement": "natl",
+        "lang": "fr",
+        "id": "129847",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "natto",
+        "replacement": "natl",
+        "lang": "fr",
+        "id": "129848",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Est-ce",
+        "replacement": "Este",
+        "lang": "fr",
+        "id": "129904",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "130431",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Ogura",
+        "replacement": "Guar",
+        "lang": "fr",
+        "id": "130446",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "130500",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "130501",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Sandayu",
+        "replacement": "Sandy",
+        "lang": "fr",
+        "id": "130560",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "Momochi",
+        "replacement": "Mooch",
+        "lang": "fr",
+        "id": "130560",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "c'est-à-dire",
+        "replacement": "c'c'est-à-dire",
+        "lang": "fr",
+        "id": "130643",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "T'a-t-il",
+        "replacement": "T'va-t-il",
+        "lang": "fr",
+        "id": "130670",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "T'a-t-il",
+        "replacement": "T'va-t-il",
+        "lang": "fr",
+        "id": "130672",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "États-Unis",
+        "replacement": "états-unien",
+        "lang": "fr",
+        "id": "130692",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "West",
+        "replacement": "Est",
+        "lang": "fr",
+        "id": "130781",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "court-il",
+        "replacement": "courtil",
+        "lang": "fr",
+        "id": "131274",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      },
+      {
+        "token": "n'est-ce",
+        "replacement": "n'este",
+        "lang": "fr",
+        "id": "131297",
+        "reason": "Passed distance, frequency and confidence thresholds"
+      }
+    ]
+  },
+  "testOracle": {
+    "appliedPrecision": 62.62178919397697,
+    "recallD1": 45.031528593172425,
+    "cleanFp": 276,
+    "cleanTokens": 84238,
+    "cleanFpr": 0.32764310643652506,
+    "p95Latency": 0.03319200000260025,
+    "en": {
+      "precision": 75.28868360277137,
+      "recallD1": 55.01519756838906,
+      "cleanFp": 72,
+      "cleanTokens": 42004,
+      "cleanFpr": 0.1714122464527188
+    },
+    "fr": {
+      "precision": 49.36555891238671,
+      "recallD1": 35.01742160278746,
+      "cleanFp": 204,
+      "cleanTokens": 42234,
+      "cleanFpr": 0.4830231566983947
+    }
+  },
+  "testProd": {
+    "appliedPrecision": 61.44936144936145,
+    "recallD1": 43.90084801043705,
+    "cleanFp": 261,
+    "cleanTokens": 84238,
+    "cleanFpr": 0.30983641586932265,
+    "p95Latency": 0.1802179999940563,
+    "en": {
+      "precision": 71.83972911963883,
+      "recallD1": 53.669127225358224,
+      "cleanFp": 73,
+      "cleanTokens": 42004,
+      "cleanFpr": 0.17379297209789543
+    },
+    "fr": {
+      "precision": 49.905956112852664,
+      "recallD1": 34.102787456445995,
+      "cleanFp": 188,
+      "cleanTokens": 42234,
+      "cleanFpr": 0.4451389875455794
+    }
+  }
+}

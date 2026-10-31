@@ -1,0 +1,34 @@
+[
+  {
+    "name": "500 <p> paragraphs",
+    "n": 300,
+    "p50": 0,
+    "p95": 0,
+    "extractedLength": 30,
+    "segmentCount": 1
+  },
+  {
+    "name": "flat 10k words in many text nodes",
+    "n": 300,
+    "p50": 0,
+    "p95": 0,
+    "extractedLength": 500,
+    "segmentCount": 2
+  },
+  {
+    "name": "<br>-separated with inline spans",
+    "n": 300,
+    "p50": 0,
+    "p95": 0,
+    "extractedLength": 15,
+    "segmentCount": 1
+  },
+  {
+    "name": "deeply nested divs (depth 25)",
+    "n": 300,
+    "p50": 0,
+    "p95": 0,
+    "extractedLength": 40,
+    "segmentCount": 1
+  }
+]

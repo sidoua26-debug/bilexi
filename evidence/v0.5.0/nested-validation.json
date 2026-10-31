@@ -1,0 +1,61 @@
+{
+  "nestedSeed": 20261018,
+  "partitions": {
+    "devTotal": 16720,
+    "tuneFoldCount": 13376,
+    "checkFoldCount": 3344,
+    "heldOutCount": 11041
+  },
+  "results": {
+    "tune": {
+      "partition": "Dev Tune-Fold (80%)",
+      "sentences": 13376,
+      "precisionOverall": 96.98133918770581,
+      "precisionEn": 97.60217983651226,
+      "precisionFr": 96.35157545605307,
+      "combinedRecallD1": 77.96700372538584,
+      "autoRecallD1": 60.75926911477736,
+      "cleanFprOverall": 0.015773492645609052,
+      "cleanFprEn": 0.013946723516168236,
+      "cleanFprFr": 0.017562689042833445,
+      "cleanFpTokens": 16,
+      "cleanTotalTokens": 101436
+    },
+    "check": {
+      "partition": "Dev Check-Fold (20%)",
+      "sentences": 3344,
+      "precisionOverall": 96.74887892376681,
+      "precisionEn": 97.47706422018348,
+      "precisionFr": 96.05263157894737,
+      "combinedRecallD1": 79.13669064748201,
+      "autoRecallD1": 60.143884892086334,
+      "cleanFprOverall": 0.01562561037540529,
+      "cleanFprEn": 0.023313646254274168,
+      "cleanFprFr": 0.007854842510407667,
+      "cleanFpTokens": 4,
+      "cleanTotalTokens": 25599
+    },
+    "heldOut": {
+      "partition": "Held-Out Test Split",
+      "sentences": 11041,
+      "precisionOverall": 96.80242342645575,
+      "precisionEn": 97.27755644090306,
+      "precisionFr": 96.31399317406142,
+      "combinedRecallD1": 77.23418134377039,
+      "autoRecallD1": 60.665362035225044,
+      "cleanFprOverall": 0.013058239749281797,
+      "cleanFprEn": 0.01666507951623655,
+      "cleanFprFr": 0.009471042288203816,
+      "cleanFpTokens": 11,
+      "cleanTotalTokens": 84238
+    }
+  },
+  "analysis": {
+    "precisionDeltaCheckVsTune": 0.23246026393900365,
+    "recallDeltaCheckVsTune": 1.1696869220961759,
+    "isOverfit": false,
+    "heldOutEnPass": true,
+    "heldOutFrPass": false,
+    "heldOutBothPass": false
+  }
+}

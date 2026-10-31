@@ -1,0 +1,294 @@
+{
+  "timestamp": "2026-10-18T12:48:21.713Z",
+  "ngramByteSize": 120016,
+  "realWordCollisions": {
+    "totalD1Typos": 7126,
+    "nonWordTypos": 6536,
+    "realWordCollisions": 590,
+    "collisionRate": 8.27953971372439,
+    "theoreticalMaxRecall": 91.72046028627561,
+    "collisionExamples": [
+      {
+        "original": "much",
+        "noisy": "mich",
+        "lang": "en",
+        "type": "substitution"
+      },
+      {
+        "original": "may",
+        "noisy": "mag",
+        "lang": "en",
+        "type": "substitution"
+      },
+      {
+        "original": "week",
+        "noisy": "wee",
+        "lang": "en",
+        "type": "omission"
+      },
+      {
+        "original": "can't",
+        "noisy": "cant",
+        "lang": "en",
+        "type": "omission"
+      },
+      {
+        "original": "meet",
+        "noisy": "met",
+        "lang": "en",
+        "type": "omission"
+      },
+      {
+        "original": "It's",
+        "noisy": "I's",
+        "lang": "en",
+        "type": "omission"
+      },
+      {
+        "original": "glass",
+        "noisy": "glads",
+        "lang": "en",
+        "type": "substitution"
+      },
+      {
+        "original": "not",
+        "noisy": "nor",
+        "lang": "en",
+        "type": "substitution"
+      },
+      {
+        "original": "they",
+        "noisy": "thy",
+        "lang": "en",
+        "type": "omission"
+      },
+      {
+        "original": "told",
+        "noisy": "tod",
+        "lang": "en",
+        "type": "omission"
+      },
+      {
+        "original": "good",
+        "noisy": "goo",
+        "lang": "en",
+        "type": "omission"
+      },
+      {
+        "original": "wants",
+        "noisy": "wats",
+        "lang": "en",
+        "type": "omission"
+      },
+      {
+        "original": "cute",
+        "noisy": "cut",
+        "lang": "en",
+        "type": "omission"
+      },
+      {
+        "original": "last",
+        "noisy": "lsat",
+        "lang": "en",
+        "type": "transposition"
+      },
+      {
+        "original": "earned",
+        "noisy": "eared",
+        "lang": "en",
+        "type": "omission"
+      },
+      {
+        "original": "Sven",
+        "noisy": "Svn",
+        "lang": "en",
+        "type": "omission"
+      },
+      {
+        "original": "his",
+        "noisy": "hie",
+        "lang": "en",
+        "type": "substitution"
+      },
+      {
+        "original": "and",
+        "noisy": "amd",
+        "lang": "en",
+        "type": "substitution"
+      },
+      {
+        "original": "time",
+        "noisy": "tie",
+        "lang": "en",
+        "type": "omission"
+      },
+      {
+        "original": "and",
+        "noisy": "ans",
+        "lang": "en",
+        "type": "substitution"
+      }
+    ]
+  },
+  "bootstrap": {
+    "devProduction": {
+      "withNgram": {
+        "precision": {
+          "mean": 91.67222444177285,
+          "lower": 90.98995223192226,
+          "upper": 92.35709698137444
+        },
+        "recallD1": {
+          "mean": 77.8200044277567,
+          "lower": 76.82229965156795,
+          "upper": 78.73861247372109
+        },
+        "cleanFpr": {
+          "mean": 0.0678074335519076,
+          "lower": 0.054434004686057795,
+          "upper": 0.08267846737743902
+        }
+      },
+      "withoutNgram": {
+        "precision": {
+          "mean": 90.75027330990243,
+          "lower": 90.03490955252302,
+          "upper": 91.4417379855168
+        },
+        "recallD1": {
+          "mean": 76.26380087679652,
+          "lower": 75.27105921601334,
+          "upper": 77.16272600834493
+        },
+        "cleanFpr": {
+          "mean": 0.0694412183943609,
+          "lower": 0.05540999437984343,
+          "upper": 0.08473445946476066
+        }
+      },
+      "delta": {
+        "precision": {
+          "mean": 0.9219511318704541,
+          "lower": 0.6176328734702281,
+          "upper": 1.2362254160473611
+        },
+        "recallD1": {
+          "mean": 1.556203550960162,
+          "lower": 1.2074947952810362,
+          "upper": 1.9097467817230154
+        },
+        "cleanFpr": {
+          "mean": -0.001633784842453165,
+          "lower": -0.0039396446440531085,
+          "upper": 0
+        }
+      }
+    },
+    "devOracle": {
+      "withNgram": {
+        "precision": {
+          "mean": 92.01490197802076,
+          "lower": 91.34789032999507,
+          "upper": 92.68062332756179
+        },
+        "recallD1": {
+          "mean": 78.39194821888906,
+          "lower": 77.39839646115566,
+          "upper": 79.29988974641677
+        },
+        "cleanFpr": {
+          "mean": 0.07015745306526688,
+          "lower": 0.05611095744260482,
+          "upper": 0.08452423810790928
+        }
+      },
+      "withoutNgram": {
+        "precision": {
+          "mean": 91.0994139824448,
+          "lower": 90.43265306122449,
+          "upper": 91.7596429709914
+        },
+        "recallD1": {
+          "mean": 76.83574466792908,
+          "lower": 75.85917854149203,
+          "upper": 77.73574709537962
+        },
+        "cleanFpr": {
+          "mean": 0.07179123790772009,
+          "lower": 0.05792654288129755,
+          "upper": 0.08677474066185462
+        }
+      },
+      "delta": {
+        "precision": {
+          "mean": 0.9154879955759067,
+          "lower": 0.6120220217968892,
+          "upper": 1.2295647591684116
+        },
+        "recallD1": {
+          "mean": 1.5562035509601628,
+          "lower": 1.2074947952810504,
+          "upper": 1.9097467817230154
+        },
+        "cleanFpr": {
+          "mean": -0.0016337848424531648,
+          "lower": -0.0039396446440531085,
+          "upper": 0
+        }
+      }
+    },
+    "testProduction": {
+      "withNgram": {
+        "precision": {
+          "mean": 91.70075805400937,
+          "lower": 90.79435783221975,
+          "upper": 92.52615844544096
+        },
+        "recallD1": {
+          "mean": 77.33399574427389,
+          "lower": 76.11746922910818,
+          "upper": 78.55603448275862
+        },
+        "cleanFpr": {
+          "mean": 0.07714850262153768,
+          "lower": 0.060340747752011356,
+          "upper": 0.0968157077582441
+        }
+      },
+      "withoutNgram": {
+        "precision": {
+          "mean": 90.74164280863528,
+          "lower": 89.81151299032094,
+          "upper": 91.6540595057993
+        },
+        "recallD1": {
+          "mean": 75.79811801323426,
+          "lower": 74.59389213775178,
+          "upper": 77.00777202072538
+        },
+        "cleanFpr": {
+          "mean": 0.07828765730799175,
+          "lower": 0.06090133982947624,
+          "upper": 0.09828533535430088
+        }
+      },
+      "delta": {
+        "precision": {
+          "mean": 0.9591152453741721,
+          "lower": 0.6141276823436783,
+          "upper": 1.3363625277518167
+        },
+        "recallD1": {
+          "mean": 1.5358777310397345,
+          "lower": 1.1422413793103487,
+          "upper": 1.8987341772151893
+        },
+        "cleanFpr": {
+          "mean": -0.001139154686453998,
+          "lower": -0.0035779455436688312,
+          "upper": 0
+        }
+      }
+    }
+  }
+}

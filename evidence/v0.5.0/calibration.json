@@ -1,0 +1,88 @@
+{
+  "timestamp": "2026-10-18T12:51:36.750Z",
+  "status": "display-only (does not gate actions)",
+  "dev": {
+    "brierScore": 0.0843,
+    "ece": 4.46,
+    "samples": 6307,
+    "bins": [
+      {
+        "binLower": 0.5,
+        "binUpper": 0.6,
+        "count": 275,
+        "avgConfidence": 0.5259,
+        "accuracy": 0.5673
+      },
+      {
+        "binLower": 0.6,
+        "binUpper": 0.7,
+        "count": 314,
+        "avgConfidence": 0.6569,
+        "accuracy": 0.8471
+      },
+      {
+        "binLower": 0.7,
+        "binUpper": 0.8,
+        "count": 830,
+        "avgConfidence": 0.7555,
+        "accuracy": 0.8639
+      },
+      {
+        "binLower": 0.8,
+        "binUpper": 0.9,
+        "count": 2040,
+        "avgConfidence": 0.8575,
+        "accuracy": 0.9123
+      },
+      {
+        "binLower": 0.9,
+        "binUpper": 1,
+        "count": 2848,
+        "avgConfidence": 0.9521,
+        "accuracy": 0.9491
+      }
+    ]
+  },
+  "test": {
+    "brierScore": 0.0845,
+    "ece": 4.69,
+    "samples": 4048,
+    "bins": [
+      {
+        "binLower": 0.5,
+        "binUpper": 0.6,
+        "count": 198,
+        "avgConfidence": 0.5248,
+        "accuracy": 0.4848
+      },
+      {
+        "binLower": 0.6,
+        "binUpper": 0.7,
+        "count": 200,
+        "avgConfidence": 0.6565,
+        "accuracy": 0.885
+      },
+      {
+        "binLower": 0.7,
+        "binUpper": 0.8,
+        "count": 500,
+        "avgConfidence": 0.7576,
+        "accuracy": 0.886
+      },
+      {
+        "binLower": 0.8,
+        "binUpper": 0.9,
+        "count": 1375,
+        "avgConfidence": 0.8573,
+        "accuracy": 0.9084
+      },
+      {
+        "binLower": 0.9,
+        "binUpper": 1,
+        "count": 1775,
+        "avgConfidence": 0.9515,
+        "accuracy": 0.9504
+      }
+    ]
+  }
+}

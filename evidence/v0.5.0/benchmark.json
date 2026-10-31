@@ -1,0 +1,3928 @@
+{
+  "version": "0.5.0",
+  "timestamp": "2026-10-18T17:18:00.458Z",
+  "withNgram": {
+    "devOracle": {
+      "appliedPrecision": 96.35335413416537,
+      "recallD1": 67.44316587145663,
+      "cleanFp": 40,
+      "cleanTokens": 127035,
+      "cleanFpr": 0.03148738536623765,
+      "p95Latency": 0.05760799999916344,
+      "visibleRecallD1": 79.23098512489474,
+      "candidateRecallD1": 80.03087285994948,
+      "combinedRecallD1": 79.23098512489474,
+      "candidateCombinedRecallD1": 80.03087285994948,
+      "d1TargetWordInjected": 598,
+      "d1TargetWordAutoRecovered": 2,
+      "d1TargetWordCombinedRecovered": 50,
+      "d1TargetWordAutoRecall": 0.33444816053511706,
+      "d1TargetWordCombinedRecall": 8.361204013377927,
+      "d1OtherWordInjected": 233,
+      "d1OtherWordAutoRecovered": 120,
+      "d1OtherWordCombinedRecovered": 135,
+      "d1OtherWordAutoRecall": 51.50214592274678,
+      "d1OtherWordCombinedRecall": 57.93991416309014,
+      "d1NonWordInjected": 6295,
+      "d1NonWordAutoRecovered": 4684,
+      "d1NonWordCombinedRecovered": 5461,
+      "d1NonWordAutoRecall": 74.40826052422558,
+      "d1NonWordCombinedRecall": 86.7513899920572,
+      "d1RealWordInjected": 831,
+      "d1RealWordAutoRecovered": 122,
+      "d1RealWordCombinedRecovered": 185,
+      "d1RealWordAutoRecall": 14.681107099879661,
+      "d1RealWordCombinedRecall": 22.26233453670277,
+      "en": {
+        "precision": 97.36229635376262,
+        "recallD1": 69.26345609065156,
+        "cleanFp": 15,
+        "cleanTokens": 63059,
+        "cleanFpr": 0.023787246864047956,
+        "combinedRecallD1": 80.16997167138811,
+        "visibleRecallD1": 80.16997167138811,
+        "candidateRecallD1": 81.01983002832861
+      },
+      "fr": {
+        "precision": 95.33333333333334,
+        "recallD1": 65.65628476084538,
+        "cleanFp": 25,
+        "cleanTokens": 63976,
+        "cleanFpr": 0.039077153932724776,
+        "combinedRecallD1": 78.30923248053394,
+        "visibleRecallD1": 78.30923248053394,
+        "candidateRecallD1": 79.06006674082313
+      },
+      "cleanFpTokens": [
+        {
+          "sentenceId": "1450",
+          "token": "traveller",
+          "replacement": "traveler",
+          "lang": "en",
+          "context": [
+            "am",
+            "not",
+            "much",
+            "of"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "17917",
+          "token": "judgement",
+          "replacement": "judgment",
+          "lang": "en",
+          "context": [
+            "what",
+            "you",
+            "will",
+            "will",
+            "act",
+            "on",
+            "my",
+            "own"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "20158",
+          "token": "e-mail",
+          "replacement": "email",
+          "lang": "en",
+          "context": [
+            "please",
+            "send",
+            "me",
+            "details",
+            "of",
+            "your",
+            "products",
+            "via"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "21869",
+          "token": "travelling",
+          "replacement": "traveling",
+          "lang": "en",
+          "context": [
+            "There",
+            "are",
+            "lots",
+            "of",
+            "benefits",
+            "from"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "23346",
+          "token": "judgement",
+          "replacement": "judgment",
+          "lang": "en",
+          "context": [
+            "have",
+            "strong",
+            "conviction",
+            "that",
+            "our"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "23651",
+          "token": "spilt",
+          "replacement": "split",
+          "lang": "en",
+          "context": [
+            "It",
+            "is",
+            "no",
+            "use",
+            "crying",
+            "over"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "26777",
+          "token": "cancelled",
+          "replacement": "canceled",
+          "lang": "en",
+          "context": [
+            "spite",
+            "of",
+            "the",
+            "rain",
+            "the",
+            "game",
+            "was",
+            "not"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "26933",
+          "token": "cancelled",
+          "replacement": "canceled",
+          "lang": "en",
+          "context": [
+            "The",
+            "weather",
+            "being",
+            "rainy",
+            "the",
+            "baseball",
+            "game",
+            "was"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "27644",
+          "token": "travelling",
+          "replacement": "traveling",
+          "lang": "en",
+          "context": [
+            "Nothing",
+            "is",
+            "so",
+            "pleasant",
+            "as"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28506",
+          "token": "ayu",
+          "replacement": "au",
+          "lang": "en",
+          "context": [
+            "The"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28668",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28670",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28671",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [
+            "What",
+            "good",
+            "dancer"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28672",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [
+            "How",
+            "well"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28673",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3495",
+          "token": "j'm'ennuie",
+          "replacement": "j'ennuie",
+          "lang": "fr",
+          "context": [
+            "Allez",
+            "joue",
+            "avec",
+            "moi"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3767",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "Si"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3782",
+          "token": "rancoeur",
+          "replacement": "rancœur",
+          "lang": "fr",
+          "context": [
+            "après",
+            "la",
+            "Guerre",
+            "Froide",
+            "il",
+            "encore",
+            "beaucoup",
+            "de"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3954",
+          "token": "sans-abris",
+          "replacement": "sans-abri",
+          "lang": "fr",
+          "context": [
+            "recherche",
+            "des",
+            "bénévoles",
+            "pour",
+            "distribuer",
+            "des",
+            "repas",
+            "aux"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "4014",
+          "token": "d’Eden",
+          "replacement": "d'Éden",
+          "lang": "fr",
+          "context": [
+            "Un",
+            "fleuve",
+            "sortait"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "6659",
+          "token": "Sanda",
+          "replacement": "Sandra",
+          "lang": "fr",
+          "context": [
+            "Je",
+            "n'ai",
+            "pas",
+            "vécu"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "7520",
+          "token": "Tôkyô",
+          "replacement": "Tokyo",
+          "lang": "fr",
+          "context": [
+            "Je",
+            "vis"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "7709",
+          "token": "Romeo",
+          "replacement": "Roméo",
+          "lang": "fr",
+          "context": [
+            "Ma",
+            "nouvelle",
+            "décapotable",
+            "Alfa"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "8335",
+          "token": "Burns",
+          "replacement": "Bruns",
+          "lang": "fr",
+          "context": [
+            "D'abord",
+            "nous",
+            "parlerons",
+            "au",
+            "docteur",
+            "Benjamin"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "9853",
+          "token": "grey",
+          "replacement": "greg",
+          "lang": "fr",
+          "context": [
+            "Certains",
+            "mots",
+            "anglais",
+            "comme",
+            "gray",
+            "ou"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10130",
+          "token": "General",
+          "replacement": "Général",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10422",
+          "token": "Nikko",
+          "replacement": "Nikki",
+          "lang": "fr",
+          "context": [
+            "Êtes-vous",
+            "déjà",
+            "allé"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10791",
+          "token": "Eliot",
+          "replacement": "Elliot",
+          "lang": "fr",
+          "context": [
+            "La",
+            "nièce",
+            "de"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "11068",
+          "token": "Hotel",
+          "replacement": "Hôtel",
+          "lang": "fr",
+          "context": [
+            "Pouvez-vous",
+            "m'amener",
+            "au",
+            "Grand"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "11725",
+          "token": "ami-ami",
+          "replacement": "miami",
+          "lang": "fr",
+          "context": [
+            "Jim",
+            "semble",
+            "connaître",
+            "l'art",
+            "de",
+            "faire"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12488",
+          "token": "telé",
+          "replacement": "télé",
+          "lang": "fr",
+          "context": [
+            "La",
+            "plupart",
+            "des",
+            "gens",
+            "aiment",
+            "regarder",
+            "la"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "13130",
+          "token": "Hawai",
+          "replacement": "Hawaï",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "13214",
+          "token": "Bin",
+          "replacement": "Bon",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "13761",
+          "token": "Russel",
+          "replacement": "Russell",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "15290",
+          "token": "Nikkō",
+          "replacement": "Nikki",
+          "lang": "fr",
+          "context": [
+            "Es-tu",
+            "allé"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "128300",
+          "token": "préférent",
+          "replacement": "préfèrent",
+          "lang": "fr",
+          "context": [
+            "Certains",
+            "jeunes",
+            "Japonais"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "128856",
+          "token": "Helens",
+          "replacement": "Helena",
+          "lang": "fr",
+          "context": [
+            "décennie",
+            "le",
+            "mai",
+            "1980",
+            "que",
+            "le",
+            "Mont",
+            "St"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129694",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [
+            "Il",
+            "de",
+            "belles",
+            "villes",
+            "au",
+            "Japon",
+            "Kyoto",
+            "et"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129847",
+          "token": "natto",
+          "replacement": "natte",
+          "lang": "fr",
+          "context": [
+            "Le"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129848",
+          "token": "natto",
+          "replacement": "natte",
+          "lang": "fr",
+          "context": [
+            "Le"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        }
+      ]
+    },
+    "devProduction": {
+      "appliedPrecision": 97.08815317112087,
+      "recallD1": 66.5169800729722,
+      "cleanFp": 29,
+      "cleanTokens": 127035,
+      "cleanFpr": 0.022828354390522297,
+      "p95Latency": 0.06838799999968614,
+      "visibleRecallD1": 78.88015717092338,
+      "candidateRecallD1": 79.66601178781926,
+      "combinedRecallD1": 78.88015717092338,
+      "candidateCombinedRecallD1": 79.66601178781926,
+      "d1TargetWordInjected": 598,
+      "d1TargetWordAutoRecovered": 2,
+      "d1TargetWordCombinedRecovered": 53,
+      "d1TargetWordAutoRecall": 0.33444816053511706,
+      "d1TargetWordCombinedRecall": 8.862876254180602,
+      "d1OtherWordInjected": 233,
+      "d1OtherWordAutoRecovered": 100,
+      "d1OtherWordCombinedRecovered": 114,
+      "d1OtherWordAutoRecall": 42.91845493562232,
+      "d1OtherWordCombinedRecall": 48.927038626609445,
+      "d1NonWordInjected": 6295,
+      "d1NonWordAutoRecovered": 4638,
+      "d1NonWordCombinedRecovered": 5454,
+      "d1NonWordAutoRecall": 73.67752184273233,
+      "d1NonWordCombinedRecall": 86.64019062748213,
+      "d1RealWordInjected": 831,
+      "d1RealWordAutoRecovered": 102,
+      "d1RealWordCombinedRecovered": 167,
+      "d1RealWordAutoRecall": 12.274368231046932,
+      "d1RealWordCombinedRecall": 20.09626955475331,
+      "en": {
+        "precision": 97.17757742061937,
+        "recallD1": 68.47025495750708,
+        "cleanFp": 13,
+        "cleanTokens": 63059,
+        "cleanFpr": 0.020615613948841562,
+        "combinedRecallD1": 79.97167138810198,
+        "visibleRecallD1": 79.97167138810198,
+        "candidateRecallD1": 80.79320113314448
+      },
+      "fr": {
+        "precision": 96.99553390174583,
+        "recallD1": 64.59955506117909,
+        "cleanFp": 16,
+        "cleanTokens": 63976,
+        "cleanFpr": 0.025009378516943855,
+        "combinedRecallD1": 77.80867630700779,
+        "visibleRecallD1": 77.80867630700779,
+        "candidateRecallD1": 78.559510567297
+      },
+      "cleanFpTokens": [
+        {
+          "sentenceId": "1450",
+          "token": "traveller",
+          "replacement": "traveler",
+          "lang": "en",
+          "context": [
+            "am",
+            "not",
+            "much",
+            "of"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "17917",
+          "token": "judgement",
+          "replacement": "judgment",
+          "lang": "en",
+          "context": [
+            "what",
+            "you",
+            "will",
+            "will",
+            "act",
+            "on",
+            "my",
+            "own"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "20158",
+          "token": "e-mail",
+          "replacement": "email",
+          "lang": "en",
+          "context": [
+            "please",
+            "send",
+            "me",
+            "details",
+            "of",
+            "your",
+            "products",
+            "via"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "21869",
+          "token": "travelling",
+          "replacement": "traveling",
+          "lang": "en",
+          "context": [
+            "There",
+            "are",
+            "lots",
+            "of",
+            "benefits",
+            "from"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "23346",
+          "token": "judgement",
+          "replacement": "judgment",
+          "lang": "en",
+          "context": [
+            "have",
+            "strong",
+            "conviction",
+            "that",
+            "our"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "23651",
+          "token": "spilt",
+          "replacement": "split",
+          "lang": "en",
+          "context": [
+            "It",
+            "is",
+            "no",
+            "use",
+            "crying",
+            "over"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "26777",
+          "token": "cancelled",
+          "replacement": "canceled",
+          "lang": "en",
+          "context": [
+            "spite",
+            "of",
+            "the",
+            "rain",
+            "the",
+            "game",
+            "was",
+            "not"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "26933",
+          "token": "cancelled",
+          "replacement": "canceled",
+          "lang": "en",
+          "context": [
+            "The",
+            "weather",
+            "being",
+            "rainy",
+            "the",
+            "baseball",
+            "game",
+            "was"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "27644",
+          "token": "travelling",
+          "replacement": "traveling",
+          "lang": "en",
+          "context": [
+            "Nothing",
+            "is",
+            "so",
+            "pleasant",
+            "as"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "27882",
+          "token": "Inoue",
+          "replacement": "Inouïe",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28668",
+          "token": "very",
+          "replacement": "vert",
+          "lang": "en",
+          "context": [
+            "Aoi",
+            "dances"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28671",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [
+            "What",
+            "good",
+            "dancer"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28672",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [
+            "How",
+            "well"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3782",
+          "token": "rancoeur",
+          "replacement": "rancœur",
+          "lang": "fr",
+          "context": [
+            "après",
+            "la",
+            "Guerre",
+            "Froide",
+            "il",
+            "encore",
+            "beaucoup",
+            "de"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "4014",
+          "token": "d’Eden",
+          "replacement": "d'Éden",
+          "lang": "fr",
+          "context": [
+            "Un",
+            "fleuve",
+            "sortait"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "6659",
+          "token": "Sanda",
+          "replacement": "Sandra",
+          "lang": "fr",
+          "context": [
+            "Je",
+            "n'ai",
+            "pas",
+            "vécu"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "7520",
+          "token": "Tôkyô",
+          "replacement": "Tokyo",
+          "lang": "fr",
+          "context": [
+            "Je",
+            "vis"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "7709",
+          "token": "Romeo",
+          "replacement": "Roméo",
+          "lang": "fr",
+          "context": [
+            "Ma",
+            "nouvelle",
+            "décapotable",
+            "Alfa"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "8335",
+          "token": "Burns",
+          "replacement": "Bruns",
+          "lang": "fr",
+          "context": [
+            "D'abord",
+            "nous",
+            "parlerons",
+            "au",
+            "docteur",
+            "Benjamin"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "9853",
+          "token": "grey",
+          "replacement": "greg",
+          "lang": "fr",
+          "context": [
+            "Certains",
+            "mots",
+            "anglais",
+            "comme",
+            "gray",
+            "ou"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10422",
+          "token": "Nikko",
+          "replacement": "Nikki",
+          "lang": "fr",
+          "context": [
+            "Êtes-vous",
+            "déjà",
+            "allé"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10791",
+          "token": "Eliot",
+          "replacement": "Elliot",
+          "lang": "fr",
+          "context": [
+            "La",
+            "nièce",
+            "de"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "11068",
+          "token": "Hotel",
+          "replacement": "Hôtel",
+          "lang": "fr",
+          "context": [
+            "Pouvez-vous",
+            "m'amener",
+            "au",
+            "Grand"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12488",
+          "token": "telé",
+          "replacement": "télé",
+          "lang": "fr",
+          "context": [
+            "La",
+            "plupart",
+            "des",
+            "gens",
+            "aiment",
+            "regarder",
+            "la"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "128300",
+          "token": "préférent",
+          "replacement": "préfèrent",
+          "lang": "fr",
+          "context": [
+            "Certains",
+            "jeunes",
+            "Japonais"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "128856",
+          "token": "Helens",
+          "replacement": "Helena",
+          "lang": "fr",
+          "context": [
+            "décennie",
+            "le",
+            "mai",
+            "1980",
+            "que",
+            "le",
+            "Mont",
+            "St"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129694",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [
+            "Il",
+            "de",
+            "belles",
+            "villes",
+            "au",
+            "Japon",
+            "Kyoto",
+            "et"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129847",
+          "token": "natto",
+          "replacement": "natte",
+          "lang": "fr",
+          "context": [
+            "Le"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129848",
+          "token": "natto",
+          "replacement": "natte",
+          "lang": "fr",
+          "context": [
+            "Le"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        }
+      ]
+    },
+    "testOracle": {
+      "appliedPrecision": 95.60675883256529,
+      "recallD1": 65.75342465753424,
+      "cleanFp": 35,
+      "cleanTokens": 84238,
+      "cleanFpr": 0.04154894465680572,
+      "p95Latency": 0.061625000002095476,
+      "visibleRecallD1": 77.36464448793215,
+      "candidateRecallD1": 78.29963035442488,
+      "combinedRecallD1": 77.36464448793215,
+      "candidateCombinedRecallD1": 78.29963035442488,
+      "d1TargetWordInjected": 411,
+      "d1TargetWordAutoRecovered": 3,
+      "d1TargetWordCombinedRecovered": 47,
+      "d1TargetWordAutoRecall": 0.7299270072992701,
+      "d1TargetWordCombinedRecall": 11.435523114355231,
+      "d1OtherWordInjected": 163,
+      "d1OtherWordAutoRecovered": 88,
+      "d1OtherWordCombinedRecovered": 93,
+      "d1OtherWordAutoRecall": 53.987730061349694,
+      "d1OtherWordCombinedRecall": 57.05521472392638,
+      "d1NonWordInjected": 4025,
+      "d1NonWordAutoRecovered": 2933,
+      "d1NonWordCombinedRecovered": 3418,
+      "d1NonWordAutoRecall": 72.86956521739131,
+      "d1NonWordCombinedRecall": 84.91925465838509,
+      "d1RealWordInjected": 574,
+      "d1RealWordAutoRecovered": 91,
+      "d1RealWordCombinedRecovered": 140,
+      "d1RealWordAutoRecall": 15.853658536585366,
+      "d1RealWordCombinedRecall": 24.390243902439025,
+      "en": {
+        "precision": 97.41275571600482,
+        "recallD1": 68.12852800694746,
+        "cleanFp": 14,
+        "cleanTokens": 42004,
+        "cleanFpr": 0.0333301590324731,
+        "combinedRecallD1": 78.67998263135041,
+        "visibleRecallD1": 78.67998263135041,
+        "candidateRecallD1": 79.41815023881892
+      },
+      "fr": {
+        "precision": 93.72253609541745,
+        "recallD1": 63.37108013937283,
+        "cleanFp": 21,
+        "cleanTokens": 42234,
+        "cleanFpr": 0.049722972013070035,
+        "combinedRecallD1": 76.04529616724739,
+        "visibleRecallD1": 76.04529616724739,
+        "candidateRecallD1": 77.17770034843205
+      },
+      "cleanFpTokens": [
+        {
+          "sentenceId": "1412",
+          "token": "dreamt",
+          "replacement": "dreamy",
+          "lang": "en",
+          "context": [
+            "wanted",
+            "to",
+            "scare",
+            "you",
+            "would",
+            "tell",
+            "you",
+            "what"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "2022",
+          "token": "dreamt",
+          "replacement": "dreamy",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "2422",
+          "token": "cheque",
+          "replacement": "chèque",
+          "lang": "en",
+          "context": [
+            "I'll",
+            "pay",
+            "by"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "18732",
+          "token": "donnnng",
+          "replacement": "donny",
+          "lang": "en",
+          "context": [
+            "We",
+            "could",
+            "hear",
+            "the"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "18732",
+          "token": "donnnng",
+          "replacement": "donny",
+          "lang": "en",
+          "context": [
+            "We",
+            "could",
+            "hear",
+            "the",
+            "donnnng"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "18867",
+          "token": "anaesthetic",
+          "replacement": "anesthetic",
+          "lang": "en",
+          "context": [
+            "I'll",
+            "give",
+            "you",
+            "local"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "19230",
+          "token": "sunburnt",
+          "replacement": "sunburn",
+          "lang": "en",
+          "context": [
+            "Due",
+            "to",
+            "the",
+            "intense",
+            "sunlight",
+            "his",
+            "back",
+            "was"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "21851",
+          "token": "nattou",
+          "replacement": "nato",
+          "lang": "en",
+          "context": [
+            "is",
+            "often",
+            "the",
+            "case",
+            "with",
+            "foreigners",
+            "John",
+            "dislikes"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "22732",
+          "token": "judgement",
+          "replacement": "judgment",
+          "lang": "en",
+          "context": [
+            "We",
+            "can",
+            "rely",
+            "on",
+            "his"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "23658",
+          "token": "Chuo",
+          "replacement": "Chou",
+          "lang": "en",
+          "context": [
+            "cars",
+            "were",
+            "derailed",
+            "services",
+            "were",
+            "suspended",
+            "on",
+            "the"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "27621",
+          "token": "earwitnesses",
+          "replacement": "eyewitnesses",
+          "lang": "en",
+          "context": [
+            "One",
+            "eyewitness",
+            "is",
+            "better",
+            "than",
+            "ten"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28502",
+          "token": "travelling",
+          "replacement": "traveling",
+          "lang": "en",
+          "context": [
+            "saved",
+            "on"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28676",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28743",
+          "token": "Akan",
+          "replacement": "Alan",
+          "lang": "en",
+          "context": [
+            "Lake"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3346",
+          "token": "Allen",
+          "replacement": "Alien",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3732",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "En",
+            "dépit",
+            "des",
+            "déclarations",
+            "d'amour",
+            "régulières",
+            "de",
+            "Trang"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3764",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "Bien",
+            "que",
+            "son",
+            "séjour",
+            "en",
+            "Europe",
+            "fut",
+            "éphémère"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3885",
+          "token": "pronounce",
+          "replacement": "prononce",
+          "lang": "fr",
+          "context": [
+            "Comment",
+            "tu",
+            "prononces"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "4145",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [
+            "Japon",
+            "est",
+            "rempli",
+            "de",
+            "belle",
+            "villes",
+            "Kyoto",
+            "et"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "4221",
+          "token": "moeurs",
+          "replacement": "mœurs",
+          "lang": "fr",
+          "context": [
+            "La",
+            "musique",
+            "adoucit",
+            "les"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "6007",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "8859",
+          "token": "Faites-le-moi",
+          "replacement": "Faites-la-moi",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10331",
+          "token": "Sanda",
+          "replacement": "Sandra",
+          "lang": "fr",
+          "context": [
+            "Combien",
+            "de",
+            "temps",
+            "as-tu",
+            "vécu"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12495",
+          "token": "Time",
+          "replacement": "Tome",
+          "lang": "fr",
+          "context": [
+            "Avez-vous",
+            "lu",
+            "l'article",
+            "sur",
+            "l'Asie",
+            "dans",
+            "le"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12725",
+          "token": "Tate",
+          "replacement": "Tâte",
+          "lang": "fr",
+          "context": [
+            "J'aimerais",
+            "voir",
+            "Terry"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12964",
+          "token": "quelles",
+          "replacement": "qu'elles",
+          "lang": "fr",
+          "context": [
+            "Il",
+            "voulait",
+            "le",
+            "faire"
+          ],
+          "reason": "Curated French compound rule"
+        },
+        {
+          "sentenceId": "13000",
+          "token": "Hara",
+          "replacement": "Hâta",
+          "lang": "fr",
+          "context": [
+            "que",
+            "le",
+            "projet",
+            "est",
+            "une",
+            "tâche",
+            "difficile",
+            "mais"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "13063",
+          "token": "Burns",
+          "replacement": "Bruns",
+          "lang": "fr",
+          "context": [
+            "Êtes-vous",
+            "d'accord",
+            "avec",
+            "Dr"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "14551",
+          "token": "Elisabeth",
+          "replacement": "Elizabeth",
+          "lang": "fr",
+          "context": [
+            "Elle",
+            "été",
+            "prénommée"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "15484",
+          "token": "Tôkyô",
+          "replacement": "Tokyo",
+          "lang": "fr",
+          "context": [
+            "Il",
+            "été",
+            "dans",
+            "les",
+            "affaires"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "119908",
+          "token": "Grey",
+          "replacement": "Greg",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "127544",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [
+            "J'aime"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129247",
+          "token": "Saly",
+          "replacement": "Sally",
+          "lang": "fr",
+          "context": [
+            "Tout",
+            "le",
+            "monde",
+            "s'y",
+            "est",
+            "opposé",
+            "mais"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129653",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129654",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        }
+      ]
+    },
+    "testProduction": {
+      "appliedPrecision": 96.27776040037536,
+      "recallD1": 65.05762122200478,
+      "cleanFp": 28,
+      "cleanTokens": 84238,
+      "cleanFpr": 0.03323915572544457,
+      "p95Latency": 0.07548099999257829,
+      "visibleRecallD1": 77.14720591432919,
+      "candidateRecallD1": 78.06044792346162,
+      "combinedRecallD1": 77.14720591432919,
+      "candidateCombinedRecallD1": 78.06044792346162,
+      "d1TargetWordInjected": 411,
+      "d1TargetWordAutoRecovered": 3,
+      "d1TargetWordCombinedRecovered": 50,
+      "d1TargetWordAutoRecall": 0.7299270072992701,
+      "d1TargetWordCombinedRecall": 12.165450121654501,
+      "d1OtherWordInjected": 163,
+      "d1OtherWordAutoRecovered": 74,
+      "d1OtherWordCombinedRecovered": 79,
+      "d1OtherWordAutoRecall": 45.39877300613497,
+      "d1OtherWordCombinedRecall": 48.466257668711656,
+      "d1NonWordInjected": 4025,
+      "d1NonWordAutoRecovered": 2915,
+      "d1NonWordCombinedRecovered": 3419,
+      "d1NonWordAutoRecall": 72.4223602484472,
+      "d1NonWordCombinedRecall": 84.94409937888199,
+      "d1RealWordInjected": 574,
+      "d1RealWordAutoRecovered": 77,
+      "d1RealWordCombinedRecovered": 129,
+      "d1RealWordAutoRecall": 13.414634146341465,
+      "d1RealWordCombinedRecall": 22.473867595818817,
+      "en": {
+        "precision": 97.26941747572816,
+        "recallD1": 67.52062527138514,
+        "cleanFp": 10,
+        "cleanTokens": 42004,
+        "cleanFpr": 0.023807256451766498,
+        "combinedRecallD1": 78.59313938341293,
+        "visibleRecallD1": 78.59313938341293,
+        "candidateRecallD1": 79.24446374294398
+      },
+      "fr": {
+        "precision": 95.22272433828276,
+        "recallD1": 62.58710801393729,
+        "cleanFp": 18,
+        "cleanTokens": 42234,
+        "cleanFpr": 0.04261969029691717,
+        "combinedRecallD1": 75.69686411149826,
+        "visibleRecallD1": 75.69686411149826,
+        "candidateRecallD1": 76.87282229965156
+      },
+      "cleanFpTokens": [
+        {
+          "sentenceId": "1412",
+          "token": "dreamt",
+          "replacement": "dreamy",
+          "lang": "en",
+          "context": [
+            "wanted",
+            "to",
+            "scare",
+            "you",
+            "would",
+            "tell",
+            "you",
+            "what"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "2022",
+          "token": "dreamt",
+          "replacement": "dreamy",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "2422",
+          "token": "cheque",
+          "replacement": "chèque",
+          "lang": "en",
+          "context": [
+            "I'll",
+            "pay",
+            "by"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "6005",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "18867",
+          "token": "anaesthetic",
+          "replacement": "anesthetic",
+          "lang": "en",
+          "context": [
+            "I'll",
+            "give",
+            "you",
+            "local"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "21851",
+          "token": "nattou",
+          "replacement": "nato",
+          "lang": "en",
+          "context": [
+            "is",
+            "often",
+            "the",
+            "case",
+            "with",
+            "foreigners",
+            "John",
+            "dislikes"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "22732",
+          "token": "judgement",
+          "replacement": "judgment",
+          "lang": "en",
+          "context": [
+            "We",
+            "can",
+            "rely",
+            "on",
+            "his"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "23658",
+          "token": "Chuo",
+          "replacement": "Chou",
+          "lang": "en",
+          "context": [
+            "cars",
+            "were",
+            "derailed",
+            "services",
+            "were",
+            "suspended",
+            "on",
+            "the"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28502",
+          "token": "travelling",
+          "replacement": "traveling",
+          "lang": "en",
+          "context": [
+            "saved",
+            "on"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28743",
+          "token": "Akan",
+          "replacement": "Alan",
+          "lang": "en",
+          "context": [
+            "Lake"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3732",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "En",
+            "dépit",
+            "des",
+            "déclarations",
+            "d'amour",
+            "régulières",
+            "de",
+            "Trang"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3764",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "Bien",
+            "que",
+            "son",
+            "séjour",
+            "en",
+            "Europe",
+            "fut",
+            "éphémère"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3885",
+          "token": "pronounce",
+          "replacement": "prononce",
+          "lang": "fr",
+          "context": [
+            "Comment",
+            "tu",
+            "prononces"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "4145",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [
+            "Japon",
+            "est",
+            "rempli",
+            "de",
+            "belle",
+            "villes",
+            "Kyoto",
+            "et"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "4221",
+          "token": "moeurs",
+          "replacement": "mœurs",
+          "lang": "fr",
+          "context": [
+            "La",
+            "musique",
+            "adoucit",
+            "les"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "6007",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10331",
+          "token": "Sanda",
+          "replacement": "Sandra",
+          "lang": "fr",
+          "context": [
+            "Combien",
+            "de",
+            "temps",
+            "as-tu",
+            "vécu"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12495",
+          "token": "Time",
+          "replacement": "Tome",
+          "lang": "fr",
+          "context": [
+            "Avez-vous",
+            "lu",
+            "l'article",
+            "sur",
+            "l'Asie",
+            "dans",
+            "le"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12725",
+          "token": "Tate",
+          "replacement": "Tâte",
+          "lang": "fr",
+          "context": [
+            "J'aimerais",
+            "voir",
+            "Terry"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12964",
+          "token": "quelles",
+          "replacement": "qu'elles",
+          "lang": "fr",
+          "context": [
+            "Il",
+            "voulait",
+            "le",
+            "faire"
+          ],
+          "reason": "Curated French compound rule"
+        },
+        {
+          "sentenceId": "13000",
+          "token": "Hara",
+          "replacement": "Hâta",
+          "lang": "fr",
+          "context": [
+            "que",
+            "le",
+            "projet",
+            "est",
+            "une",
+            "tâche",
+            "difficile",
+            "mais"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "13063",
+          "token": "Burns",
+          "replacement": "Bruns",
+          "lang": "fr",
+          "context": [
+            "Êtes-vous",
+            "d'accord",
+            "avec",
+            "Dr"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "14551",
+          "token": "Elisabeth",
+          "replacement": "Elizabeth",
+          "lang": "fr",
+          "context": [
+            "Elle",
+            "été",
+            "prénommée"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "15484",
+          "token": "Tôkyô",
+          "replacement": "Tokyo",
+          "lang": "fr",
+          "context": [
+            "Il",
+            "été",
+            "dans",
+            "les",
+            "affaires"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "127544",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [
+            "J'aime"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129247",
+          "token": "Saly",
+          "replacement": "Sally",
+          "lang": "fr",
+          "context": [
+            "Tout",
+            "le",
+            "monde",
+            "s'y",
+            "est",
+            "opposé",
+            "mais"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129653",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129654",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        }
+      ]
+    }
+  },
+  "withoutNgram": {
+    "devOracle": {
+      "appliedPrecision": 96.25202593192869,
+      "recallD1": 64.83300589390963,
+      "cleanFp": 41,
+      "cleanTokens": 127035,
+      "cleanFpr": 0.03227457000039359,
+      "p95Latency": 0.059420999998110346,
+      "visibleRecallD1": 78.69772663485827,
+      "candidateRecallD1": 79.70811114229582,
+      "combinedRecallD1": 78.69772663485827,
+      "candidateCombinedRecallD1": 79.70811114229582,
+      "d1TargetWordInjected": 598,
+      "d1TargetWordAutoRecovered": 2,
+      "d1TargetWordCombinedRecovered": 46,
+      "d1TargetWordAutoRecall": 0.33444816053511706,
+      "d1TargetWordCombinedRecall": 7.6923076923076925,
+      "d1OtherWordInjected": 233,
+      "d1OtherWordAutoRecovered": 101,
+      "d1OtherWordCombinedRecovered": 119,
+      "d1OtherWordAutoRecall": 43.34763948497854,
+      "d1OtherWordCombinedRecall": 51.072961373390555,
+      "d1NonWordInjected": 6295,
+      "d1NonWordAutoRecovered": 4517,
+      "d1NonWordCombinedRecovered": 5443,
+      "d1NonWordAutoRecall": 71.75536139793486,
+      "d1NonWordCombinedRecall": 86.46544876886418,
+      "d1RealWordInjected": 831,
+      "d1RealWordAutoRecovered": 103,
+      "d1RealWordCombinedRecovered": 165,
+      "d1RealWordAutoRecall": 12.394705174488568,
+      "d1RealWordCombinedRecall": 19.855595667870034,
+      "en": {
+        "precision": 97.40575597892177,
+        "recallD1": 66.26062322946176,
+        "cleanFp": 15,
+        "cleanTokens": 63059,
+        "cleanFpr": 0.023787246864047956,
+        "combinedRecallD1": 79.51841359773371,
+        "visibleRecallD1": 79.51841359773371,
+        "candidateRecallD1": 80.62322946175638
+      },
+      "fr": {
+        "precision": 95.09923045767518,
+        "recallD1": 63.43159065628476,
+        "cleanFp": 26,
+        "cleanTokens": 63976,
+        "cleanFpr": 0.04064024009003376,
+        "combinedRecallD1": 77.89210233592881,
+        "visibleRecallD1": 77.89210233592881,
+        "candidateRecallD1": 78.80978865406007
+      },
+      "cleanFpTokens": [
+        {
+          "sentenceId": "1450",
+          "token": "traveller",
+          "replacement": "traveler",
+          "lang": "en",
+          "context": [
+            "am",
+            "not",
+            "much",
+            "of"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "17917",
+          "token": "judgement",
+          "replacement": "judgment",
+          "lang": "en",
+          "context": [
+            "what",
+            "you",
+            "will",
+            "will",
+            "act",
+            "on",
+            "my",
+            "own"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "20158",
+          "token": "e-mail",
+          "replacement": "email",
+          "lang": "en",
+          "context": [
+            "please",
+            "send",
+            "me",
+            "details",
+            "of",
+            "your",
+            "products",
+            "via"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "21869",
+          "token": "travelling",
+          "replacement": "traveling",
+          "lang": "en",
+          "context": [
+            "There",
+            "are",
+            "lots",
+            "of",
+            "benefits",
+            "from"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "23346",
+          "token": "judgement",
+          "replacement": "judgment",
+          "lang": "en",
+          "context": [
+            "have",
+            "strong",
+            "conviction",
+            "that",
+            "our"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "23651",
+          "token": "spilt",
+          "replacement": "split",
+          "lang": "en",
+          "context": [
+            "It",
+            "is",
+            "no",
+            "use",
+            "crying",
+            "over"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "26777",
+          "token": "cancelled",
+          "replacement": "canceled",
+          "lang": "en",
+          "context": [
+            "spite",
+            "of",
+            "the",
+            "rain",
+            "the",
+            "game",
+            "was",
+            "not"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "26933",
+          "token": "cancelled",
+          "replacement": "canceled",
+          "lang": "en",
+          "context": [
+            "The",
+            "weather",
+            "being",
+            "rainy",
+            "the",
+            "baseball",
+            "game",
+            "was"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "27644",
+          "token": "travelling",
+          "replacement": "traveling",
+          "lang": "en",
+          "context": [
+            "Nothing",
+            "is",
+            "so",
+            "pleasant",
+            "as"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28506",
+          "token": "ayu",
+          "replacement": "au",
+          "lang": "en",
+          "context": [
+            "The"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28668",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28670",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28671",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [
+            "What",
+            "good",
+            "dancer"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28672",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [
+            "How",
+            "well"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28673",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3495",
+          "token": "j'm'ennuie",
+          "replacement": "j'ennuie",
+          "lang": "fr",
+          "context": [
+            "Allez",
+            "joue",
+            "avec",
+            "moi"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3767",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "Si"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3782",
+          "token": "rancoeur",
+          "replacement": "rancœur",
+          "lang": "fr",
+          "context": [
+            "après",
+            "la",
+            "Guerre",
+            "Froide",
+            "il",
+            "encore",
+            "beaucoup",
+            "de"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3796",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "La",
+            "mère",
+            "de"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3954",
+          "token": "sans-abris",
+          "replacement": "sans-abri",
+          "lang": "fr",
+          "context": [
+            "recherche",
+            "des",
+            "bénévoles",
+            "pour",
+            "distribuer",
+            "des",
+            "repas",
+            "aux"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "4014",
+          "token": "d’Eden",
+          "replacement": "d'Éden",
+          "lang": "fr",
+          "context": [
+            "Un",
+            "fleuve",
+            "sortait"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "6659",
+          "token": "Sanda",
+          "replacement": "Sandra",
+          "lang": "fr",
+          "context": [
+            "Je",
+            "n'ai",
+            "pas",
+            "vécu"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "7520",
+          "token": "Tôkyô",
+          "replacement": "Tokyo",
+          "lang": "fr",
+          "context": [
+            "Je",
+            "vis"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "7709",
+          "token": "Romeo",
+          "replacement": "Roméo",
+          "lang": "fr",
+          "context": [
+            "Ma",
+            "nouvelle",
+            "décapotable",
+            "Alfa"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "8335",
+          "token": "Burns",
+          "replacement": "Bruns",
+          "lang": "fr",
+          "context": [
+            "D'abord",
+            "nous",
+            "parlerons",
+            "au",
+            "docteur",
+            "Benjamin"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "9853",
+          "token": "grey",
+          "replacement": "greg",
+          "lang": "fr",
+          "context": [
+            "Certains",
+            "mots",
+            "anglais",
+            "comme",
+            "gray",
+            "ou"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10130",
+          "token": "General",
+          "replacement": "Général",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10422",
+          "token": "Nikko",
+          "replacement": "Nikki",
+          "lang": "fr",
+          "context": [
+            "Êtes-vous",
+            "déjà",
+            "allé"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10791",
+          "token": "Eliot",
+          "replacement": "Elliot",
+          "lang": "fr",
+          "context": [
+            "La",
+            "nièce",
+            "de"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "11068",
+          "token": "Hotel",
+          "replacement": "Hôtel",
+          "lang": "fr",
+          "context": [
+            "Pouvez-vous",
+            "m'amener",
+            "au",
+            "Grand"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "11725",
+          "token": "ami-ami",
+          "replacement": "miami",
+          "lang": "fr",
+          "context": [
+            "Jim",
+            "semble",
+            "connaître",
+            "l'art",
+            "de",
+            "faire"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12488",
+          "token": "telé",
+          "replacement": "télé",
+          "lang": "fr",
+          "context": [
+            "La",
+            "plupart",
+            "des",
+            "gens",
+            "aiment",
+            "regarder",
+            "la"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "13130",
+          "token": "Hawai",
+          "replacement": "Hawaï",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "13214",
+          "token": "Bin",
+          "replacement": "Bon",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "13761",
+          "token": "Russel",
+          "replacement": "Russell",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "15290",
+          "token": "Nikkō",
+          "replacement": "Nikki",
+          "lang": "fr",
+          "context": [
+            "Es-tu",
+            "allé"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "128300",
+          "token": "préférent",
+          "replacement": "préfèrent",
+          "lang": "fr",
+          "context": [
+            "Certains",
+            "jeunes",
+            "Japonais"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "128856",
+          "token": "Helens",
+          "replacement": "Helena",
+          "lang": "fr",
+          "context": [
+            "décennie",
+            "le",
+            "mai",
+            "1980",
+            "que",
+            "le",
+            "Mont",
+            "St"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129694",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [
+            "Il",
+            "de",
+            "belles",
+            "villes",
+            "au",
+            "Japon",
+            "Kyoto",
+            "et"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129847",
+          "token": "natto",
+          "replacement": "natte",
+          "lang": "fr",
+          "context": [
+            "Le"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129848",
+          "token": "natto",
+          "replacement": "natte",
+          "lang": "fr",
+          "context": [
+            "Le"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        }
+      ]
+    },
+    "devProduction": {
+      "appliedPrecision": 97.0130678282514,
+      "recallD1": 63.89278697726635,
+      "cleanFp": 30,
+      "cleanTokens": 127035,
+      "cleanFpr": 0.02361553902467824,
+      "p95Latency": 0.06816799999796785,
+      "visibleRecallD1": 78.3468986808869,
+      "candidateRecallD1": 79.3432500701656,
+      "combinedRecallD1": 78.3468986808869,
+      "candidateCombinedRecallD1": 79.3432500701656,
+      "d1TargetWordInjected": 598,
+      "d1TargetWordAutoRecovered": 2,
+      "d1TargetWordCombinedRecovered": 49,
+      "d1TargetWordAutoRecall": 0.33444816053511706,
+      "d1TargetWordCombinedRecall": 8.193979933110368,
+      "d1OtherWordInjected": 233,
+      "d1OtherWordAutoRecovered": 80,
+      "d1OtherWordCombinedRecovered": 98,
+      "d1OtherWordAutoRecall": 34.33476394849785,
+      "d1OtherWordCombinedRecall": 42.06008583690987,
+      "d1NonWordInjected": 6295,
+      "d1NonWordAutoRecovered": 4471,
+      "d1NonWordCombinedRecovered": 5436,
+      "d1NonWordAutoRecall": 71.02462271644163,
+      "d1NonWordCombinedRecall": 86.35424940428912,
+      "d1RealWordInjected": 831,
+      "d1RealWordAutoRecovered": 82,
+      "d1RealWordCombinedRecovered": 147,
+      "d1RealWordAutoRecall": 9.8676293622142,
+      "d1RealWordCombinedRecall": 17.689530685920577,
+      "en": {
+        "precision": 97.21311475409836,
+        "recallD1": 65.46742209631728,
+        "cleanFp": 13,
+        "cleanTokens": 63059,
+        "cleanFpr": 0.020615613948841562,
+        "combinedRecallD1": 79.3201133144476,
+        "visibleRecallD1": 79.3201133144476,
+        "candidateRecallD1": 80.39660056657225
+      },
+      "fr": {
+        "precision": 96.80806383872323,
+        "recallD1": 62.34705228031145,
+        "cleanFp": 17,
+        "cleanTokens": 63976,
+        "cleanFpr": 0.026572464674252845,
+        "combinedRecallD1": 77.39154616240268,
+        "visibleRecallD1": 77.39154616240268,
+        "candidateRecallD1": 78.30923248053394
+      },
+      "cleanFpTokens": [
+        {
+          "sentenceId": "1450",
+          "token": "traveller",
+          "replacement": "traveler",
+          "lang": "en",
+          "context": [
+            "am",
+            "not",
+            "much",
+            "of"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "17917",
+          "token": "judgement",
+          "replacement": "judgment",
+          "lang": "en",
+          "context": [
+            "what",
+            "you",
+            "will",
+            "will",
+            "act",
+            "on",
+            "my",
+            "own"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "20158",
+          "token": "e-mail",
+          "replacement": "email",
+          "lang": "en",
+          "context": [
+            "please",
+            "send",
+            "me",
+            "details",
+            "of",
+            "your",
+            "products",
+            "via"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "21869",
+          "token": "travelling",
+          "replacement": "traveling",
+          "lang": "en",
+          "context": [
+            "There",
+            "are",
+            "lots",
+            "of",
+            "benefits",
+            "from"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "23346",
+          "token": "judgement",
+          "replacement": "judgment",
+          "lang": "en",
+          "context": [
+            "have",
+            "strong",
+            "conviction",
+            "that",
+            "our"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "23651",
+          "token": "spilt",
+          "replacement": "split",
+          "lang": "en",
+          "context": [
+            "It",
+            "is",
+            "no",
+            "use",
+            "crying",
+            "over"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "26777",
+          "token": "cancelled",
+          "replacement": "canceled",
+          "lang": "en",
+          "context": [
+            "spite",
+            "of",
+            "the",
+            "rain",
+            "the",
+            "game",
+            "was",
+            "not"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "26933",
+          "token": "cancelled",
+          "replacement": "canceled",
+          "lang": "en",
+          "context": [
+            "The",
+            "weather",
+            "being",
+            "rainy",
+            "the",
+            "baseball",
+            "game",
+            "was"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "27644",
+          "token": "travelling",
+          "replacement": "traveling",
+          "lang": "en",
+          "context": [
+            "Nothing",
+            "is",
+            "so",
+            "pleasant",
+            "as"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "27882",
+          "token": "Inoue",
+          "replacement": "Inouïe",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28668",
+          "token": "very",
+          "replacement": "vert",
+          "lang": "en",
+          "context": [
+            "Aoi",
+            "dances"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28671",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [
+            "What",
+            "good",
+            "dancer"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28672",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [
+            "How",
+            "well"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3782",
+          "token": "rancoeur",
+          "replacement": "rancœur",
+          "lang": "fr",
+          "context": [
+            "après",
+            "la",
+            "Guerre",
+            "Froide",
+            "il",
+            "encore",
+            "beaucoup",
+            "de"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3796",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "La",
+            "mère",
+            "de"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "4014",
+          "token": "d’Eden",
+          "replacement": "d'Éden",
+          "lang": "fr",
+          "context": [
+            "Un",
+            "fleuve",
+            "sortait"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "6659",
+          "token": "Sanda",
+          "replacement": "Sandra",
+          "lang": "fr",
+          "context": [
+            "Je",
+            "n'ai",
+            "pas",
+            "vécu"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "7520",
+          "token": "Tôkyô",
+          "replacement": "Tokyo",
+          "lang": "fr",
+          "context": [
+            "Je",
+            "vis"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "7709",
+          "token": "Romeo",
+          "replacement": "Roméo",
+          "lang": "fr",
+          "context": [
+            "Ma",
+            "nouvelle",
+            "décapotable",
+            "Alfa"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "8335",
+          "token": "Burns",
+          "replacement": "Bruns",
+          "lang": "fr",
+          "context": [
+            "D'abord",
+            "nous",
+            "parlerons",
+            "au",
+            "docteur",
+            "Benjamin"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "9853",
+          "token": "grey",
+          "replacement": "greg",
+          "lang": "fr",
+          "context": [
+            "Certains",
+            "mots",
+            "anglais",
+            "comme",
+            "gray",
+            "ou"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10422",
+          "token": "Nikko",
+          "replacement": "Nikki",
+          "lang": "fr",
+          "context": [
+            "Êtes-vous",
+            "déjà",
+            "allé"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10791",
+          "token": "Eliot",
+          "replacement": "Elliot",
+          "lang": "fr",
+          "context": [
+            "La",
+            "nièce",
+            "de"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "11068",
+          "token": "Hotel",
+          "replacement": "Hôtel",
+          "lang": "fr",
+          "context": [
+            "Pouvez-vous",
+            "m'amener",
+            "au",
+            "Grand"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12488",
+          "token": "telé",
+          "replacement": "télé",
+          "lang": "fr",
+          "context": [
+            "La",
+            "plupart",
+            "des",
+            "gens",
+            "aiment",
+            "regarder",
+            "la"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "128300",
+          "token": "préférent",
+          "replacement": "préfèrent",
+          "lang": "fr",
+          "context": [
+            "Certains",
+            "jeunes",
+            "Japonais"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "128856",
+          "token": "Helens",
+          "replacement": "Helena",
+          "lang": "fr",
+          "context": [
+            "décennie",
+            "le",
+            "mai",
+            "1980",
+            "que",
+            "le",
+            "Mont",
+            "St"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129694",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [
+            "Il",
+            "de",
+            "belles",
+            "villes",
+            "au",
+            "Japon",
+            "Kyoto",
+            "et"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129847",
+          "token": "natto",
+          "replacement": "natte",
+          "lang": "fr",
+          "context": [
+            "Le"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129848",
+          "token": "natto",
+          "replacement": "natte",
+          "lang": "fr",
+          "context": [
+            "Le"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        }
+      ]
+    },
+    "testOracle": {
+      "appliedPrecision": 95.54140127388536,
+      "recallD1": 63.31811263318112,
+      "cleanFp": 36,
+      "cleanTokens": 84238,
+      "cleanFpr": 0.042736057361285884,
+      "p95Latency": 0.05024400001275353,
+      "visibleRecallD1": 76.69058490976299,
+      "candidateRecallD1": 77.86475320721897,
+      "combinedRecallD1": 76.69058490976299,
+      "candidateCombinedRecallD1": 77.86475320721897,
+      "d1TargetWordInjected": 411,
+      "d1TargetWordAutoRecovered": 3,
+      "d1TargetWordCombinedRecovered": 40,
+      "d1TargetWordAutoRecall": 0.7299270072992701,
+      "d1TargetWordCombinedRecall": 9.732360097323602,
+      "d1OtherWordInjected": 163,
+      "d1OtherWordAutoRecovered": 72,
+      "d1OtherWordCombinedRecovered": 83,
+      "d1OtherWordAutoRecall": 44.171779141104295,
+      "d1OtherWordCombinedRecall": 50.920245398773,
+      "d1NonWordInjected": 4025,
+      "d1NonWordAutoRecovered": 2837,
+      "d1NonWordCombinedRecovered": 3404,
+      "d1NonWordAutoRecall": 70.48447204968944,
+      "d1NonWordCombinedRecall": 84.57142857142857,
+      "d1RealWordInjected": 574,
+      "d1RealWordAutoRecovered": 75,
+      "d1RealWordCombinedRecovered": 123,
+      "d1RealWordAutoRecall": 13.066202090592336,
+      "d1RealWordCombinedRecall": 21.428571428571427,
+      "en": {
+        "precision": 97.42623979912115,
+        "recallD1": 65.21927920104213,
+        "cleanFp": 14,
+        "cleanTokens": 42004,
+        "cleanFpr": 0.0333301590324731,
+        "combinedRecallD1": 77.85497177594442,
+        "visibleRecallD1": 77.85497177594442,
+        "candidateRecallD1": 78.8970907511941
+      },
+      "fr": {
+        "precision": 93.60051712992889,
+        "recallD1": 61.41114982578397,
+        "cleanFp": 22,
+        "cleanTokens": 42234,
+        "cleanFpr": 0.052090732585121,
+        "combinedRecallD1": 75.5226480836237,
+        "visibleRecallD1": 75.5226480836237,
+        "candidateRecallD1": 76.82926829268293
+      },
+      "cleanFpTokens": [
+        {
+          "sentenceId": "1412",
+          "token": "dreamt",
+          "replacement": "dreamy",
+          "lang": "en",
+          "context": [
+            "wanted",
+            "to",
+            "scare",
+            "you",
+            "would",
+            "tell",
+            "you",
+            "what"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "2022",
+          "token": "dreamt",
+          "replacement": "dreamy",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "2422",
+          "token": "cheque",
+          "replacement": "chèque",
+          "lang": "en",
+          "context": [
+            "I'll",
+            "pay",
+            "by"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "18732",
+          "token": "donnnng",
+          "replacement": "donny",
+          "lang": "en",
+          "context": [
+            "We",
+            "could",
+            "hear",
+            "the"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "18732",
+          "token": "donnnng",
+          "replacement": "donny",
+          "lang": "en",
+          "context": [
+            "We",
+            "could",
+            "hear",
+            "the",
+            "donnnng"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "18867",
+          "token": "anaesthetic",
+          "replacement": "anesthetic",
+          "lang": "en",
+          "context": [
+            "I'll",
+            "give",
+            "you",
+            "local"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "19230",
+          "token": "sunburnt",
+          "replacement": "sunburn",
+          "lang": "en",
+          "context": [
+            "Due",
+            "to",
+            "the",
+            "intense",
+            "sunlight",
+            "his",
+            "back",
+            "was"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "21851",
+          "token": "nattou",
+          "replacement": "nato",
+          "lang": "en",
+          "context": [
+            "is",
+            "often",
+            "the",
+            "case",
+            "with",
+            "foreigners",
+            "John",
+            "dislikes"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "22732",
+          "token": "judgement",
+          "replacement": "judgment",
+          "lang": "en",
+          "context": [
+            "We",
+            "can",
+            "rely",
+            "on",
+            "his"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "23658",
+          "token": "Chuo",
+          "replacement": "Chou",
+          "lang": "en",
+          "context": [
+            "cars",
+            "were",
+            "derailed",
+            "services",
+            "were",
+            "suspended",
+            "on",
+            "the"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "27621",
+          "token": "earwitnesses",
+          "replacement": "eyewitnesses",
+          "lang": "en",
+          "context": [
+            "One",
+            "eyewitness",
+            "is",
+            "better",
+            "than",
+            "ten"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28502",
+          "token": "travelling",
+          "replacement": "traveling",
+          "lang": "en",
+          "context": [
+            "saved",
+            "on"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28676",
+          "token": "Aoi",
+          "replacement": "Ali",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28743",
+          "token": "Akan",
+          "replacement": "Alan",
+          "lang": "en",
+          "context": [
+            "Lake"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3346",
+          "token": "Allen",
+          "replacement": "Alien",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3732",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "En",
+            "dépit",
+            "des",
+            "déclarations",
+            "d'amour",
+            "régulières",
+            "de",
+            "Trang"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3754",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "Les",
+            "remarques",
+            "sarcastiques",
+            "et",
+            "de",
+            "plaisanterie",
+            "de"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3764",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "Bien",
+            "que",
+            "son",
+            "séjour",
+            "en",
+            "Europe",
+            "fut",
+            "éphémère"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3885",
+          "token": "pronounce",
+          "replacement": "prononce",
+          "lang": "fr",
+          "context": [
+            "Comment",
+            "tu",
+            "prononces"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "4145",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [
+            "Japon",
+            "est",
+            "rempli",
+            "de",
+            "belle",
+            "villes",
+            "Kyoto",
+            "et"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "4221",
+          "token": "moeurs",
+          "replacement": "mœurs",
+          "lang": "fr",
+          "context": [
+            "La",
+            "musique",
+            "adoucit",
+            "les"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "6007",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "8859",
+          "token": "Faites-le-moi",
+          "replacement": "Faites-la-moi",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10331",
+          "token": "Sanda",
+          "replacement": "Sandra",
+          "lang": "fr",
+          "context": [
+            "Combien",
+            "de",
+            "temps",
+            "as-tu",
+            "vécu"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12495",
+          "token": "Time",
+          "replacement": "Tome",
+          "lang": "fr",
+          "context": [
+            "Avez-vous",
+            "lu",
+            "l'article",
+            "sur",
+            "l'Asie",
+            "dans",
+            "le"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12725",
+          "token": "Tate",
+          "replacement": "Tâte",
+          "lang": "fr",
+          "context": [
+            "J'aimerais",
+            "voir",
+            "Terry"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12964",
+          "token": "quelles",
+          "replacement": "qu'elles",
+          "lang": "fr",
+          "context": [
+            "Il",
+            "voulait",
+            "le",
+            "faire"
+          ],
+          "reason": "Curated French compound rule"
+        },
+        {
+          "sentenceId": "13000",
+          "token": "Hara",
+          "replacement": "Hâta",
+          "lang": "fr",
+          "context": [
+            "que",
+            "le",
+            "projet",
+            "est",
+            "une",
+            "tâche",
+            "difficile",
+            "mais"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "13063",
+          "token": "Burns",
+          "replacement": "Bruns",
+          "lang": "fr",
+          "context": [
+            "Êtes-vous",
+            "d'accord",
+            "avec",
+            "Dr"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "14551",
+          "token": "Elisabeth",
+          "replacement": "Elizabeth",
+          "lang": "fr",
+          "context": [
+            "Elle",
+            "été",
+            "prénommée"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "15484",
+          "token": "Tôkyô",
+          "replacement": "Tokyo",
+          "lang": "fr",
+          "context": [
+            "Il",
+            "été",
+            "dans",
+            "les",
+            "affaires"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "119908",
+          "token": "Grey",
+          "replacement": "Greg",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "127544",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [
+            "J'aime"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129247",
+          "token": "Saly",
+          "replacement": "Sally",
+          "lang": "fr",
+          "context": [
+            "Tout",
+            "le",
+            "monde",
+            "s'y",
+            "est",
+            "opposé",
+            "mais"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129653",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129654",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        }
+      ]
+    },
+    "testProduction": {
+      "appliedPrecision": 96.23498864005194,
+      "recallD1": 62.60056534029137,
+      "cleanFp": 29,
+      "cleanTokens": 84238,
+      "cleanFpr": 0.03442626842992474,
+      "p95Latency": 0.07062199999927543,
+      "visibleRecallD1": 76.47314633616004,
+      "candidateRecallD1": 77.60382691889541,
+      "combinedRecallD1": 76.47314633616004,
+      "candidateCombinedRecallD1": 77.60382691889541,
+      "d1TargetWordInjected": 411,
+      "d1TargetWordAutoRecovered": 3,
+      "d1TargetWordCombinedRecovered": 43,
+      "d1TargetWordAutoRecall": 0.7299270072992701,
+      "d1TargetWordCombinedRecall": 10.46228710462287,
+      "d1OtherWordInjected": 163,
+      "d1OtherWordAutoRecovered": 58,
+      "d1OtherWordCombinedRecovered": 69,
+      "d1OtherWordAutoRecall": 35.58282208588957,
+      "d1OtherWordCombinedRecall": 42.331288343558285,
+      "d1NonWordInjected": 4025,
+      "d1NonWordAutoRecovered": 2818,
+      "d1NonWordCombinedRecovered": 3405,
+      "d1NonWordAutoRecall": 70.01242236024845,
+      "d1NonWordCombinedRecall": 84.59627329192546,
+      "d1RealWordInjected": 574,
+      "d1RealWordAutoRecovered": 61,
+      "d1RealWordCombinedRecovered": 112,
+      "d1RealWordAutoRecall": 10.627177700348431,
+      "d1RealWordCombinedRecall": 19.51219512195122,
+      "en": {
+        "precision": 97.27503168567807,
+        "recallD1": 64.56795484151108,
+        "cleanFp": 10,
+        "cleanTokens": 42004,
+        "cleanFpr": 0.023807256451766498,
+        "combinedRecallD1": 77.76812852800695,
+        "visibleRecallD1": 77.76812852800695,
+        "candidateRecallD1": 78.72340425531915
+      },
+      "fr": {
+        "precision": 95.14304723885563,
+        "recallD1": 60.62717770034843,
+        "cleanFp": 19,
+        "cleanTokens": 42234,
+        "cleanFpr": 0.04498745086896813,
+        "combinedRecallD1": 75.17421602787456,
+        "visibleRecallD1": 75.17421602787456,
+        "candidateRecallD1": 76.4808362369338
+      },
+      "cleanFpTokens": [
+        {
+          "sentenceId": "1412",
+          "token": "dreamt",
+          "replacement": "dreamy",
+          "lang": "en",
+          "context": [
+            "wanted",
+            "to",
+            "scare",
+            "you",
+            "would",
+            "tell",
+            "you",
+            "what"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "2022",
+          "token": "dreamt",
+          "replacement": "dreamy",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "2422",
+          "token": "cheque",
+          "replacement": "chèque",
+          "lang": "en",
+          "context": [
+            "I'll",
+            "pay",
+            "by"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "6005",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "en",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "18867",
+          "token": "anaesthetic",
+          "replacement": "anesthetic",
+          "lang": "en",
+          "context": [
+            "I'll",
+            "give",
+            "you",
+            "local"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "21851",
+          "token": "nattou",
+          "replacement": "nato",
+          "lang": "en",
+          "context": [
+            "is",
+            "often",
+            "the",
+            "case",
+            "with",
+            "foreigners",
+            "John",
+            "dislikes"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "22732",
+          "token": "judgement",
+          "replacement": "judgment",
+          "lang": "en",
+          "context": [
+            "We",
+            "can",
+            "rely",
+            "on",
+            "his"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "23658",
+          "token": "Chuo",
+          "replacement": "Chou",
+          "lang": "en",
+          "context": [
+            "cars",
+            "were",
+            "derailed",
+            "services",
+            "were",
+            "suspended",
+            "on",
+            "the"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28502",
+          "token": "travelling",
+          "replacement": "traveling",
+          "lang": "en",
+          "context": [
+            "saved",
+            "on"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "28743",
+          "token": "Akan",
+          "replacement": "Alan",
+          "lang": "en",
+          "context": [
+            "Lake"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3732",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "En",
+            "dépit",
+            "des",
+            "déclarations",
+            "d'amour",
+            "régulières",
+            "de",
+            "Trang"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3754",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "Les",
+            "remarques",
+            "sarcastiques",
+            "et",
+            "de",
+            "plaisanterie",
+            "de"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3764",
+          "token": "Spenser",
+          "replacement": "Spencer",
+          "lang": "fr",
+          "context": [
+            "Bien",
+            "que",
+            "son",
+            "séjour",
+            "en",
+            "Europe",
+            "fut",
+            "éphémère"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "3885",
+          "token": "pronounce",
+          "replacement": "prononce",
+          "lang": "fr",
+          "context": [
+            "Comment",
+            "tu",
+            "prononces"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "4145",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [
+            "Japon",
+            "est",
+            "rempli",
+            "de",
+            "belle",
+            "villes",
+            "Kyoto",
+            "et"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "4221",
+          "token": "moeurs",
+          "replacement": "mœurs",
+          "lang": "fr",
+          "context": [
+            "La",
+            "musique",
+            "adoucit",
+            "les"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "6007",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "10331",
+          "token": "Sanda",
+          "replacement": "Sandra",
+          "lang": "fr",
+          "context": [
+            "Combien",
+            "de",
+            "temps",
+            "as-tu",
+            "vécu"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12495",
+          "token": "Time",
+          "replacement": "Tome",
+          "lang": "fr",
+          "context": [
+            "Avez-vous",
+            "lu",
+            "l'article",
+            "sur",
+            "l'Asie",
+            "dans",
+            "le"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12725",
+          "token": "Tate",
+          "replacement": "Tâte",
+          "lang": "fr",
+          "context": [
+            "J'aimerais",
+            "voir",
+            "Terry"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "12964",
+          "token": "quelles",
+          "replacement": "qu'elles",
+          "lang": "fr",
+          "context": [
+            "Il",
+            "voulait",
+            "le",
+            "faire"
+          ],
+          "reason": "Curated French compound rule"
+        },
+        {
+          "sentenceId": "13000",
+          "token": "Hara",
+          "replacement": "Hâta",
+          "lang": "fr",
+          "context": [
+            "que",
+            "le",
+            "projet",
+            "est",
+            "une",
+            "tâche",
+            "difficile",
+            "mais"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "13063",
+          "token": "Burns",
+          "replacement": "Bruns",
+          "lang": "fr",
+          "context": [
+            "Êtes-vous",
+            "d'accord",
+            "avec",
+            "Dr"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "14551",
+          "token": "Elisabeth",
+          "replacement": "Elizabeth",
+          "lang": "fr",
+          "context": [
+            "Elle",
+            "été",
+            "prénommée"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "15484",
+          "token": "Tôkyô",
+          "replacement": "Tokyo",
+          "lang": "fr",
+          "context": [
+            "Il",
+            "été",
+            "dans",
+            "les",
+            "affaires"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "127544",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [
+            "J'aime"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129247",
+          "token": "Saly",
+          "replacement": "Sally",
+          "lang": "fr",
+          "context": [
+            "Tout",
+            "le",
+            "monde",
+            "s'y",
+            "est",
+            "opposé",
+            "mais"
+          ],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129653",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        },
+        {
+          "sentenceId": "129654",
+          "token": "Nara",
+          "replacement": "Nada",
+          "lang": "fr",
+          "context": [],
+          "reason": "Passed distance, frequency and confidence thresholds"
+        }
+      ]
+    }
+  }
+}

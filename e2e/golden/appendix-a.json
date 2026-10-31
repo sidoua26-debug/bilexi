@@ -1,0 +1,1163 @@
+{
+  "description": "Verbatim Appendix A Golden Scenarios from docs/SPEC.md (T2 Owner-Authorised Cleanup)",
+  "version": 4,
+  "fixesEn": [
+    [
+      "teh",
+      "the",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "recieve",
+      "receive",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "definately",
+      "definitely",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "seperate",
+      "separate",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "occured",
+      "occurred",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "wierd",
+      "weird",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "thier",
+      "their",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "becuase",
+      "because",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "untill",
+      "until",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "freind",
+      "friend",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "beleive",
+      "believe",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "adress",
+      "address",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "accomodate",
+      "accommodate",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "goverment",
+      "government",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "tommorow",
+      "tomorrow",
+      {
+        "dlRaw": 2,
+        "dlFolded": 2,
+        "group": "distance-2"
+      }
+    ],
+    [
+      "tje",
+      "the",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "Teh",
+      "The",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "definatly",
+      "definitely",
+      {
+        "dlRaw": 2,
+        "dlFolded": 2,
+        "group": "distance-2"
+      }
+    ],
+    [
+      "neccesary",
+      "necessary",
+      {
+        "dlRaw": 2,
+        "dlFolded": 2,
+        "group": "distance-2"
+      }
+    ],
+    [
+      "seperatly",
+      "separately",
+      {
+        "dlRaw": 2,
+        "dlFolded": 2,
+        "group": "distance-2"
+      }
+    ],
+    [
+      "dissapear",
+      "disappear",
+      {
+        "dlRaw": 2,
+        "dlFolded": 2,
+        "group": "distance-2"
+      }
+    ],
+    [
+      "embarass",
+      "embarrass",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "mispell",
+      "misspell",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "noticable",
+      "noticeable",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "privelege",
+      "privilege",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "occurrance",
+      "occurrence",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "perserverance",
+      "perseverance",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "pronounciation",
+      "pronunciation",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "unforseen",
+      "unforeseen",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "rythm",
+      "rhythm",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "millenium",
+      "millennium",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "independant",
+      "independent",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "guarentee",
+      "guarantee",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "harrass",
+      "harass",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "humourous",
+      "humorous",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "catagory",
+      "category",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "cemetary",
+      "cemetery",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "collaegue",
+      "colleague",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "enviroment",
+      "environment",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "suprise",
+      "surprise",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "begining",
+      "beginning",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "comming",
+      "coming",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "existance",
+      "existence",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "foriegn",
+      "foreign",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "fourty",
+      "forty",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "maintainance",
+      "maintenance",
+      {
+        "dlRaw": 2,
+        "dlFolded": 2,
+        "group": "distance-2"
+      }
+    ],
+    [
+      "posession",
+      "possession",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "publically",
+      "publicly",
+      {
+        "dlRaw": 2,
+        "dlFolded": 2,
+        "group": "distance-2"
+      }
+    ],
+    [
+      "succesful",
+      "successful",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "tendancy",
+      "tendency",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ]
+  ],
+  "fixesFr": [
+    [
+      "ecole",
+      "école",
+      {
+        "dlRaw": 1,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "tres",
+      "très",
+      {
+        "dlRaw": 1,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "deja",
+      "déjà",
+      {
+        "dlRaw": 2,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "apres",
+      "après",
+      {
+        "dlRaw": 1,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "etudiant",
+      "étudiant",
+      {
+        "dlRaw": 1,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "francais",
+      "français",
+      {
+        "dlRaw": 1,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "developpement",
+      "développement",
+      {
+        "dlRaw": 1,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "necessaire",
+      "nécessaire",
+      {
+        "dlRaw": 1,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "oeuvre",
+      "œuvre",
+      {
+        "dlRaw": 2,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "coeur",
+      "cœur",
+      {
+        "dlRaw": 2,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "bonjuor",
+      "bonjour",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "beaucuop",
+      "beaucoup",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "cest",
+      "c'est",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "jai",
+      "j'ai",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "aujourdhui",
+      "aujourd'hui",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "lecole",
+      "l'école",
+      {
+        "dlRaw": 2,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "quil",
+      "qu'il",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "sil",
+      "s'il",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "jespere",
+      "j'espère",
+      {
+        "dlRaw": 2,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "jespère",
+      "j'espère",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "lhomme",
+      "l'homme",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "jaime",
+      "j'aime",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "jattends",
+      "j'attends",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "jetais",
+      "j'étais",
+      {
+        "dlRaw": 2,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "mappelle",
+      "m'appelle",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "nest",
+      "n'est",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "dun",
+      "d'un",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "daccord",
+      "d'accord",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "dabord",
+      "d'abord",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "quils",
+      "qu'ils",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "quelles",
+      "qu'elles",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "jusqua",
+      "jusqu'à",
+      {
+        "dlRaw": 2,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "lorsquil",
+      "lorsqu'il",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "puisquil",
+      "puisqu'il",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "elision"
+      }
+    ],
+    [
+      "acceuil",
+      "accueil",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "aggreable",
+      "agréable",
+      {
+        "dlRaw": 2,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "apeller",
+      "appeler",
+      {
+        "dlRaw": 2,
+        "dlFolded": 2,
+        "group": "distance-2"
+      }
+    ],
+    [
+      "apparaite",
+      "apparaître",
+      {
+        "dlRaw": 2,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "auccun",
+      "aucun",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "bizzare",
+      "bizarre",
+      {
+        "dlRaw": 2,
+        "dlFolded": 2,
+        "group": "distance-2"
+      }
+    ],
+    [
+      "courageuxment",
+      "courageusement",
+      {
+        "dlRaw": 2,
+        "dlFolded": 2,
+        "group": "distance-2"
+      }
+    ],
+    [
+      "difficulte",
+      "difficulté",
+      {
+        "dlRaw": 1,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "embarasser",
+      "embarrasser",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "evenement",
+      "événement",
+      {
+        "dlRaw": 2,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "exagere",
+      "exagère",
+      {
+        "dlRaw": 1,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "famillial",
+      "familial",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "independance",
+      "indépendance",
+      {
+        "dlRaw": 1,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "interressant",
+      "intéressant",
+      {
+        "dlRaw": 2,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "environement",
+      "environnement",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "tranquilite",
+      "tranquillité",
+      {
+        "dlRaw": 2,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "recomander",
+      "recommander",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "soufrir",
+      "souffrir",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "traditionel",
+      "traditionnel",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "professionel",
+      "professionnel",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "personel",
+      "personnel",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "intellectuelment",
+      "intellectuellement",
+      {
+        "dlRaw": 2,
+        "dlFolded": 2,
+        "group": "distance-2"
+      }
+    ],
+    [
+      "responsabilite",
+      "responsabilité",
+      {
+        "dlRaw": 1,
+        "dlFolded": 0,
+        "group": "accent-only"
+      }
+    ],
+    [
+      "particulierment",
+      "particulièrement",
+      {
+        "dlRaw": 2,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "malheureusment",
+      "malheureusement",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ],
+    [
+      "naturelment",
+      "naturellement",
+      {
+        "dlRaw": 2,
+        "dlFolded": 2,
+        "group": "distance-2"
+      }
+    ],
+    [
+      "vraisemblablment",
+      "vraisemblablement",
+      {
+        "dlRaw": 1,
+        "dlFolded": 1,
+        "group": "distance-1"
+      }
+    ]
+  ],
+  "stretchCases": [
+    [
+      "differament",
+      "différemment",
+      {
+        "dlRaw": 3,
+        "dlFolded": 2,
+        "group": "stretch"
+      }
+    ],
+    [
+      "developpent",
+      "développement",
+      {
+        "dlRaw": 3,
+        "dlFolded": 2,
+        "group": "stretch"
+      }
+    ]
+  ],
+  "rulesEn": [
+    [
+      "dont",
+      "don't"
+    ],
+    [
+      "doesnt",
+      "doesn't"
+    ],
+    [
+      "im",
+      "I'm"
+    ],
+    [
+      "ive",
+      "I've"
+    ],
+    [
+      "thats",
+      "that's"
+    ],
+    [
+      "i",
+      "I"
+    ]
+  ],
+  "mixed": [
+    {
+      "typed": "I went to l'ecole hier",
+      "expected": "I went to l'école hier"
+    }
+  ],
+  "mustStayUnchanged": [
+    "iPhone",
+    "NASA",
+    "GitHub",
+    "npm",
+    "lol",
+    "mdr",
+    "slt",
+    "stp",
+    "https://exmaple.com/teh",
+    "john@exmaple.com",
+    "#teh",
+    "@teh",
+    "3rd",
+    "co-operate",
+    "colour",
+    "color",
+    "c'est",
+    "l'école",
+    "peut-être",
+    "aujourd'hui",
+    "fatigue",
+    "Paris",
+    "Québec",
+    "SNCF",
+    "pain",
+    "on",
+    "a",
+    "ou",
+    "sa",
+    "ma",
+    "ta",
+    "te",
+    "se",
+    "ne",
+    "je",
+    "de",
+    "le",
+    "la",
+    "mes",
+    "tes",
+    "dune",
+    "sans",
+    "qu",
+    "si",
+    "du",
+    "des",
+    "ces",
+    "ses",
+    "son",
+    "ton",
+    "mon",
+    "privilege",
+    "ressource"
+  ],
+  "behaviours": [
+    {
+      "id": "caret-after-space",
+      "description": "'teh ' becomes 'the ' with the caret after the space",
+      "typed": "teh "
+    },
+    {
+      "id": "backspace-undo",
+      "description": "Backspace then gives 'teh' and typing the space again does not re-correct",
+      "typed": "teh "
+    },
+    {
+      "id": "ctrl-z-undo",
+      "description": "Ctrl+Z undoes natively",
+      "typed": "teh "
+    },
+    {
+      "id": "enter-before-submit",
+      "description": "Enter in a chat-style input corrects before submit",
+      "typed": "teh"
+    },
+    {
+      "id": "rapid-typing-0ms",
+      "description": "20 words typed at 0 ms delay lose no characters",
+      "words": 20
+    }
+  ],
+  "ineligible": [
+    {
+      "type": "password",
+      "selector": "#password-input"
+    },
+    {
+      "type": "email",
+      "selector": "#email-input"
+    },
+    {
+      "type": "spellcheck-false",
+      "selector": "#spellcheck-false"
+    },
+    {
+      "type": "code-editor",
+      "selector": "#code-input"
+    },
+    {
+      "type": "docs-google",
+      "domain": "docs.google.com"
+    }
+  ]
+}
