@@ -64,19 +64,26 @@ All visual store assets are generated and maintained under `docs/screens/` and `
 
 ---
 
-## 3. Permissions Justification (For CWS Reviewers)
+## 3. Permissions Justification (For Store Reviewers)
 
-| Permission | Technical Need | Single Purpose User Benefit |
+| Permission / Manifest Entry | Technical Need | User Benefit & Security Scope |
 | :--- | :--- | :--- |
-| `storage` | Required to call `chrome.storage.local`. | Saves user preferences (sensitivity mode, custom dictionary words, text expansion rules, disabled sites) locally on device without network transmission. |
-| `activeTab` | Required to read the active tab domain when opening the extension popup. | Enables the user to click "Disable on this site" for the current website without granting persistent, broad access to browser history. |
-| Host Permissions (`http://*/*`, `https://*/*`) | Required for content script injection into document text fields. | Listens for text input events and applies inline autocorrect replacements in input elements, textareas, and contenteditable DOM fields. |
+| `storage` | Required to call `chrome.storage.local`. | Saves user settings (sensitivity mode, keyboard layout, custom words, disabled site list) locally on device. Does not sync over the cloud (`chrome.storage.sync` is prohibited). |
+| `activeTab` | Required to read the active tab URL/domain when the popup is clicked. | Allows the user to toggle "Disable on this site" for the current website without granting continuous, background access to browsing history. |
+| `content_scripts.matches` (`http://*/*`, `https://*/*`) | Broad webpage execution scope required for content script injection into editable DOM text fields. | Enables the extension to detect text boundaries and apply corrections inside inputs, textareas, and contenteditable elements across websites. Does not perform outbound network communication. |
+| `web_accessible_resources[].matches` (`http://*/*`, `https://*/*`) | Exposes packaged static dictionary data files (`dict/*.bin`, `dict/dictionary-manifest.json`) to matching webpages. | Allows in-page scripts to stream bundled binary dictionaries via internal URLs (`chrome.runtime.getURL`). Matching webpages can request these packaged linguistic lookup tables; this does not expose user preferences, custom words, or processed text, nor does it initiate outbound network calls to developer servers. |
 
 ---
 
 ## 4. Privacy & Data Use Disclosure
 
-- **Does this extension collect or transmit user data?** `No.`
-- **Does this extension use remote code or external APIs?** `No. Zero eval, zero external scripts, zero remote CDNs.`
+- **Does this extension collect or transmit user data to remote servers?**
+  `No. All text processing and dictionary evaluations execute synchronously inside the local browser sandbox. Based on static source and bundle reviews, the extension does not transmit typed content to remote servers.`
+- **Does this extension use remote code, cloud APIs, or analytics?**
+  `No. Zero eval, zero external scripts, zero remote CDNs, and zero telemetry services.`
+- **How does dictionary loading work?**
+  `The extension packages pre-compiled linguistic tables directly in the extension archive and streams them via internal browser URLs (chrome.runtime.getURL). It initiates no external network requests.`
+- **Why is webpage access required?**
+  `Broad webpage match patterns (http://*/* and https://*/*) are required so the content script can listen to typing events and apply autocorrect replacements across web form fields and textareas. Webpage access is used exclusively for local DOM interaction.`
 - **Single Purpose Declaration**:
   > The sole purpose of this extension is to provide local, offline bilingual autocorrect and spelling suggestions for English and French text entered into web browser input fields.

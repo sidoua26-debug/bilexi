@@ -31,10 +31,13 @@ Offline bilingual (English + French) autocorrect browser extension for Chrome & 
 4. `scripts/`: Offline data pipeline and benchmark harnesses.
 
 ## The NEVER List
-- NEVER make any network calls (no remote fetch, no telemetry, no CDN, no fonts, no cloud APIs).
+- NEVER make any remote network calls at extension runtime (no remote API calls, no analytics, no telemetry, no CDN scripts, no remote web fonts, and no cloud lookups).
+- Local package resource loading via `fetch(chrome.runtime.getURL('dict/...'))` is explicitly permitted for streaming bundled binary dictionaries from local package storage into memory.
+- Development scripts (`scripts/fetch-data.ts`, etc.) may download pinned upstream datasets when explicitly invoked by developers offline, but must NEVER introduce external runtime network requests in the distributed extension bundle.
 - NEVER use `eval()`, `new Function()`, or WebAssembly (`wasm-unsafe-eval`).
-- NEVER use `chrome.storage.sync` (all settings and stats remain strictly on device in `chrome.storage.local`).
-- NEVER request unneeded permissions: only `storage` and `activeTab`. Content script only on `http://*/*` and `https://*/*`.
+- NEVER use `chrome.storage.sync` (all settings, custom words, and stats remain strictly on device in `chrome.storage.local`).
+- NEVER request unneeded manifest API permissions: only `storage` and `activeTab` are permitted.
+- Distinguish manifest API permissions (`storage`, `activeTab`) from broad webpage execution scope (`content_scripts.matches: ["http://*/*", "https://*/*"]`) and packaged resource exposure (`web_accessible_resources[].matches: ["http://*/*", "https://*/*"]`). Never describe Bilexi as having "zero website access" or "zero site permissions", as webpage DOM execution is fundamentally required to observe and autocorrect editable form fields.
 - NEVER touch ineligible fields:
   - `input[type="password"]`, `email`, `url`, `number`, `tel`, `date`.
   - Fields with `spellcheck="false"`.

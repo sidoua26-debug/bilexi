@@ -21,7 +21,10 @@ Bilexi is an offline, privacy-first browser extension providing real-time biling
 Bilexi was engineered from inception around an uncompromising zero-network boundary:
 
 - **100% Offline Processing**: All tokenizer routines, morphological rule evaluators, Bloom filters, symmetric deletion tables, and language models execute entirely inside the local browser process.
-- **Zero Network Permissions**: The extension does **not** request `<all_urls>` or network access (`connect-src` / `fetch`). Zero analytics, zero telemetric beacons, and zero remote API calls.
+- **Zero Remote Server Communications (Verified by Static Code & Bundle Audit)**: Static source and production bundle reviews confirm that the extension codebase initiates no external HTTP/HTTPS network requests, remote API calls, analytics trackers, or telemetry beacons. (Note: this reflects static code review; no dynamic runtime traffic-capture log is included).
+- **Internal Package Resource Loading**: The extension uses the browser's internal `fetch(chrome.runtime.getURL('dict/...'))` API strictly to stream bundled binary dictionary files from extension package storage into local memory.
+- **Webpage Execution Scope (`content_scripts.matches`)**: Bilexi declares `matches: ["http://*/*", "https://*/*"]` for its content scripts so that it can detect editable text inputs and provide in-page autocorrection across web pages where the user types. This provides broad webpage DOM access, but does not grant or initiate outbound network communication.
+- **Packaged Resource Exposure (`web_accessible_resources`)**: The manifest exposes the packaged linguistic data files (`dict/en.bin`, `dict/fr.bin`, `dict/ngram.bin`, `dict/dictionary-manifest.json`) to matching webpages (`http://*/*`, `https://*/*`). These exposed files contain static, non-user-specific linguistic lookup tables; exposing them does not grant websites access to Bilexi's local settings, custom vocabulary words, or text processed by the extension, nor does it perform outbound server requests.
 - **Local Storage Sandbox**: User preferences, disabled domains, and custom dictionary entries are stored exclusively in `chrome.storage.local`.
 - **Sensitive Field Guard**: Bilexi automatically ignores password fields, credit card inputs, one-time passcode fields, terminal emulators, code editors (Monaco, CodeMirror, Ace), and elements explicitly tagged with `spellcheck="false"`.
 
@@ -111,3 +114,10 @@ Bilexi enforces strict quality and regression gates before release candidates ar
 - **Clean-Token False-Positive Rate**: $< 0.050\%$ clean-token false trigger rate on holdout corpora.
 - **Engine Latency**: $p95 \le 3\text{ ms}$ processing time per keystroke boundary.
 - **Unpacked Bundle Ceiling**: Total unpacked extension size strictly capped at $\le 8.0\text{ MB}$.
+
+### Benchmark Transparency & Evaluation Context
+
+The evaluation datasets in `data/` and historical benchmark reports (`AUDIT_REPORT.md`, `evidence/`) are committed for transparency and test reproducibility:
+- **Public & Fixed Evaluation Sets**: The evaluation corpora (`tatoeba-sentences.json`, `pristine-test-sentences.json`, `heldout-val-sentences.json`) and synthetic mutation seeds in `data/frozen/` are fixed benchmark splits derived from open corpora. They allow developers to verify deterministic behavior and engine regression thresholds locally.
+- **Evaluation Independence**: These public benchmark splits represent fixed offline test sets rather than confidential or blind dynamic test environments. While models and dictionaries were tuned on dev splits without target vocabulary contamination, public benchmark numbers reflect fixed historical evaluation seeds.
+- **Recorded Benchmark Results**: In historical benchmark runs recorded on Tatoeba evaluation splits with Option A independent thresholds (`AUDIT_REPORT.md` and `docs/BENCHMARKS.md`), processing latency reached $p95 = 0.068\text{ ms}$ on Dev ($p95 = 0.075\text{ ms}$ on Held-out Test), well within the $\le 3\text{ ms}$ target, with clean-token false-positive rates of $0.0142\%$ on Dev ($18 / 127,035$ tokens) and $0.0119\%$ on Held-out Test ($10 / 84,238$ tokens).
