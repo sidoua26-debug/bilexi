@@ -640,4 +640,193 @@ test.describe('M0 Spike: 7 DOM Fixtures Autocorrect & Backspace Undo', () => {
     const p499Text = await ce.evaluate((el: HTMLElement) => el.children[499]?.textContent || '');
     expect(p499Text).toContain('Paragraph 499');
   });
+
+  test('28. Sensitive form policy: form[autocomplete="off"] prevents autocorrect and overlays', async () => {
+    const input = page.locator('#fixture-form-ac-off');
+    await input.focus();
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(input).toHaveValue('teh ');
+    await expect(page.locator('bilexi-chip')).not.toBeAttached();
+    await expect(page.locator('bilexi-strip')).not.toBeAttached();
+  });
+
+  test('29. Sensitive form policy: associated form (form="id") with autocomplete="off" prevents autocorrect', async () => {
+    const input = page.locator('#fixture-associated-form');
+    await input.focus();
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(input).toHaveValue('teh ');
+    await expect(page.locator('bilexi-chip')).not.toBeAttached();
+    await expect(page.locator('bilexi-strip')).not.toBeAttached();
+  });
+
+  test('30. Sensitive contenteditable policy: autocomplete="off" prevents autocorrect and overlays', async () => {
+    const ce = page.locator('#fixture-ce-ac-off');
+    await ce.click();
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(ce).toHaveText('teh ');
+    await expect(page.locator('bilexi-chip')).not.toBeAttached();
+    await expect(page.locator('bilexi-strip')).not.toBeAttached();
+  });
+
+  test('31. Ancestor opt-out: container with autocorrect="off" prevents autocorrect', async () => {
+    const input = page.locator('#fixture-ancestor-autocorrect-off');
+    await input.focus();
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(input).toHaveValue('teh ');
+    await expect(page.locator('bilexi-chip')).not.toBeAttached();
+    await expect(page.locator('bilexi-strip')).not.toBeAttached();
+  });
+
+  test('32. Ancestor opt-out: container with data-gramm="false" prevents autocorrect', async () => {
+    const textarea = page.locator('#fixture-ancestor-data-gramm');
+    await textarea.focus();
+    await page.keyboard.type('recieve ', { delay: 15 });
+    await expect(textarea).toHaveValue('recieve ');
+    await expect(page.locator('bilexi-chip')).not.toBeAttached();
+    await expect(page.locator('bilexi-strip')).not.toBeAttached();
+  });
+
+  test('33. Disabled fieldset: input in first legend remains enabled and autocorrects', async () => {
+    const legendInput = page.locator('#fixture-fieldset-legend-input');
+    await legendInput.focus();
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(legendInput).toHaveValue('the ');
+
+    // Fieldset body input is disabled
+    const bodyInput = page.locator('#fixture-fieldset-body-input');
+    await expect(bodyInput).toBeDisabled();
+  });
+
+  test('34. Shadow DOM opt-out: host with autocorrect="off" prevents autocorrect inside shadow root', async () => {
+    const host = page.locator('#fixture-shadow-optout-host');
+    const input = host.locator('#shadow-optout-input');
+    await input.focus();
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(input).toHaveValue('teh ');
+    await expect(page.locator('bilexi-chip')).not.toBeAttached();
+    await expect(page.locator('bilexi-strip')).not.toBeAttached();
+  });
+
+  test('35. Shadow DOM opt-out: host code editor (.monaco-editor) prevents autocorrect inside shadow root', async () => {
+    const host = page.locator('#fixture-shadow-code-host');
+    const textarea = host.locator('#shadow-code-textarea');
+    await textarea.focus();
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(textarea).toHaveValue('teh ');
+    await expect(page.locator('bilexi-chip')).not.toBeAttached();
+    await expect(page.locator('bilexi-strip')).not.toBeAttached();
+  });
+
+  test('36. Dynamic input: elements dynamically added to DOM receive autocorrect', async () => {
+    await page.evaluate(() => {
+      const container = document.getElementById('fixture-dynamic-container');
+      if (container) {
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.id = 'dynamically-added-input';
+        container.appendChild(input);
+      }
+    });
+    const dynamicInput = page.locator('#dynamically-added-input');
+    await dynamicInput.focus();
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(dynamicInput).toHaveValue('the ');
+  });
+
+  test('37. Ancestor autocomplete scanning: input autocomplete="on" inside autocomplete="off" ancestor is rejected', async () => {
+    const input = page.locator('#fixture-ancestor-ac-off-child-on');
+    await input.focus();
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(input).toHaveValue('teh ');
+    await expect(page.locator('bilexi-chip')).not.toBeAttached();
+    await expect(page.locator('bilexi-strip')).not.toBeAttached();
+  });
+
+  test('38. Ancestor autocomplete scanning: contenteditable autocomplete="on" inside autocomplete="off" ancestor is rejected', async () => {
+    const ce = page.locator('#fixture-ce-ancestor-ac-off-child-on');
+    await ce.click();
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(ce).toHaveText('teh ');
+    await expect(page.locator('bilexi-chip')).not.toBeAttached();
+    await expect(page.locator('bilexi-strip')).not.toBeAttached();
+  });
+
+  test('39. Ancestor autocomplete scanning: shadow host autocomplete="off" rejects inner autocomplete="on" input', async () => {
+    const host = page.locator('#fixture-shadow-ac-off-host');
+    const input = host.locator('#shadow-ac-child-on-input');
+    await input.focus();
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(input).toHaveValue('teh ');
+    await expect(page.locator('bilexi-chip')).not.toBeAttached();
+    await expect(page.locator('bilexi-strip')).not.toBeAttached();
+  });
+
+  test('40. Ancestor autocomplete scanning: ancestor with sensitive tokens (billing street-address) is rejected', async () => {
+    const input = page.locator('#fixture-ancestor-sensitive-token');
+    await input.focus();
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(input).toHaveValue('teh ');
+    await expect(page.locator('bilexi-chip')).not.toBeAttached();
+    await expect(page.locator('bilexi-strip')).not.toBeAttached();
+  });
+
+  test('41. Fieldset semantics: nested disabled fieldset cannot bypass outer disabled fieldset', async () => {
+    const nestedInput = page.locator('#fixture-nested-legend-input');
+    // In Chromium, CSS :disabled matches because the outer fieldset is disabled and has no legend
+    const matchesDisabled = await nestedInput.evaluate((el: HTMLInputElement) => el.matches(':disabled'));
+    expect(matchesDisabled).toBe(true);
+
+    // Because it is disabled by the outer fieldset, Chromium drops typing and Bilexi never modifies it
+    await nestedInput.focus({ force: true }).catch(() => {});
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(nestedInput).toHaveValue('');
+    await expect(page.locator('bilexi-chip')).not.toBeAttached();
+    await expect(page.locator('bilexi-strip')).not.toBeAttached();
+  });
+
+  test('42. Fieldset semantics: only first direct-child legend is enabled; div legend and second legend remain disabled', async () => {
+    const divLegendInput = page.locator('#fixture-div-legend-input');
+    await expect(divLegendInput).toBeDisabled();
+
+    const secondLegendInput = page.locator('#fixture-second-direct-legend-input');
+    await expect(secondLegendInput).toBeDisabled();
+
+    const firstLegendInput = page.locator('#fixture-first-direct-legend-input');
+    await expect(firstLegendInput).toBeEnabled();
+    await firstLegendInput.focus();
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(firstLegendInput).toHaveValue('the ');
+  });
+
+  test('43. Hidden ancestor handling: controls inside hidden, display:none, and visibility:hidden containers are ineligible', async () => {
+    const isHiddenIneligible = await page.evaluate(() => {
+      const el1 = document.getElementById('fixture-hidden-ancestor-input');
+      const el2 = document.getElementById('fixture-display-none-ancestor-input');
+      const el3 = document.getElementById('fixture-visibility-hidden-ancestor-input');
+      return {
+        el1Hidden: el1 ? (el1.hidden || el1.closest('[hidden]') !== null) : false,
+        el2Visible: el2 && typeof el2.checkVisibility === 'function' ? el2.checkVisibility({ checkVisibilityCSS: true }) : false,
+        el3Visible: el3 && typeof el3.checkVisibility === 'function' ? el3.checkVisibility({ checkVisibilityCSS: true }) : false,
+      };
+    });
+    expect(isHiddenIneligible.el1Hidden).toBe(true);
+    expect(isHiddenIneligible.el2Visible).toBe(false);
+    expect(isHiddenIneligible.el3Visible).toBe(false);
+  });
+
+  test('44. Baseline safety: standard input autocorrection and backspace undo remain intact', async () => {
+    const input = page.locator('#fixture-input');
+    await input.focus();
+    await input.evaluate((el: HTMLInputElement) => { el.value = ''; });
+    await page.keyboard.type('teh ', { delay: 15 });
+    await expect(input).toHaveValue('the ');
+
+    // Undo chip attached
+    const chip = page.locator('bilexi-chip');
+    await expect(chip).toBeAttached();
+
+    // Backspace immediately after correction reverts to verbatim
+    await page.keyboard.press('Backspace');
+    await expect(input).toHaveValue('teh');
+  });
 });

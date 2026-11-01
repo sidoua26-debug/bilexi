@@ -84,6 +84,153 @@
     <div contenteditable="true" id="fixture-large-contenteditable" style="max-height: 200px; overflow-y: auto;"></div>
   </div>
 
+  <!-- Fixture 12: Form-Level Autocomplete Off -->
+  <div class="fixture-section">
+    <h3>12. Form-Level Autocomplete Off</h3>
+    <form autocomplete="off">
+      <input type="text" id="fixture-form-ac-off" placeholder="Inside form autocomplete=off" />
+    </form>
+  </div>
+
+  <!-- Fixture 13: Associated Form via HTML form attribute -->
+  <div class="fixture-section">
+    <h3>13. Associated Form via form Attribute</h3>
+    <form id="external-form" autocomplete="off"></form>
+    <input type="text" id="fixture-associated-form" form="external-form" placeholder="Associated with external-form" />
+  </div>
+
+  <!-- Fixture 14: Contenteditable with Sensitive Autocomplete -->
+  <div class="fixture-section">
+    <h3>14. Contenteditable with autocomplete="off"</h3>
+    <div contenteditable="true" id="fixture-ce-ac-off" autocomplete="off"></div>
+  </div>
+
+  <!-- Fixture 15: Ancestor autocorrect="off" -->
+  <div class="fixture-section">
+    <h3>15. Ancestor autocorrect="off"</h3>
+    <div autocorrect="off">
+      <input type="text" id="fixture-ancestor-autocorrect-off" placeholder="Child of container with autocorrect=off" />
+    </div>
+  </div>
+
+  <!-- Fixture 16: Ancestor data-gramm="false" -->
+  <div class="fixture-section">
+    <h3>16. Ancestor data-gramm="false"</h3>
+    <div data-gramm="false">
+      <textarea id="fixture-ancestor-data-gramm" placeholder="Child of container with data-gramm=false"></textarea>
+    </div>
+  </div>
+
+  <!-- Fixture 17: Disabled Fieldset with Legend Exception -->
+  <div class="fixture-section">
+    <h3>17. Disabled Fieldset with Legend Exception</h3>
+    <fieldset disabled id="fixture-disabled-fieldset">
+      <legend>
+        <input type="text" id="fixture-fieldset-legend-input" placeholder="Inside legend of disabled fieldset" />
+      </legend>
+      <input type="text" id="fixture-fieldset-body-input" placeholder="Inside body of disabled fieldset" />
+    </fieldset>
+  </div>
+
+  <!-- Fixture 18: Hidden & Non-interactive Elements -->
+  <div class="fixture-section">
+    <h3>18. Hidden Elements</h3>
+    <input type="text" id="fixture-hidden-input" hidden placeholder="Hidden input" />
+    <input type="text" id="fixture-aria-hidden" aria-hidden="true" placeholder="Aria-hidden input" />
+  </div>
+
+  <!-- Fixture 19: Shadow Host with autocorrect="off" -->
+  <div class="fixture-section">
+    <h3>19. Shadow Host with autocorrect="off"</h3>
+    <div id="fixture-shadow-optout-host" autocorrect="off"></div>
+  </div>
+
+  <!-- Fixture 20: Shadow Host Code Editor -->
+  <div class="fixture-section">
+    <h3>20. Shadow Host Monaco Editor</h3>
+    <div id="fixture-shadow-code-host" class="monaco-editor"></div>
+  </div>
+
+  <!-- Fixture 21: Dynamic Input Container -->
+  <div class="fixture-section">
+    <h3>21. Dynamic Input Container</h3>
+    <div id="fixture-dynamic-container"></div>
+  </div>
+
+  <!-- Fixture 22: Ancestor Autocomplete Off with Child autocomplete="on" -->
+  <div class="fixture-section">
+    <h3>22. Ancestor Autocomplete Off with Child autocomplete="on"</h3>
+    <div autocomplete="off">
+      <input type="text" id="fixture-ancestor-ac-off-child-on" autocomplete="on" placeholder="Child on inside ancestor off" />
+    </div>
+  </div>
+
+  <!-- Fixture 23: Ancestor Autocomplete Off with Contenteditable autocomplete="on" -->
+  <div class="fixture-section">
+    <h3>23. Ancestor Autocomplete Off with Contenteditable autocomplete="on"</h3>
+    <div autocomplete="off">
+      <div contenteditable="true" id="fixture-ce-ancestor-ac-off-child-on" autocomplete="on"></div>
+    </div>
+  </div>
+
+  <!-- Fixture 24: Shadow Host Autocomplete Off with Nested autocomplete="on" -->
+  <div class="fixture-section">
+    <h3>24. Shadow Host Autocomplete Off with Nested autocomplete="on"</h3>
+    <div id="fixture-shadow-ac-off-host" autocomplete="off"></div>
+  </div>
+
+  <!-- Fixture 25: Ancestor Sensitive Autocomplete Tokens -->
+  <div class="fixture-section">
+    <h3>25. Ancestor Sensitive Autocomplete Tokens</h3>
+    <div autocomplete="billing street-address">
+      <input type="text" id="fixture-ancestor-sensitive-token" autocomplete="on" placeholder="Child of billing street-address" />
+    </div>
+  </div>
+
+  <!-- Fixture 26: Nested Disabled Fieldsets -->
+  <div class="fixture-section">
+    <h3>26. Nested Disabled Fieldsets</h3>
+    <fieldset disabled id="fixture-outer-disabled-fieldset">
+      <fieldset disabled id="fixture-inner-disabled-fieldset">
+        <legend>
+          <input type="text" id="fixture-nested-legend-input" placeholder="Inside inner legend of outer disabled fieldset" />
+        </legend>
+      </fieldset>
+    </fieldset>
+  </div>
+
+  <!-- Fixture 27: Non-child Legend and Second Legend in Disabled Fieldset -->
+  <div class="fixture-section">
+    <h3>27. Non-child Legend and Second Legend in Disabled Fieldset</h3>
+    <fieldset disabled id="fixture-invalid-legend-fieldset">
+      <div>
+        <legend>
+          <input type="text" id="fixture-div-legend-input" placeholder="Inside legend wrapped in div" />
+        </legend>
+      </div>
+      <legend>
+        <input type="text" id="fixture-first-direct-legend-input" placeholder="First direct legend" />
+      </legend>
+      <legend>
+        <input type="text" id="fixture-second-direct-legend-input" placeholder="Second direct legend" />
+      </legend>
+    </fieldset>
+  </div>
+
+  <!-- Fixture 28: Ancestor Hidden Container -->
+  <div class="fixture-section">
+    <h3>28. Ancestor Hidden Container</h3>
+    <div hidden id="fixture-hidden-ancestor-container">
+      <input type="text" id="fixture-hidden-ancestor-input" placeholder="Inside hidden ancestor" />
+    </div>
+    <div style="display: none;" id="fixture-display-none-ancestor-container">
+      <input type="text" id="fixture-display-none-ancestor-input" placeholder="Inside display:none ancestor" />
+    </div>
+    <div style="visibility: hidden;" id="fixture-visibility-hidden-ancestor-container">
+      <input type="text" id="fixture-visibility-hidden-ancestor-input" placeholder="Inside visibility:hidden ancestor" />
+    </div>
+  </div>
+
   <script>
     // 5. Mount React Controlled Input
     const e = React.createElement;
@@ -108,6 +255,30 @@
     shadowInput.id = 'shadow-input';
     shadowInput.placeholder = 'Inside open shadow root...';
     shadowRoot.appendChild(shadowInput);
+
+    // 19. Mount Shadow Host with autocorrect="off"
+    const shadowOptoutHost = document.getElementById('fixture-shadow-optout-host');
+    const shadowOptoutRoot = shadowOptoutHost.attachShadow({ mode: 'open' });
+    const shadowOptoutInput = document.createElement('input');
+    shadowOptoutInput.type = 'text';
+    shadowOptoutInput.id = 'shadow-optout-input';
+    shadowOptoutRoot.appendChild(shadowOptoutInput);
+
+    // 20. Mount Shadow Host Monaco Editor
+    const shadowCodeHost = document.getElementById('fixture-shadow-code-host');
+    const shadowCodeRoot = shadowCodeHost.attachShadow({ mode: 'open' });
+    const shadowCodeTextarea = document.createElement('textarea');
+    shadowCodeTextarea.id = 'shadow-code-textarea';
+    shadowCodeRoot.appendChild(shadowCodeTextarea);
+
+    // 24. Mount Shadow Host Autocomplete Off with Nested autocomplete="on"
+    const shadowAcHost = document.getElementById('fixture-shadow-ac-off-host');
+    const shadowAcRoot = shadowAcHost.attachShadow({ mode: 'open' });
+    const shadowAcInput = document.createElement('input');
+    shadowAcInput.type = 'text';
+    shadowAcInput.id = 'shadow-ac-child-on-input';
+    shadowAcInput.setAttribute('autocomplete', 'on');
+    shadowAcRoot.appendChild(shadowAcInput);
   </script>
 </body>
 </html>

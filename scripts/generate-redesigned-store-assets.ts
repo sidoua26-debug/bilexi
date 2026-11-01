@@ -324,7 +324,7 @@ async function generateAllAssets() {
             <div class="footer-pill">⚡ Sub-0.2ms Keystroke Latency</div>
             <div class="footer-pill">🌐 Zero Cloud Network Telemetry</div>
           </div>
-          <div>Bilexi v0.5.0</div>
+          <div>Bilexi v0.5.1</div>
         </div>
       </body>
       </html>
@@ -512,7 +512,7 @@ async function generateAllAssets() {
             <div class="footer-pill">🛡️ Strict Double-Rejection Auto-Ignore</div>
             <div class="footer-pill">🎨 Automatic Dark & Light Mode Support</div>
           </div>
-          <div>Bilexi v0.5.0</div>
+          <div>Bilexi v0.5.1</div>
         </div>
       </body>
       </html>
@@ -704,7 +704,7 @@ async function generateAllAssets() {
             <div class="footer-pill">🛡️ Chrome Web Store Limited Use Compliant</div>
             <div class="footer-pill">📄 Open Source MIT & MPL Licenses</div>
           </div>
-          <div>Bilexi v0.5.0</div>
+          <div>Bilexi v0.5.1</div>
         </div>
       </body>
       </html>
@@ -898,7 +898,7 @@ async function generateAllAssets() {
             <div class="footer-pill">📤 Export / Import JSON Backups</div>
             <div class="footer-pill">⚡ Instant Real-Time Propagation</div>
           </div>
-          <div>Bilexi v0.5.0</div>
+          <div>Bilexi v0.5.1</div>
         </div>
       </body>
       </html>
@@ -1032,34 +1032,34 @@ async function generateAllAssets() {
         <div class="stage-container">
           <div class="split-stage">
             <div class="compat-left">
-              <div style="font-size: 16px; font-weight: 700; color: #F1F5F9;">Universal Platform Integration</div>
+              <div style="font-size: 16px; font-weight: 700; color: #F1F5F9;">Universal Field & Form Integration</div>
               <div class="app-grid">
                 <div class="app-card">
-                  <div class="app-icon">📄</div>
+                  <div class="app-icon">📝</div>
                   <div class="app-info">
-                    <h5>Google Docs & Notion</h5>
-                    <p>✓ 10k-Word DOM Extraction</p>
+                    <h5>Text Inputs & Web Forms</h5>
+                    <p>✓ Instant Inline Autocorrect</p>
                   </div>
                 </div>
                 <div class="app-card">
-                  <div class="app-icon">💬</div>
+                  <div class="app-icon">✍️</div>
                   <div class="app-info">
-                    <h5>Slack & Discord Web</h5>
-                    <p>✓ Zero Focus Desync</p>
+                    <h5>Rich Contenteditable</h5>
+                    <p>✓ Fast Bounded DOM Extraction</p>
                   </div>
                 </div>
                 <div class="app-card">
-                  <div class="app-icon">✉️</div>
+                  <div class="app-icon">⚛️</div>
                   <div class="app-info">
-                    <h5>Gmail & Outlook</h5>
-                    <p>✓ Elision & Accents</p>
+                    <h5>React Controlled Inputs</h5>
+                    <p>✓ Zero State Desynchronization</p>
                   </div>
                 </div>
                 <div class="app-card">
-                  <div class="app-icon">🐙</div>
+                  <div class="app-icon">🛡️</div>
                   <div class="app-info">
-                    <h5>GitHub & Jira</h5>
-                    <p>✓ Preserves Code Blocks</p>
+                    <h5>Code & Password Blocks</h5>
+                    <p>✓ Automatic Sensitive Opt-Out</p>
                   </div>
                 </div>
               </div>
@@ -1084,7 +1084,7 @@ async function generateAllAssets() {
                 <div class="toggle-row">
                   <div>
                     <div style="font-size: 13px; font-weight: 700;">Active Site</div>
-                    <div style="font-size: 11px; color: #38BDF8;">notion.so</div>
+                    <div style="font-size: 11px; color: #38BDF8;">webform.org</div>
                   </div>
                   <div class="toggle-switch"><div class="toggle-knob"></div></div>
                 </div>
@@ -1100,11 +1100,11 @@ async function generateAllAssets() {
 
         <div class="footer-bar">
           <div class="footer-pills">
-            <div class="footer-pill green">✓ Works Across All Major Web Editors</div>
+            <div class="footer-pill green">✓ Standard Inputs, Textareas & Contenteditable</div>
             <div class="footer-pill">🛡️ Strict Grammar & Spellcheck Attribute Respect</div>
             <div class="footer-pill">⚡ Instant Single-Click Site Exclusion</div>
           </div>
-          <div>Bilexi v0.5.0</div>
+          <div>Bilexi v0.5.1</div>
         </div>
       </body>
       </html>
@@ -1407,15 +1407,22 @@ async function generateAllAssets() {
   fs.copyFileSync(path.join(REDESIGN_DIR, 'icon-128.png'), path.join(SCREENS_DIR, 'store-icon-128x128.png'));
 
   // Also copy to brain artifacts directory for easy embedding
-  const brainDir = '/home/sid/.gemini/antigravity/brain/b159c509-3764-4ca0-a2a7-775c8ef41fbc';
-  fs.copyFileSync(path.join(REDESIGN_DIR, 'icon-128.png'), path.join(brainDir, 'logo.png'));
-  fs.copyFileSync(path.join(REDESIGN_DIR, 'store-screenshot-01-hero.png'), path.join(brainDir, 'store-screenshot-01-hero.png'));
-  fs.copyFileSync(path.join(REDESIGN_DIR, 'store-screenshot-02-suggestions.png'), path.join(brainDir, 'store-screenshot-02-suggestions.png'));
-  fs.copyFileSync(path.join(REDESIGN_DIR, 'store-screenshot-03-privacy.png'), path.join(brainDir, 'store-screenshot-03-privacy.png'));
-  fs.copyFileSync(path.join(REDESIGN_DIR, 'store-screenshot-04-customization.png'), path.join(brainDir, 'store-screenshot-04-customization.png'));
-  fs.copyFileSync(path.join(REDESIGN_DIR, 'store-screenshot-05-compatibility.png'), path.join(brainDir, 'store-screenshot-05-compatibility.png'));
-  fs.copyFileSync(path.join(REDESIGN_DIR, 'promo-marquee-1400x560.png'), path.join(brainDir, 'promo-marquee-1400x560.png'));
-  fs.copyFileSync(path.join(REDESIGN_DIR, 'promo-small-440x280.png'), path.join(brainDir, 'promo-small-440x280.png'));
+  const brainDirs = [
+    '/home/sid/.gemini/antigravity/brain/b159c509-3764-4ca0-a2a7-775c8ef41fbc',
+    '/home/sid/.gemini/antigravity/brain/57f5ddc7-02db-4729-8575-d30e555659db',
+  ];
+  for (const bDir of brainDirs) {
+    if (fs.existsSync(bDir)) {
+      fs.copyFileSync(path.join(REDESIGN_DIR, 'icon-128.png'), path.join(bDir, 'logo.png'));
+      fs.copyFileSync(path.join(REDESIGN_DIR, 'store-screenshot-01-hero.png'), path.join(bDir, 'store-screenshot-01-hero.png'));
+      fs.copyFileSync(path.join(REDESIGN_DIR, 'store-screenshot-02-suggestions.png'), path.join(bDir, 'store-screenshot-02-suggestions.png'));
+      fs.copyFileSync(path.join(REDESIGN_DIR, 'store-screenshot-03-privacy.png'), path.join(bDir, 'store-screenshot-03-privacy.png'));
+      fs.copyFileSync(path.join(REDESIGN_DIR, 'store-screenshot-04-customization.png'), path.join(bDir, 'store-screenshot-04-customization.png'));
+      fs.copyFileSync(path.join(REDESIGN_DIR, 'store-screenshot-05-compatibility.png'), path.join(bDir, 'store-screenshot-05-compatibility.png'));
+      fs.copyFileSync(path.join(REDESIGN_DIR, 'promo-marquee-1400x560.png'), path.join(bDir, 'promo-marquee-1400x560.png'));
+      fs.copyFileSync(path.join(REDESIGN_DIR, 'promo-small-440x280.png'), path.join(bDir, 'promo-small-440x280.png'));
+    }
+  }
 
   await browser.close();
   console.log('🎉 All Chrome Web Store Redesigned Assets Successfully Generated!');

@@ -824,7 +824,7 @@ export function OptionsApp() {
           <div style={{ background: 'var(--bg-card)', borderRadius: 10, padding: 20, border: '1px solid var(--border-color)' }}>
             <h2 style={{ fontSize: 16, fontWeight: 600, marginBottom: 8 }}>About Bilexi</h2>
             <p style={{ fontSize: 13, color: 'var(--text-secondary)', lineHeight: 1.6, marginBottom: 14 }}>
-              Version <strong>0.5.0</strong>. Designed for privacy-first, zero-latency typing in English and French.
+              Version <strong>0.5.1</strong>. Designed for privacy-first, zero-latency typing in English and French.
             </p>
 
             <div style={{ background: 'var(--bg-input)', padding: 14, borderRadius: 8, border: '1px solid var(--border-color)', marginBottom: 16 }}>

@@ -8,10 +8,10 @@ This document specifies the complete store listing copy, visual asset catalog, p
 
 - **Extension Name**: `Bilexi - Offline Bilingual Autocorrect (EN/FR)`
 - **Short Name**: `Bilexi`
-- **Version**: `0.5.0`
+- **Version**: `0.5.1`
 - **Primary Category**: `Productivity / Workflow`
 - **Supported Languages**: `English (United States)`, `French`
-- **Pricing**: `Free / Open Source`
+- **Pricing**: `Free`
 
 ### Short Summary (132 characters max)
 > Instant offline bilingual autocorrect for English and French. Fixes typos, apostrophes, and accents seamlessly as you type.
@@ -60,7 +60,7 @@ All visual store assets are generated and maintained under `docs/screens/` and `
 | `docs/screens/store-screenshot-02.png` | 1280 × 800 px | Slide 2 | **Interactive Suggestion Strip**: Two-tier word ranking with `Alt+2`/`Alt+3` selection and zero focus desync. |
 | `docs/screens/store-screenshot-03.png` | 1280 × 800 px | Slide 3 | **Privacy & Performance**: 100% offline sandbox, zero network calls, sub-0.2ms latency, strict password protection. |
 | `docs/screens/store-screenshot-04.png` | 1280 × 800 px | Slide 4 | **Personal Vocabulary**: Custom dictionary protection, sensitive jargon avoidance, and instant text expansion shortcuts. |
-| `docs/screens/store-screenshot-05.png` | 1280 × 800 px | Slide 5 | **Universal Compatibility**: Works across Google Docs, Slack, Notion, Gmail, textareas, inputs & single-click site exclusion. |
+| `docs/screens/store-screenshot-05.png` | 1280 × 800 px | Slide 5 | **Universal Compatibility**: Works across web forms, textareas, inputs & single-click site exclusion. |
 
 ---
 
